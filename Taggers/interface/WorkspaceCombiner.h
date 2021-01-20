@@ -3,7 +3,7 @@
 
 #ifndef WORKSPACECOMBINER
 #define WORKSPACECOMBINER
-
+#pragma read #pragma read sourceClass = "RooMultiPdf" targetClass = "RooMultiPdf1" version = "[1-]"
 // ROOT includes
 #include "TROOT.h"
 #include "TCanvas.h"

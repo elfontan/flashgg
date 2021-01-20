@@ -1,6 +1,6 @@
 // Benoit Courbon
 // https://raw.githubusercontent.com/bcourbon/flashgg/132cd5163b3564da81b79b91829e9aec47126b78/TagAlgos/src/WorkspaceCombiner.cc
-
+#pragma read #pragma read sourceClass = "RooMultiPdf" targetClass = "RooMultiPdf1" version = "[1-]"
 #include "../interface/WorkspaceCombiner.h"
 
 using namespace std;

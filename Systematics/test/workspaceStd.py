@@ -156,7 +156,7 @@ customize.options.register('verboseSystDump',
                            'verboseSystDump'
                            )
 customize.options.register('analysisType',
-                           'mainAnalysis',
+                           'lowMassAnalysis',
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.string,
                            'analysisType'
@@ -483,18 +483,18 @@ elif customize.doubleHTagsOnly:
     print tagList
 else:
     tagList=[
-        ["NoTag",0],
-        ["UntaggedTag",4],
-        ["VBFTag",3],
-        ["ZHLeptonicTag",0],
-        ["WHLeptonicTag",0],
-        ["VHLeptonicLooseTag",0],
-        ["VHMetTag",0],
-        ["VHHadronicTag",0],
-        ["TTHHadronicTag",4],
-        ["TTHLeptonicTag",4],
-        ["THQLeptonicTag",0],
-        ["TTHDiLeptonTag",0]
+#        ["NoTag",0],
+        ["UntaggedTag",3],
+#        ["VBFTag",3],
+#        ["ZHLeptonicTag",0],
+#        ["WHLeptonicTag",0],
+#        ["VHLeptonicLooseTag",0],
+#        ["VHMetTag",0],
+#        ["VHHadronicTag",0],
+#        ["TTHHadronicTag",4],
+#        ["TTHLeptonicTag",4],
+#        ["THQLeptonicTag",0],
+#        ["TTHDiLeptonTag",0]
         ]
 
 definedSysts=set()
@@ -556,12 +556,19 @@ for tag in tagList:
 
 # Require standard diphoton trigger
 filterHLTrigger(process, customize)
+#from HLTrigger.HLTfilters.hltHighLevel_cfi import hltHighLevel
+#process.hltHighLevel= hltHighLevel.clone(HLTPaths = cms.vstring(
+#                                                               "HLT_Diphoton30_18_R9IdL_AND_HE_AND_IsoCaloId_NoPixelVeto*" 
+#                                                               "HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass90_v*",
+#                                                               "HLT_Diphoton30PV_18PV_R9Id_AND_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v1",
+#                                                               "HLT_Diphoton30EB_18EB_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v1"
+#                                                                ))
 
 process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 
 process.dataRequirements = cms.Sequence()
-if customize.processId == "Data":
-        process.dataRequirements += process.hltHighLevel
+if customize.processId == "Data": #Al test
+    process.dataRequirements += process.hltHighLevel
 
 # Split WH and ZH
 process.genFilter = cms.Sequence()
@@ -774,5 +781,7 @@ if customize.verboseSystDump:
 #print process.dumpPython()
 #processDumpFile = open('processDump.py', 'w')
 #print >> processDumpFile, process.dumpPython()
+customize.setDefault("maxEvents", -1)
+customize.setDefault("targetLumi", 54382.09598)
 # call the customization
 customize(process)

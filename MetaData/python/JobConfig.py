@@ -73,12 +73,12 @@ class JobConfig(object):
                                VarParsing.VarParsing.varType.bool,          # string, int, or float
                                "copyInputMicroAOD")
         self.options.register ('useParentDataset',
-                               False, # default value
+                               False, # default value #AL test
                                VarParsing.VarParsing.multiplicity.singleton, # singleton or list
                                VarParsing.VarParsing.varType.bool,          # string, int, or float
                                "useParentDataset")
         self.options.register ('recalculatePDFWeights',
-                               False, # default value
+                               False, # default value #AL test
                                VarParsing.VarParsing.multiplicity.singleton, # singleton or list
                                VarParsing.VarParsing.varType.bool,          # string, int, or float
                                "recalculatePDFWeights")
