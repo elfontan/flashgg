@@ -11,7 +11,6 @@
 int main( int argc, char *argv[] )
 {
     bool doTreesAndHistograms = false;
-
     std::vector<string> input;
     std::string outputfile = argv[1];
 

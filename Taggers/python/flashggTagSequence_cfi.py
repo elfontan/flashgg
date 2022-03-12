@@ -9,8 +9,18 @@ from flashgg.Taggers.flashggTags_cff import *
 from flashgg.Taggers.flashggPreselectedDiPhotons_cfi import flashggPreselectedDiPhotons
 from flashgg.Taggers.flashggTagSorter_cfi import flashggTagSorter
 from flashgg.Taggers.flashggDifferentialPhoIdInputsCorrection_cfi import flashggDifferentialPhoIdInputsCorrection, setup_flashggDifferentialPhoIdInputsCorrection
+flashggUntagged.Boundaries     = cms.vdouble(-0.364,0.334,0.753)
+#flashggUntagged.Boundaries     = cms.vdouble(-1.0,0.334,0.792)
 
+flashggTagSorter.TagPriorityRanges = cms.VPSet(
+#  cms.PSet(TagName = cms.InputTag('flashggVBFTag')),
+  cms.PSet(TagName = cms.InputTag('flashggUntagged'))
+)
+flashggTagSorter.MassCutUpper=cms.double(120.)
+flashggTagSorter.MassCutLower=cms.double(65.)
 def flashggPrepareTagSequence(process, options):
+
+
     setup_flashggDifferentialPhoIdInputsCorrection(process, options)
     flashggPreselectedDiPhotons.src = "flashggPrefireDiPhotons"
 
@@ -37,23 +47,27 @@ def flashggPrepareTagSequence(process, options):
                                       * flashggPreselectedDiPhotons
                                       * flashggDiPhotonMVA
                                       * flashggUnpackedJets
-                                      * flashggVBFMVA
-                                      * flashggVHhadMVA
-                                      * flashggGluGluHMVA
-                                      * flashggVBFDiPhoDiJetMVA
+#                                      * flashggVBFMVA
+#                                      * flashggVBFDiPhoDiJetMVA
                                       * ( flashggUntagged
                                       #                                  *( flashggSigmaMoMpToMTag
-                                          + flashggVBFTag
-                                          + flashggTTHDiLeptonTag
-                                          + flashggTTHLeptonicTag
-                      + flashggTHQLeptonicTag
+#                                          + flashggVBFTag
+#                                          + flashggTTHDiLeptonTag
+#                                          + flashggTTHLeptonicTag
+#					  + flashggTHQLeptonicTag
 #                                     + flashggTTHHadronicTTag                                      
 #                                     + flashggTTHHadronicLTag                                      
-                                          + flashggTTHHadronicTag
-                                          + flashggVHMetTag
-                                          + flashggWHLeptonicTag
-                                          + flashggZHLeptonicTag
-                                          + flashggVHHadronicTag
+#                                          + flashggTTHHadronicTag
+                                      #############old VH tags##############
+                                      #                  + flashggVHEtTag
+                                      #                  + flashggVHLooseTag
+                                      #                  + flashggVHTightTag
+ #                                     ###########updated VH tags############
+ #                                         + flashggVHMetTag
+ #                                         + flashggWHLeptonicTag
+ #                                         + flashggZHLeptonicTag
+  #                                        + flashggVHLeptonicLooseTag
+ #                                         + flashggVHHadronicTag
                                       )
                                       * flashggTagSorter
                                   )

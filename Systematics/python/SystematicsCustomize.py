@@ -387,3 +387,4 @@ def filterHLTrigger(process, options):
         if re.match(regDset, options.datasetName()):
             hlt_paths.extend([str(x) for x in options.metaConditions["TriggerPaths"][dset][options.analysisType]])
     process.hltHighLevel = hltHighLevel.clone(HLTPaths=cms.vstring(hlt_paths))
+    process.hltHighLevel.throw = cms.bool(False) 
