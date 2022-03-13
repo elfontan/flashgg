@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-minimalVariables = ["CMS_hgg_mass[160,100,180]:=diPhoton().mass",
-                    "sigmaMoM_decorr:=diPhotonMVA().decorrSigmarv",
-=======
+#minimalVariables = ["CMS_hgg_mass[160,100,180]:=diPhoton().mass",
+#                    "sigmaMoM_decorr:=diPhotonMVA().decorrSigmarv",
 minimalVariables = ["CMS_hgg_mass[550,65,120]:=diPhoton().mass",
->>>>>>> AnnaFlashGG/lowmass_106X
+                    "sigmaMoM_decorr:=diPhotonMVA().decorrSigmarv",
                     "dZ[40,-20.,20.]:=(tagTruth().genPV().z-diPhoton().vtx().z)", # store actual value
                                                                                #when doing systematics, variables need to have a binning
                                                                                #specified, otherwise the rooDataHist end up empty.
