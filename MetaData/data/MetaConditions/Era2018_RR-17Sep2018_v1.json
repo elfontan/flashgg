@@ -48,7 +48,7 @@
 
     "TriggerPaths" :
     {
-        ".*EGamma.*2018.*" :
+        ".*" :
         {
 	    "mainAnalysis" :
 	    [

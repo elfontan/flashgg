@@ -245,15 +245,15 @@ class MicroAODCustomize(object):
         process.p *= process.rivetProducerHTXS
         process.out.outputCommands.append('keep *_rivetProducerHTXS_*_*')
 
-        self.customizePDFs(process)
+#        self.customizePDFs(process)
         self.customizeHLT(process)
 
-    def customizePDFs(self,process):     
-        process.load("flashgg/MicroAOD/flashggPDFWeightObject_cfi")
-        if "mc2hessianCSV" in self.metaConditions.keys() and self.metaConditions["mc2hessianCSV"] != "":
-            setattr(process.flashggPDFWeightObject, "mc2hessianCSV", str(self.metaConditions["mc2hessianCSV"]))
+#    def customizePDFs(self,process):     
+#        process.load("flashgg/MicroAOD/flashggPDFWeightObject_cfi")
+#        if "mc2hessianCSV" in self.metaConditions.keys() and self.metaConditions["mc2hessianCSV"] != "":
+#            setattr(process.flashggPDFWeightObject, "mc2hessianCSV", str(self.metaConditions["mc2hessianCSV"]))
 #        setattr(process.flashggPDFWeightObject, "pdfset", str(self.metaConditions["PDF"]))
-        process.p *= process.flashggPDFWeightObject
+#        process.p *= process.flashggPDFWeightObject
 
     # background specific customization
     def customizeBackground(self,process):
@@ -307,11 +307,11 @@ class MicroAODCustomize(object):
         process.out.SelectEvents = cms.untracked.PSet(SelectEvents=cms.vstring('p1'))
 
         ###---Add HLT filter as first step of MicroAOD sequence
-        if self.addMicroAODHLTFilter:
-            process.triggerFilterModule = getMicroAODHLTFilter(customize.datasetName, self.metaConditions)
-            if process.triggerFilterModule:
-                process.p = cms.Path(process.triggerFilterModule*process.p._seq)
-                process.p1 = cms.Path(process.triggerFilterModule*process.p1._seq)
+        #if self.addMicroAODHLTFilter:
+        #    process.triggerFilterModule = getMicroAODHLTFilter(customize.datasetName, self.metaConditions)
+        #    if process.triggerFilterModule:
+        #        process.p = cms.Path(process.triggerFilterModule*process.p._seq)
+        #        process.p1 = cms.Path(process.triggerFilterModule*process.p1._seq)
 
     def customizeDec2016Regression(self,process):
         if not (process.GlobalTag.globaltag == "80X_mcRun2_asymptotic_2016_TrancheIV_v7" or process.GlobalTag.globaltag == "80X_dataRun2_2016SeptRepro_v6"):

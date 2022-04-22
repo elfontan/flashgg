@@ -200,6 +200,9 @@
     "GluGluHToGG_M130_13TeV_amcatnlo_pythia8"                          : { "xs" : 45.3100,   "br" : 0.002238, "kf" : 1.06, "itype":-130000 },
     "GluGluHToGG_M130_TuneCP5_13TeV-amcatnloFXFX-pythia8"                          : { "xs" : 45.3100,   "br" : 0.002238, "kf" : 1.06, "itype":-130000 },
 
+    "GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8"           : { "xs" : 131.5,  "br" : 0.6871e-3, "kf":1.06, "itype":-70000 },
+    "GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8"           : { "xs" : 1.0, "itype" :-30000 },
+
     "ttHJetToGG_M120_13TeV_amcatnloFXFX_madspin_pythia8"                          : { "xs" : 0.5697,   "br" : 0.002218, "kf" : 1.06, "itype":-120300 },
     "ttHJetToGG_M120_13TeV_amcatnloFXFX_madspin_pythia8_v2"                          : { "xs" : 0.5697,   "br" : 0.002218, "kf" : 1.06, "itype":-120300 },
     "ttHJetToGG_M121_13TeV_amcatnloFXFX_madspin_pythia8"                          : { "xs" : 0.5568,   "br" : 0.002235, "kf" : 1.06, "itype":-121300 },
@@ -378,5 +381,7 @@
     "ZZ_TuneCUETP8M1_13TeV-pythia8"                                        : { "xs" : 10.16  },
     "WW_TuneCP5_13TeV-pythia8"                                             : { "xs" : 75.8   },
     "WZ_TuneCP5_13TeV-pythia8"                                             : { "xs" : 27.6   },
-    "ZZ_TuneCP5_13TeV-pythia8"                                             : { "xs" : 12.14  }
+    "ZZ_TuneCP5_13TeV-pythia8"                                             : { "xs" : 12.14  },
+
+    "ZeroBias"								   : { "xs" : 1.0, "itype" :0    }
 }
