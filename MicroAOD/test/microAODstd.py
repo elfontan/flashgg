@@ -11,14 +11,25 @@ process.load("Configuration.StandardSequences.MagneticField_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
 from Configuration.AlCa.GlobalTag import GlobalTag
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( 1000 ) )
-process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 100 )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( 100000 ) )
+process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 1000 )
+process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 
 import os
 ### 2016
 process.GlobalTag = GlobalTag(process.GlobalTag, '', '')
 process.source = cms.Source("PoolSource",
-                             fileNames=cms.untracked.vstring("/store/mc/RunIISummer16MiniAODv3/VBFHToGG_M125_13TeV_amcatnlo_pythia8_v2/MINIAODSIM/PUMoriond17_94X_mcRun2_asymptotic_v3-v1/50000/38128C3C-892D-E911-AC8E-008CFA0087C4.root"))
+###############
+# Legacy 2018 #
+###############
+#                             fileNames=cms.untracked.vstring("/store/mc/RunIIAutumn18MiniAOD/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/00000/1359F11B-F51C-4F47-8D70-8CFC55E77A64.root"))
+##########
+# UL2018 #
+##########
+                             fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/40000/ED2522A0-D644-1E41-BCCE-55DD7B12053A.root"))
+#                             fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2430000/5326E7F7-2C04-F84F-932F-85644569548C.root"))
+#
+#                             fileNames=cms.untracked.vstring("/store/mc/RunIISummer16MiniAODv3/VBFHToGG_M125_13TeV_amcatnlo_pythia8_v2/MINIAODSIM/PUMoriond17_94X_mcRun2_asymptotic_v3-v1/50000/38128C3C-892D-E911-AC8E-008CFA0087C4.root"))
 #    process.GlobalTag = GlobalTag(process.GlobalTag,'80X_dataRun2_2016LegacyRepro_v4','')
 #    process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/data/Run2016B/SingleElectron/MINIAOD/07Aug17_ver1-v1/110000/0248293E-578B-E711-A639-44A842CFC9D9.root"))
 ### 2017
@@ -106,4 +117,4 @@ customize(process)
 if "DY" in customize.datasetName or "SingleElectron" in customize.datasetName or "DoubleEG" in customize.datasetName or "EGamma" in customize.datasetName:
     customize.customizeHLT(process)
 
-#open('dump.py', 'w').write(process.dumpPython())
+open('dump.py', 'w').write(process.dumpPython())

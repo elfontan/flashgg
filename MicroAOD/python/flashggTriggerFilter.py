@@ -13,6 +13,7 @@ def getMicroAODHLTFilter(datasetName, options):
         triggerConditions = cms.vstring()
         for trg in trgs:
             triggerConditions.append(str(trg))
+        print str(trg)
         if re.search(str(tag), datasetName):
             print 'Only events from these path will be processed: '
             print triggerConditions

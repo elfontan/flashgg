@@ -3,7 +3,7 @@
 import FWCore.ParameterSet.Config as cms
 import FWCore.Utilities.FileUtils as FileUtils
 import FWCore.ParameterSet.VarParsing as VarParsing
-from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariables,minimalHistograms,minimalNonSignalVariables,systematicVariables
+from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariables,minimalHistograms,minimalNonSignalVariables,systematicVariables, defaultVariables
 from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariablesHTXS,systematicVariablesHTXS
 import os
 import copy
@@ -18,7 +18,7 @@ process.load("FWCore.MessageService.MessageLogger_cfi")
 process.load("Configuration.StandardSequences.GeometryDB_cff")
 process.load("Configuration.StandardSequences.MagneticField_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_condDBv2_cff")
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1))
 process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 1000 )
 
 
@@ -43,7 +43,7 @@ customize.options.register('doubleHTagsOnly',
                            'doubleHTagsOnly'
                            )
 customize.options.register('addVBFDoubleHTag',
-                           True,
+                           False,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'addVBFDoubleHTag'
@@ -133,7 +133,7 @@ customize.options.register('acceptance',
                            'acceptance'
                            )
 customize.options.register('doSystematics',
-                           True,
+                           False,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'doSystematics'
@@ -145,7 +145,7 @@ customize.options.register('doGranularJEC',
                            'doGranularJEC'
                            )
 customize.options.register('doPdfWeights',
-                           True,
+                           False,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'doPdfWeights'
@@ -157,13 +157,13 @@ customize.options.register('ignoreNegR9',
                            'ignoreNegR9'
                            )
 customize.options.register('dumpTrees',
-                           False,
+                           True,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'dumpTrees'
                            )
 customize.options.register('dumpWorkspace',
-                           True,
+                           False,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'dumpWorkspace'
@@ -208,6 +208,7 @@ customize.metaConditions = MetaConditionsReader(customize.metaConditions)
 ### Global Tag
 from Configuration.AlCa.GlobalTag import GlobalTag
 if customize.processId == "Data":
+    customize.processType = "data"
     process.GlobalTag.globaltag = str(customize.metaConditions['globalTags']['data'])
 else:
     process.GlobalTag.globaltag = str(customize.metaConditions['globalTags']['MC'])
@@ -308,7 +309,7 @@ useEGMTools(process)
 signal_processes = ["ggh_","vbf_","wzh_","wh_","zh_","bbh_","thq_","thw_","tth_","ggzh_","HHTo2B2G","GluGluHToGG","VBFHToGG","VHToGG","ttHToGG","Acceptance","hh","vbfhh","qqh","ggh","tth","vh"]
 is_signal = reduce(lambda y,z: y or z, map(lambda x: customize.processId.count(x), signal_processes))
 
-applyL1Prefiring = customizeForL1Prefiring(process, customize.metaConditions, customize.processId)
+#applyL1Prefiring = customizeForL1Prefiring(process, customize.metaConditions, customize.processId)
 
 #if customize.processId.count("h_") or customize.processId.count("vbf_") or customize.processId.count("Acceptance") or customize.processId.count("hh_"): 
 if is_signal:
@@ -424,6 +425,8 @@ process.source = cms.Source ("PoolSource",
                                  "/store/user/spigazzi/flashgg/Era2018_RR-17Sep2018_v2/legacyRun2FullV2/EGamma/Era2018_RR-17Sep2018_v2-legacyRun2FullV2-v0-Run2018A-17Sep2018-v2/190610_103420/0001/myMicroAODOutputFile_1125.root"
                              ))
 
+process.source.duplicateCheckMode = cms.untracked.string('noDuplicateCheck')
+
 process.TFileService = cms.Service("TFileService",
                                    fileName = cms.string("test.root"))
 
@@ -464,18 +467,17 @@ elif customize.doStageOne:
     tagList = soc.tagList
 else:
     tagList=[
-#        ["NoTag",0],
-        ["UntaggedTag",3],
-#        ["VBFTag",3],
-#        ["ZHLeptonicTag",0],
-#        ["WHLeptonicTag",0],
-#        ["VHLeptonicLooseTag",0],
-#        ["VHMetTag",0],
-#        ["VHHadronicTag",0],
-#        ["TTHHadronicTag",4],
-#        ["TTHLeptonicTag",4],
-#        ["THQLeptonicTag",0],
-#        ["TTHDiLeptonTag",0]
+        #["NoTag",0],
+        ["UntaggedTag",4]
+        #["VBFTag",3],
+        #["ZHLeptonicTag",2],
+        #["WHLeptonicTag",6],
+        #["VHMetTag",2],
+        #["VHHadronicTag",0],
+        #["TTHHadronicTag",4],
+        #["TTHLeptonicTag",4],
+        #["THQLeptonicTag",0],
+        #["TTHDiLeptonTag",0]
         ]
 
 definedSysts=set()
@@ -530,7 +532,7 @@ for tag in tagList:
                            classname=tagName,
                            cutbased=cutstring,
                            subcats=tagCats, 
-                           variables=currentVariables,
+                           variables=defaultVariables,
                            histograms=minimalHistograms,
                            binnedOnly=isBinnedOnly,
                            dumpPdfWeights=dumpPdfWeights,
@@ -544,19 +546,12 @@ for tag in tagList:
 
 # Require standard diphoton trigger
 filterHLTrigger(process, customize)
-#from HLTrigger.HLTfilters.hltHighLevel_cfi import hltHighLevel
-#process.hltHighLevel= hltHighLevel.clone(HLTPaths = cms.vstring(
-#                                                               "HLT_Diphoton30_18_R9IdL_AND_HE_AND_IsoCaloId_NoPixelVeto*" 
-#                                                               "HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass90_v*",
-#                                                               "HLT_Diphoton30PV_18PV_R9Id_AND_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v1",
-#                                                               "HLT_Diphoton30EB_18EB_R9Id_OR_IsoCaloId_AND_HE_R9Id_DoublePixelVeto_Mass55_v1"
-#                                                                ))
 
 process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 
 process.dataRequirements = cms.Sequence()
-if customize.processId == "Data": #Al test
-    process.dataRequirements += process.hltHighLevel
+if customize.processId == "Data":
+        process.dataRequirements += process.hltHighLevel
 
 # Split WH and ZH
 process.genFilter = cms.Sequence()
@@ -753,9 +748,9 @@ if customize.verboseSystDump:
 ## Dump the output Python ##
 ############################
 #print process.dumpPython()
-#processDumpFile = open('processDump.py', 'w')
-#print >> processDumpFile, process.dumpPython()
-customize.setDefault("maxEvents", -1)
-customize.setDefault("targetLumi", 54382.09598)
 # call the customization
 customize(process)
+
+
+processDumpFile = open('processDump.py', 'w')
+print >> processDumpFile, process.dumpPython()
