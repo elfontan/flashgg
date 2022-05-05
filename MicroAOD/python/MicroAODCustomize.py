@@ -205,7 +205,10 @@ class MicroAODCustomize(object):
         process.p *=process.flashggMetSequence
         
         # if os.environ["CMSSW_VERSION"].count("CMSSW_8_0"):
-        #     process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
+        #     process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")        process.rivetProducerHTXS = cms.EDProducer('HTXSRivetProducer',
+        #                                           HepMCCollection = cms.InputTag('myGenerator','unsmeared'),
+        #                                           LHERunInfo = cms.InputTag('externalLHEProducer'),
+        #                                           ProductionMode = cms.string('AUTO'),
         #     process.rivetProducerHTXS = cms.EDProducer('HTXSRivetProducer',
         #                                                HepMCCollection = cms.InputTag('myGenerator','unsmeared'),
         #                                                ProductionMode = cms.string('PRODUCTIONMODENOTSET'),
@@ -224,35 +227,35 @@ class MicroAODCustomize(object):
         #     process.out.outputCommands.append('keep *_HTXSRivetProducer_*_*')
 
         #raise Exception,"Debugging ongoing for HTXS in CMSSW 9"
-        # process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
-        # process.rivetProducerHTXS = cms.EDProducer('HTXSRivetProducer',
-        #                                            HepMCCollection = cms.InputTag('myGenerator','unsmeared'),
-        #                                            LHERunInfo = cms.InputTag('externalLHEProducer'),
-        #                                            ProductionMode = cms.string('AUTO'),
-        # )
+        process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
+        process.rivetProducerHTXS = cms.EDProducer('HTXSRivetProducer',
+                                                   HepMCCollection = cms.InputTag('myGenerator','unsmeared'),
+                                                   LHERunInfo = cms.InputTag('externalLHEProducer'),
+                                                   ProductionMode = cms.string('AUTO'),
+        )
 
-        # process.mergedGenParticles = cms.EDProducer("MergedGenParticleProducer",
-        #                                             inputPruned = cms.InputTag("prunedGenParticles"),
-        #                                             inputPacked = cms.InputTag("packedGenParticles"),
-        # )
-        # process.myGenerator = cms.EDProducer("GenParticles2HepMCConverter",
-        #                                      genParticles = cms.InputTag("mergedGenParticles"),
-        #                                      genEventInfo = cms.InputTag("generator"),
-        #                                      signalParticlePdgIds = cms.vint32(25), ## for the Higgs analysis
-        # )
-        #process.p *= process.mergedGenParticles
-        #process.p *= process.myGenerator
-        #process.p *= process.rivetProducerHTXS
-        #process.out.outputCommands.append('keep *_rivetProducerHTXS_*_*')
+        process.mergedGenParticles = cms.EDProducer("MergedGenParticleProducer",
+                                                    inputPruned = cms.InputTag("prunedGenParticles"),
+                                                    inputPacked = cms.InputTag("packedGenParticles"),
+        )
+        process.myGenerator = cms.EDProducer("GenParticles2HepMCConverter",
+                                             genParticles = cms.InputTag("mergedGenParticles"),
+                                             genEventInfo = cms.InputTag("generator"),
+                                             signalParticlePdgIds = cms.vint32(25), ## for the Higgs analysis
+        )
+        process.p *= process.mergedGenParticles
+        process.p *= process.myGenerator
+        process.p *= process.rivetProducerHTXS
+        process.out.outputCommands.append('keep *_rivetProducerHTXS_*_*')
 
-        #self.customizePDFs(process)
+        self.customizePDFs(process)
         self.customizeHLT(process)
 
     def customizePDFs(self,process):     
         process.load("flashgg/MicroAOD/flashggPDFWeightObject_cfi")
         if "mc2hessianCSV" in self.metaConditions.keys() and self.metaConditions["mc2hessianCSV"] != "":
             setattr(process.flashggPDFWeightObject, "mc2hessianCSV", str(self.metaConditions["mc2hessianCSV"]))
-#        setattr(process.flashggPDFWeightObject, "pdfset", str(self.metaConditions["PDF"]))
+            #setattr(process.flashggPDFWeightObject, "pdfset", str(self.metaConditions["PDF"]))
         process.p *= process.flashggPDFWeightObject
 
     # background specific customization
