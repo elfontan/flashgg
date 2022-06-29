@@ -328,6 +328,12 @@ class JobConfig(object):
                             wei *= xsec.get("br",1.)
                             wei *= xsec.get("kf",1.)
                             obj.lumiWeight = wei
+                            print "Cross section: ", xsec["xs"]
+                            print "Number of events: ", float(totEvents)
+                            print "Target lumi: ", self.targetLumi
+                            print "Branching ratio: ", xsec.get("br",1.) 
+                            print "kf: ", xsec.get("kf",1.)
+                            print "Obj lumiWeight: ", wei
 
                     if hasattr(obj,"intLumi"):
                         if isdata:
