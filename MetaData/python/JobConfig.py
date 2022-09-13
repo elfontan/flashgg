@@ -328,7 +328,12 @@ class JobConfig(object):
                             wei *= xsec.get("br",1.)
                             wei *= xsec.get("kf",1.)
                             obj.lumiWeight = wei
-
+		    	    print("LumiWeight is: ", wei)
+		    	    print("Total events is: ", totEvents)
+		    	    print("Cross section is: ", xsec["xs"])
+		    	    print("Branching ratio is: ", xsec.get("br",1.))
+		    	    print("Coupling modifier for fermions is: ", xsec.get("kf",1.))
+		    	    print("Target lumi is: ", self.targetLumi)
                     if hasattr(obj,"intLumi"):
                         if isdata:
                             obj.intLumi= 0 # should not be used in final fits.

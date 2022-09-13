@@ -264,6 +264,7 @@ if options.createCrabConfig:
         # list of (original, replacement) to bring dataset name to 97 characters or less
         replacements = [
             ("backup_", ""),
+            ("RunIISummer20UL18MiniAODv2-minus10percentMaterial_106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18-m10Mat"),
             ("RunIISummer16MiniAODv2-PUMoriond17_qcut19_80X_mcRun2_asymptotic_2016","Moriond17"),
             ("TuneCUEP8M1_13TeV-pythia8","13TeV"),
             ("TuneCUETP8M1_13TeV-madgraphMLM-pythia8","13TeV-mg"),
@@ -313,6 +314,7 @@ if options.createCrabConfig:
             ("RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1", "Autumn18"),
             ("RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3", "Summer16"),
             ("RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15", "Fall18"),
+            ("RunIISummer19UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer19UL18"),
             ("RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18")
         ]
 
