@@ -1,0 +1,17 @@
++JobFlavour   = "workday"
+
++OnExitHold   = ExitStatus != 0 
+
+periodic_release =  (NumJobStarts < 4) && ((CurrentTime - EnteredCurrentStatus) > 60) 
+
+getenv        = True 
+input         = /afs/cern.ch/user/e/elfontan/.dasmaps/das_maps_dbs_prod.js 
+executable    = outdir_Legacy18_testULvsLegacy_newLabel/runJobs0.sh
+arguments     = $(ProcId)
+output        = outdir_Legacy18_testULvsLegacy_newLabel/runJobs0_$(ClusterId).$(ProcId).out
+error         = outdir_Legacy18_testULvsLegacy_newLabel/runJobs0_$(ClusterId).$(ProcId).err
+log           = outdir_Legacy18_testULvsLegacy_newLabel/runJobs0_$(ClusterId).$(ProcId)_htc.log
+
+RequestCpus   = 1
+max_retries   = 2
+queue 1 

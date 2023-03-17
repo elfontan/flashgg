@@ -1,0 +1,12 @@
+{
+    "/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-7c433732f6f29aa6c24631deb86f9932/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/DavidAnna_Legacy2018/CMSSW_10_6_8/src/flashgg/myMicroAODOutputFile_DavidAnnaLegacy.root", 
+                "nevents": 10000
+            }
+        ], 
+        "parent_n_units": null
+    }
+}

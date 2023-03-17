@@ -17,7 +17,7 @@ rediscoveryHLTvariables = cms.vstring(
 rediscoveryHLTcutsV1 = cms.VPSet(
     cms.PSet(cut=cms.string("isEB && full5x5_r9>0.85"), ##EB high R9
              selection = cms.VPSet(
-            cms.PSet(max=cms.string("4.0"), 
+            cms.PSet(max=cms.string("4.0"),
                      rhocorr=phoEffArea,
                      ),
             cms.PSet(max=cms.string("6.0")),
@@ -29,7 +29,7 @@ rediscoveryHLTcutsV1 = cms.VPSet(
     
     cms.PSet(cut=cms.string("isEE && full5x5_r9>0.90"),  ##EE high R9
              selection = cms.VPSet(
-            cms.PSet(max=cms.string("4.0"), 
+            cms.PSet(max=cms.string("4.0"),
                      rhocorr=phoEffArea,
                      ),
             cms.PSet(max=cms.string("6.0")),
@@ -40,7 +40,7 @@ rediscoveryHLTcutsV1 = cms.VPSet(
              ),
     cms.PSet(cut=cms.string("isEB && full5x5_r9<=0.85"),  #EB low R9
              selection = cms.VPSet(
-            cms.PSet(max=cms.string("4.0"), 
+            cms.PSet(max=cms.string("4.0"),
                      rhocorr=phoEffArea,
                      ),
             cms.PSet(max=cms.string("6.0")),
@@ -51,7 +51,7 @@ rediscoveryHLTcutsV1 = cms.VPSet(
              ),       
     cms.PSet(cut=cms.string("isEE && full5x5_r9<=0.90"),  ##EE low R9
              selection = cms.VPSet(
-            cms.PSet(max=cms.string("4.0"), 
+            cms.PSet(max=cms.string("4.0"),
                      rhocorr=phoEffArea,
                      ),
             cms.PSet(max=cms.string("6.0")),
@@ -94,5 +94,7 @@ flashggPreselectedDiPhotons = cms.EDFilter(
         ),
     variables = rediscoveryHLTvariables,
     categories = rediscoveryHLTcutsV1
+    #categories = rediscoveryNocutsV1
+
     )
 

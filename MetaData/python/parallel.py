@@ -249,6 +249,7 @@ class WorkNodeJob(object):
         script += 'if [[ $retval == 0 ]]; then\n'
         script += '    errors=""\n'
         script += '    for file in $(find -name %s); do\n' % " -or -name ".join(self.stage_patterns)
+        script += '        echo "%s ${file} %s"\n' % ( self.stage_cmd, self.stage_dest )
         script += '        %s $file %s\n' % ( self.stage_cmd, self.stage_dest )
         script += '        if [[ $? != 0 ]]; then\n'
         script += '            errors="$errors $file($?)"\n'
@@ -431,6 +432,7 @@ class HTCondorJob(object):
             fout.write('+JobFlavour   = "'+self.htcondorQueue+'"\n\n')
             fout.write('+OnExitHold   = ExitStatus != 0 \n\n')
             fout.write('periodic_release =  (NumJobStarts < 4) && ((CurrentTime - EnteredCurrentStatus) > 60) \n\n')
+            fout.write('getenv        = True \n')
             fout.write('input         = %s/.dasmaps/das_maps_dbs_prod.js \n' % os.environ['HOME'])
             fout.write('executable    = '+self.execName+'\n')
             fout.write('arguments     = $(ProcId)\n')
@@ -861,7 +863,8 @@ class LsfMonitor(object):
 class SGEJob(LsfJob):
     """ a thread to run qsub and wait until it completes """
     def __init__(self,*args,**kwargs):
-        self.rebootMitigation = (BatchRegistry.getDomain() in ["hep.ph.ic.ac.uk"])
+        #self.rebootMitigation = (BatchRegistry.getDomain() in ["hep.ph.ic.ac.uk"])
+        self.rebootMitigation = False
         
         super(SGEJob, self).__init__(*args, **kwargs)
 
@@ -911,9 +914,11 @@ class SGEJob(LsfJob):
         if mydomain == "hep.ph.ic.ac.uk":
             qsubCmdParts = [ "qsub", "-q hep.q" ]
             if self.lsfQueue == "hepshort.q":
-                qsubCmdParts.append("-l h_rt=3:0:0")
+                qsubCmdParts.append("-l h_rt=3:0:0 -l h_vmem=24G")
             elif self.lsfQueue == "hepmedium.q":
-                qsubCmdParts.append("-l h_rt=6:0:0")
+                qsubCmdParts.append("-l h_rt=10:0:0 -l h_vmem=12G")
+            elif self.lsfQueue == "heplong.q":
+                qsubCmdParts.append("-l h_rt=48:0:0 -l h_vmem=6G")
             else:
                 # assume long queue is intended
                 qsubCmdParts.append("-l h_rt=48:0:0")
@@ -1141,7 +1146,8 @@ class SGEMonitor(LsfMonitor):
     ###         sleep(5.)
 
     def __init__(self,*args,**kwargs):
-        self.rebootMitigation = (BatchRegistry.getDomain() in ["hep.ph.ic.ac.uk"])
+        #self.rebootMitigation = (BatchRegistry.getDomain() in ["hep.ph.ic.ac.uk"])
+        self.rebootMitigation = False
         
         super(SGEMonitor, self).__init__(*args, **kwargs)
 

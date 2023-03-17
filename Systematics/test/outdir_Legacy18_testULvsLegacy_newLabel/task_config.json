@@ -1,0 +1,47 @@
+{
+    "jobs": [
+        [
+            "/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/Systematics/test/outdir_Legacy18_testULvsLegacy_newLabel/workspaceStd.py", 
+            [
+                "campaign=Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign", 
+                "metaConditions=/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/MetaData/data/MetaConditions/Legacy2018_production_lowMassDiphotonAnalysis.json", 
+                "useAAA=True", 
+                "doSystematics=False", 
+                "doPdfWeights=False", 
+                "dumpWorkspace=False", 
+                "dumpTrees=True", 
+                "puTarget=puTarget=4.91123e-06,1.73803e-05,5.44003e-05,0.00012277,0.000218667,0.000341563,0.000503757,0.000730932,0.00103526,0.00144156,0.00201691,0.00282766,0.00392637,0.00534985,0.00713001,0.00929987,0.0118766,0.0148372,0.0180933,0.0214786,0.0247638,0.0277126,0.0301574,0.0320533,0.0334724,0.0345491,0.0354222,0.0361995,0.0369429,0.0376714,0.0383692,0.0389965,0.0395,0.0398182,0.0398828,0.0396214,0.038961,0.0378381,0.0362114,0.0340742,0.031463,0.0284578,0.0251757,0.0217572,0.0183501,0.0150929,0.0121003,0.00945414,0.00719909,0.00534447,0.00387034,0.00273621,0.00189025,0.00127746,0.000845635,0.000549078,0.000350231,0.000219805,0.000135954,8.30093e-05,5.01076e-05,2.99446e-05,1.7736e-05,1.04199e-05,6.07476e-06,3.51466e-06,2.01743e-06,1.14821e-06,6.47438e-07,3.61335e-07,1.99391e-07,1.08675e-07,5.84442e-08,3.09831e-08,1.61773e-08,8.3128e-09,4.20108e-09,2.08688e-09,1.01848e-09,4.88164e-10,2.29724e-10,1.06118e-10,4.81136e-11,2.14104e-11,9.35162e-12,4.00984e-12,1.6884e-12,6.98458e-13,2.84091e-13,1.13761e-13,4.49519e-14,1.76066e-14,6.89891e-15,2.7572e-15,1.16767e-15,5.57196e-16,3.18498e-16,2.20168e-16,1.74954e-16,1.50145e-16", 
+                "processIdMap=/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/Systematics/test/outdir_Legacy18_testULvsLegacy_newLabel/config.json", 
+                "dataset=/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-7c433732f6f29aa6c24631deb86f9932/USER", 
+                "outputFile=outdir_Legacy18_testULvsLegacy_newLabel/output_GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8_elfontan-Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-7c433732f6f29aa6c24631deb86f9932_USER.root", 
+                "nJobs=-1", 
+                "jobId=${jobIdsMap[${1}]}", 
+                "resubMap="
+            ], 
+            [], 
+            0, 
+            -1, 
+            [
+                "outdir_Legacy18_testULvsLegacy_newLabel/runJobs0", 
+                [
+                    "10380342.0"
+                ]
+            ]
+        ]
+    ], 
+    "datasets_output": {
+        "GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8_elfontan-Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-7c433732f6f29aa6c24631deb86f9932_USER": [
+            "outdir_Legacy18_testULvsLegacy_newLabel/output_GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8_elfontan-Legacy18_lowMassAnalysis_testULvsLegacy_M70_newLabel_campaign-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-7c433732f6f29aa6c24631deb86f9932_USER.root", 
+            []
+        ]
+    }, 
+    "process_output": {
+        "ggh_70": [
+            "outdir_Legacy18_testULvsLegacy_newLabel/output_ggh_70.root", 
+            []
+        ]
+    }, 
+    "outputPfx": "outdir_Legacy18_testULvsLegacy_newLabel/output", 
+    "last_job_id": 1, 
+    "output": []
+}

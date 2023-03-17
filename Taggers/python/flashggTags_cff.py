@@ -30,7 +30,7 @@ flashggUntagged = cms.EDProducer("FlashggUntaggedTagProducer",
                                  SystLabel      = cms.string(""),
                                  MVAResultTag   = cms.InputTag('flashggDiPhotonMVA'),
                                  GenParticleTag = cms.InputTag( "flashggPrunedGenParticles" ),
-                                 Boundaries     = cms.vdouble(-0.364,0.334,0.753), #,1.000),#-0.466#-0.364,0.334,0.753 
+                                 Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753), #,1.000),#-0.466#-0.364,0.334,0.753 
                                  RequireScaledPtCuts = cms.bool(True),
                                  HTXSTags     = HTXSInputTags
 )

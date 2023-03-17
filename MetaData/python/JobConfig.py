@@ -5,6 +5,12 @@ from Utilities.General.cmssw_das_client import get_data as das_query
 
 import commands
 
+def safe_das_query( search, cmd ):
+    output = das_query( search, cmd=cmd )
+    if not 'data' in output:
+        raise Exception('Your das query has not worked properly - check your proxy is valid')
+    return output
+
 class JobConfig(object):
     
     def __init__(self,*args,**kwargs):
@@ -174,14 +180,29 @@ class JobConfig(object):
             self.pu_distribs["94X_mc2017"] = mix_94X_mc2017.input.nbPileupEvents
         except Exception:
             print "Failed to load 94X_mc2017 mixing"
+
         try:
-            from SimGeneral.MixingModule.mix_2018_25ns_JuneProjectionFull18_PoissonOOTPU_cfi import mix as mix_Autumn18
+            from flashgg.MetaData.mix_2018_25ns_JuneProjectionFull18_PoissonOOTPU_cfi import mix as mix_Autumn18
             self.pu_distribs["Autumn18"] = mix_Autumn18.input.nbPileupEvents
         except Exception:
             print "Failed to load Autumn18 mixing"
+
+        try:
+            from flashgg.MetaData.mix_2017_25ns_UltraLegacy_PoissonOOTPU_cfi import mix as mix_UL17
+            self.pu_distribs["Summer19UL17"] = mix_UL17.input.nbPileupEvents
+        except Exception:
+            print "Failed to load UL17 mixing"
+
+        try:
+            from flashgg.MetaData.mix_2018_25ns_UltraLegacy_PoissonOOTPU_cfi import mix as mix_UL18
+            self.pu_distribs["Summer19UL18"] = mix_UL18.input.nbPileupEvents
+        except Exception:
+            print "Failed to load UL18 mixing"
+
             
         #self.pu_distribs_hack_2017 = {  }
 
+        
         # try:
         #     import importlib
         #     from os import listdir,environ
@@ -386,7 +407,6 @@ class JobConfig(object):
                 if lumisToSkip: 
                     target = target.__sub__(lumisToSkip)                    
                 process.source.lumisToProcess = target.getVLuminosityBlockRange()
-
                 print process.source.lumisToProcess
 
         flist = []
@@ -394,12 +414,12 @@ class JobConfig(object):
 
         # get the runs and lumis contained in each file of the secondary dataset
         if self.options.secondaryDataset:
-            secondary_files = [fdata['file'][0]['name'] for fdata in das_query("file dataset=%s instance=prod/phys03" % self.options.secondaryDataset, 
+            secondary_files = [fdata['file'][0]['name'] for fdata in safe_das_query("file dataset=%s instance=prod/phys03" % self.options.secondaryDataset, 
                                                                                cmd='dasgoclient --dasmaps=./')['data']]
             runs_and_lumis = {}
             for s in secondary_files:
                 runs_and_lumis[str(s)] = {data['lumi'][0]['run_number'] : data['lumi'][0]['lumi_section_num']
-                                          for data in das_query("lumi file=%s instance=prod/phys03" % s, cmd='dasgoclient --dasmaps=./')['data']}
+                                          for data in safe_das_query("lumi file=%s instance=prod/phys03" % s, cmd='dasgoclient --dasmaps=./')['data']}
 
         for f in files:
             if len(f.split(":",1))>1:
@@ -408,14 +428,14 @@ class JobConfig(object):
                 flist.append(str("%s%s" % (self.filePrepend,f)))
             # keep useParent and secondaryDataset as exclusive options for the moment
             if self.options.useParentDataset:
-                parent_files = das_query("parent file=%s instance=prod/phys03" % f, cmd='dasgoclient --dasmaps=./')['data']
+                parent_files = safe_das_query("parent file=%s instance=prod/phys03" % f, cmd='dasgoclient --dasmaps=./')['data']
                 for parent_f in parent_files:
                     parent_f_name = str(parent_f['parent'][0]['name'])
                     sflist.append('root://cms-xrd-global.cern.ch/'+parent_f_name if 'root://' not in parent_f_name else parent_f_name)
             elif self.options.secondaryDataset != "":
                 # match primary file to the corresponding secondary file(s)
                 f_runs_and_lumis = {data['lumi'][0]['run_number'] : data['lumi'][0]['lumi_section_num']
-                                    for data in das_query("lumi file=%s instance=prod/phys03" % f, cmd='dasgoclient --dasmaps=./')['data']}
+                                    for data in safe_das_query("lumi file=%s instance=prod/phys03" % f, cmd='dasgoclient --dasmaps=./')['data']}
                 for s_name, s_runs_and_lumis in runs_and_lumis.items():
                     matched_runs = set(f_runs_and_lumis.keys()).intersection(s_runs_and_lumis.keys())
                     for run in matched_runs:
@@ -488,7 +508,6 @@ class JobConfig(object):
             self.filePrepend = "root://cms-xrd-global.cern.ch/"
         elif self.useEOS:
             self.filePrepend = "root://eoscms.cern.ch//eos/cms"
-        
         self.samplesMan = None
         dataset = None
         if self.dataset != "":

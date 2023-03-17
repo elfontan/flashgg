@@ -5,15 +5,15 @@ from flashgg.Taggers.flashggTags_cff import *
 from flashgg.Taggers.flashggPreselectedDiPhotons_cfi import flashggPreselectedDiPhotons
 from flashgg.Taggers.flashggTagSorter_cfi import flashggTagSorter
 from flashgg.Taggers.flashggDifferentialPhoIdInputsCorrection_cfi import flashggDifferentialPhoIdInputsCorrection, setup_flashggDifferentialPhoIdInputsCorrection
-flashggUntagged.Boundaries     = cms.vdouble(-0.364,0.334,0.753)
+flashggUntagged.Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753)
 #flashggUntagged.Boundaries     = cms.vdouble(-1.0,0.334,0.792)
 
 flashggTagSorter.TagPriorityRanges = cms.VPSet(
 #  cms.PSet(TagName = cms.InputTag('flashggVBFTag')),
   cms.PSet(TagName = cms.InputTag('flashggUntagged'))
 )
-flashggTagSorter.MassCutUpper=cms.double(120.)
-flashggTagSorter.MassCutLower=cms.double(65.)
+flashggTagSorter.MassCutUpper=cms.double(100000.)
+flashggTagSorter.MassCutLower=cms.double(0.0)
 def flashggPrepareTagSequence(process, options):
 
 

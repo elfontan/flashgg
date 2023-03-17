@@ -1,0 +1,29 @@
+{
+    "checkIfOnT2": false, 
+    "crabTemplate": "/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/MetaData/work/crabConfig_TEMPLATE.py", 
+    "verbose": false, 
+    "campaign": "Leg18_LM_campaign", 
+    "lumiMask": null, 
+    "unitsPerJob": 25000, 
+    "extraPyCfgParam": null, 
+    "checkNFiles": false, 
+    "samples_src": "campaigns/TEST_M70_Legacy.json", 
+    "parameterSet": "/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/MicroAOD/test/microAODstd.py", 
+    "label": null, 
+    "outputPath": "/store/user/elfontan", 
+    "mkPilot": true, 
+    "metaConditions": "/afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Anna_Legacy2018/CMSSW_10_6_8/src/flashgg/MetaData/data/MetaConditions/Leg18_LM.json", 
+    "createCrabConfig": true, 
+    "samples": {
+        "data": [], 
+        "bkg": [], 
+        "sig": [
+            "/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/MINIAODSIM"
+        ]
+    }, 
+    "lumisPerJob": 10, 
+    "outputSite": "T2_US_MIT", 
+    "flashggVersion": "v0", 
+    "task_dir": "Leg18_LM_campaign", 
+    "__opts__": null
+}
