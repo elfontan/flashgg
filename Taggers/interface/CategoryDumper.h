@@ -611,6 +611,10 @@ bool CategoryDumper<F, O>::isBinnedOnly( )
     n_cand_ = n_cand;
     weight_ = weight;
     genweight_ = genweight;
+    std::cout << "=======DEBUG========" << std::endl;
+    std::cout << "Weight is " << weight_ << std::endl;
+    std::cout << "Gen weight is " << genweight_ << std::endl;
+    std::cout << "====================" << std::endl;
     if( dataset_ && (!binnedOnly_) ) {
         dynamic_cast<RooRealVar &>( rooVars_["weight"] ).setVal( weight_ );
     }

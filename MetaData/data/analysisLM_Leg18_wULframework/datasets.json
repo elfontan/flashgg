@@ -1,0 +1,28 @@
+{
+    "/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1-52b7f6f2f6939c998dbd155c9278c972/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/elfontan/analysisLM_Leg18_wULframework/v0/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/230321_232758/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 7319
+            }, 
+            {
+                "name": "/store/user/elfontan/analysisLM_Leg18_wULframework/v0/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/230321_232758/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 23948
+            }, 
+            {
+                "name": "/store/user/elfontan/analysisLM_Leg18_wULframework/v0/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/230321_232758/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 25190
+            }, 
+            {
+                "name": "/store/user/elfontan/analysisLM_Leg18_wULframework/v0/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/230321_232758/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 24333
+            }, 
+            {
+                "name": "/store/user/elfontan/analysisLM_Leg18_wULframework/v0/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/analysisLM_Leg18_wULframework-v0-v0-RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/230321_232758/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 24116
+            }
+        ], 
+        "parent_n_units": null
+    }
+}
