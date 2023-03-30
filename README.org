@@ -61,6 +61,6 @@
    voms-proxy-init -voms cms --valid 168:00
    cp /tmp/MYPROXY ~/
    export X509_USER_PROXY=~/MYPROXY
-   fggRunJobs.py --load analysisLM_UL18.json -d outdir_analysisLM_new_UL18 workspaceStd.py -n 300 -q workday --no-copy-proxy --no-use-tarball
+   fggRunJobs.py --load analysisLM_UL18.json -d outdir_analysisLM_UL18 workspaceStd.py -n 300 -q workday --no-copy-proxy --no-use-tarball
    #+END_EXAMPLE 
 
