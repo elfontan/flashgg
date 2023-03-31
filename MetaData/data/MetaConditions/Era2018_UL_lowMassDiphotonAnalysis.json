@@ -85,6 +85,25 @@
         "version" : "new"
     },
 
+    "flashggJetSystematics" :
+    {
+        "doHEMuncertainty" : true,
+        "textFileName" : "flashgg/Systematics/data/JEC/RegroupedV2_Summer19UL18_V5_MC_UncertaintySources_AK4PFchs.txt",
+        "listOfSources" : [
+                           "Absolute",
+                           "Absolute_2018",
+                           "BBEC1",
+                           "BBEC1_2018",
+                           "EC2",
+                           "EC2_2018",
+                           "FlavorQCD",
+                           "HF",
+                           "HF_2018",
+                           "RelativeBal",
+                           "RelativeSample_2018"
+                          ]
+    },
+
     "flashggVBFMVA" :
     {
         "weightFile" : "flashgg/Taggers/data/sklearn_training_2017LM_Ignore02_train07_NewFromSijing.xml",
@@ -224,6 +243,8 @@
 	"ttHKiller_listmean" : [  1.04960120e+02,  -5.49804481e-03,   3.08285275e-02],
 	"ttHKiller_liststd" : [ 85.77034272,   1.03762195,   1.83170033]
     },
+
+
 
     "PhoIdInputCorrections":
     {
