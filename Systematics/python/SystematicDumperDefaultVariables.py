@@ -15,13 +15,30 @@ minimalNonSignalVariables = ["CMS_hgg_mass[1500,0.0,150.0]:=diPhoton().mass",
 minimalVariablesHTXS = minimalVariables+["stage0bin[72,9.5,81.5] := tagTruth().HTXSstage0bin"]
 
 defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass", 
+#Weights                                                                                                                                                             
+                  "centralObjectWeight[1,-999999.,999999.] := centralWeight",
+                  "weight_electronVetoSF[1,-999999.,999999.]:=weight(\"electronVetoSFCentral\")",
+                  "weight_PreselSF[1,-999999.,999999.]:=weight(\"PreselSFCentral\")",
+                  "weight_TriggerWeight[1,-999999.,999999.]:=weight(\"TriggerWeightCentral\")",
+                  "weight_LooseMvaSF[1,-999999.,999999.]:=weight(\"LooseMvaSFCentral\")",
+                  "weight_FracRVWeight[1,-999999.,999999.]:=weight(\"FracRVWeightCentral\")",
+                  "weight_FracRVNvtxWeight[1,-999999.,999999.]:=weight(\"FracRVNvtxWeightCentral\")",
+                  "weight_SigmaEOverESmearing[1,-999999.,999999.]:=weight(\"SigmaEOverESmearingCentral\")",
+
+                                    "diphoMVA                 :=diPhotonMVA().result",    
+                                    "maxEta                   :=max(abs(diPhoton().leadingPhoton.superCluster.eta),abs(diPhoton().leadingPhoton.superCluster.eta))",
+
+                                    "vtxZ                     :=diPhoton().vtx().z",
+                                    "genZ                     :=tagTruth().genPV().z",
+                                    "dZ                       :=(tagTruth().genPV().z-diPhoton().vtx().z)",
+                                    "dZ0                      :=0",
+
                                     "leadPt                   :=diPhoton().leadingPhoton.pt",
                                     "subleadPt                :=diPhoton().subLeadingPhoton.pt",
-                                    "leadEta                   :=diPhoton().leadingPhoton.superCluster.eta",
-                                    "subleadEta                :=diPhoton().subLeadingPhoton.superCluster.eta",
-                                    "leadPhi                   :=diPhoton().leadingPhoton.superCluster.phi",
-                                    "subleadPhi                :=diPhoton().subLeadingPhoton.superCluster.phi",
-
+                                    "leadEta                  :=diPhoton().leadingPhoton.superCluster.eta",
+                                    "subleadEta               :=diPhoton().subLeadingPhoton.superCluster.eta",
+                                    "leadPhi                  :=diPhoton().leadingPhoton.superCluster.phi",
+                                    "subleadPhi               :=diPhoton().subLeadingPhoton.superCluster.phi",
 #Vertex Variables
 				    "vtxprob                := diPhotonMVA().vtxprob",
 				    "ptbal                  := diPhoton().ptBal",
@@ -35,7 +52,6 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "vtx_y                  := diPhoton().vtx().y",
 				    "vtx_z                  := diPhoton().vtx().z",
 #Diphoton Variables
-
 				    "dipho_sumpt            := diPhoton().sumPt",
 				    "dipho_cosphi           := abs(cos(diPhoton().leadingPhoton.phi - diPhoton().subLeadingPhoton.phi))",
 				    "dipho_mass             := diPhoton().mass",
@@ -47,7 +63,6 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "cosphi                 := diPhotonMVA().CosPhi",
 				    "sigmaMrvoM             := diPhotonMVA().sigmarv",
 				    "sigmaMwvoM             := diPhotonMVA().sigmawv",
-
 #Photon Variables
 
 				    "dipho_leadEt           := diPhoton().leadingPhoton.et",
@@ -112,15 +127,8 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "dipho_sublead_s4ratio     :=  diPhoton().subLeadingPhoton.s4",
 				    "dipho_sublead_effSigma    :=  diPhoton().subLeadingPhoton.esEffSigmaRR",
 				    "dipho_sublead_scraw       :=  diPhoton().subLeadingPhoton.superCluster.rawEnergy",
-				    "dipho_sublead_ese         :=  diPhoton().subLeadingPhoton.superCluster.preshowerEnergy",
-
-                                    "diphoMVA                 :=diPhotonMVA().result",    
-                                    "maxEta                   :=max(abs(diPhoton().leadingPhoton.superCluster.eta),abs(diPhoton().leadingPhoton.superCluster.eta))"]
-
-                                    #"vtxZ           :=diPhoton().vtx().z"
-                                    #"genZ           :=tagTruth().genPV().z"
-                                    #"dZ             :=(tagTruth().genPV().z-diPhoton().vtx().z)"
-
+				    "dipho_sublead_ese         :=  diPhoton().subLeadingPhoton.superCluster.preshowerEnergy"
+]
 
 defaultHistograms=["CMS_hgg_mass>>mass(1500,0.0,150.0)",
                                      "subleadPt:leadPt>>ptLeadvsSub(180,20,200:180,20,200)",
