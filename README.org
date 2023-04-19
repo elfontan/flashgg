@@ -25,7 +25,7 @@
    scram b -j 8
    #+END_EXAMPLE
 
-** Examples to run on Run 2 2018 Legacy sample:
+** Examples to run on Run 2 2018 UL sample:
  * Manual test for microAOD production with a single file:
    #+BEGIN_EXAMPLE
    cmsRun MicroAOD/test/microAODstd.py processType=[sig] datasetName=glugluh conditionsJSON=MetaData/data/MetaConditions/Era2018_UL_lowMassDiphotonAnalysis.json
