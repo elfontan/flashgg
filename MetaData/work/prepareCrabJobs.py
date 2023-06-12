@@ -284,6 +284,7 @@ if options.createCrabConfig:
             ("TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8","13TeV-amcnlo-p8"),
             ("80X_mcRun2_asymptotic_2016_miniAODv2","asym16"),
             ("pythia8","p8"),
+            ("Pythia8","p8"),
             ("mcRun2_asymptotic_2016","asym16"),
             ("asymptotic_2016","asym16"),
             ("reHLT_80X_mcRun2_asymptotic_v14-v1","reHLTasym16"),
@@ -315,7 +316,8 @@ if options.createCrabConfig:
             ("RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3", "Summer16"),
             ("RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15", "Fall18"),
             ("RunIISummer19UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer19UL18"),
-            ("RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18")
+            ("RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18"),
+            ("RunIISummer20UL18MiniAOD-106X_upgrade2018_realistic_v11_L1v1", "Summer20UL18")
         ]
 
         for orig, replacement in replacements:
