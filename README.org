@@ -36,6 +36,13 @@
    ./prepareCrabJobs.py -V v0 -C analysisLM_UL18 --meta-conditions /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/myFlashGG/CMSSW_10_6_8/src/flashgg/MetaData/data/MetaConditions/Era2018_UL_lowMassDiphotonAnalysis.json  -O T2_US_MIT -o /store/user/elfontan -s campaigns/TEST_M70_UL.json --mkPilot
    #+END_EXAMPLE
 
+   The jobs can be submitted and monitored with this kind of commands:
+   #+BEGIN_EXAMPLE
+   echo pilot_*.py | xargs -n 1 crab submit                       ## it will submit the pilot test crab jobs
+   echo crabConfig_v0_GluGluHToGG_M*.py | xargs -n 1 crab submit  ## submission of the signal jobs
+   echo crab_v0_GluGluHToGG_M* | xargs -n 1 crab status           ## to check the status of the jobs
+   #+END_EXAMPLE
+
    The output is located in DAS in the =prod/phys03= database in the form:
    #+BEGIN_EXAMPLE
    /GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-analysisLM_UL18-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-82689a8dd9f3f8660dbba0021defef47/USER
