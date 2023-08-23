@@ -39,8 +39,14 @@ namespace flashgg {
         EDGetTokenT<reco::BeamSpot > beamSpotToken_;
         double BeamSig_fromConf_=-1.;
 
-        unique_ptr<TMVA::Reader>DiphotonMva_;
-        FileInPath diphotonMVAweightfile_;
+        unique_ptr<TMVA::Reader>DiphotonMva_; // ORIGINAL
+        unique_ptr<TMVA::Reader>DiphotonMvaDefLowMass_;
+        unique_ptr<TMVA::Reader>DiphotonMvaNewMcBdt_;
+        unique_ptr<TMVA::Reader>DiphotonMvaDataBdt_;
+        FileInPath diphotonMVAweightfile_; // ORIGINAL
+        FileInPath diphotonMVAweightfileDefLowMass_;
+        FileInPath diphotonMVAweightfileNewMcBdt_;
+        FileInPath diphotonMVAweightfileDataBdt_;
         FileInPath sigmaMdecorrFile_;
 
         TH2D* h_decorrEBEB_;
@@ -78,7 +84,10 @@ namespace flashgg {
         vertex_prob_params_conv = iConfig.getParameter<vector<double>>( "VertexProbParamsConv" );
         vertex_prob_params_noConv = iConfig.getParameter<vector<double>>( "VertexProbParamsNoConv" );
         BeamSig_fromConf_ = iConfig.getParameter<double>( "BeamSpotSigma" );
-        diphotonMVAweightfile_ = iConfig.getParameter<edm::FileInPath>( "diphotonMVAweightfile" );
+        diphotonMVAweightfile_ = iConfig.getParameter<edm::FileInPath>( "diphotonMVAweightfile" ); // ORIGINAL
+        diphotonMVAweightfileDefLowMass_ = iConfig.getParameter<edm::FileInPath>( "diphotonMVAweightfileDefLowMass" );        
+        diphotonMVAweightfileNewMcBdt_ = iConfig.getParameter<edm::FileInPath>( "diphotonMVAweightfileNewMcBdt" );
+        diphotonMVAweightfileDataBdt_ = iConfig.getParameter<edm::FileInPath>( "diphotonMVAweightfileDataBdt" );
         sigmaMdecorrFile_ = iConfig.getParameter<edm::FileInPath>( "sigmaMdecorrFile" );
         doDecorr_ = iConfig.getParameter<bool>( "doSigmaMdecorr" );
 
@@ -122,6 +131,7 @@ namespace flashgg {
         }
 
         if( version_new.compare( Version_ ) == 0 ) {
+            //ORIGINAL
             //            std::cout << "Reading MVA variables " << std::endl;
             DiphotonMva_.reset( new TMVA::Reader( "!Color:Silent" ) );
             DiphotonMva_->AddVariable( "leadptom", &leadptom_ );
@@ -140,6 +150,46 @@ namespace flashgg {
             //            std::cout<<"BDT, new, is booked reading weight file "<<diphotonMVAweightfile_.fullPath()<<std::endl;
             DiphotonMva_->BookMVA( "BDT", diphotonMVAweightfile_.fullPath() );
             //            std::cout << "finished reading mva" << std::endl;
+            
+            // DefLowMass BDT
+            DiphotonMvaDefLowMass_.reset( new TMVA::Reader( "!Color:Silent" ) );
+            DiphotonMvaDefLowMass_->AddVariable( "leadptom", &leadptom_ );
+            DiphotonMvaDefLowMass_->AddVariable( "subleadptom", &subleadptom_ );
+            DiphotonMvaDefLowMass_->AddVariable( "leadmva", &leadmva_ );
+            DiphotonMvaDefLowMass_->AddVariable( "subleadmva", &subleadmva_ );
+            DiphotonMvaDefLowMass_->AddVariable( "leadeta", &leadeta_ );
+            DiphotonMvaDefLowMass_->AddVariable( "subleadeta", &subleadeta_ );
+            DiphotonMvaDefLowMass_->AddVariable( "sigmarv", &sigmarv_ );
+            DiphotonMvaDefLowMass_->AddVariable( "sigmawv", &sigmawv_ );
+            DiphotonMvaDefLowMass_->AddVariable( "CosPhi", &CosPhi_ );
+            DiphotonMvaDefLowMass_->AddVariable( "vtxprob", &vtxprob_ );
+            DiphotonMvaDefLowMass_->BookMVA( "BDT", diphotonMVAweightfileDefLowMass_.fullPath() );
+            // NewMcBdt 
+            DiphotonMvaNewMcBdt_.reset( new TMVA::Reader( "!Color:Silent" ) );
+            DiphotonMvaNewMcBdt_->AddVariable( "leadptom", &leadptom_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "subleadptom", &subleadptom_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "leadmva", &leadmva_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "subleadmva", &subleadmva_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "leadeta", &leadeta_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "subleadeta", &subleadeta_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "sigmarv", &sigmarv_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "sigmawv", &sigmawv_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "CosPhi", &CosPhi_ );
+            DiphotonMvaNewMcBdt_->AddVariable( "vtxprob", &vtxprob_ );
+            DiphotonMvaNewMcBdt_->BookMVA( "BDT", diphotonMVAweightfileNewMcBdt_.fullPath() );
+            // DataBdt 
+            DiphotonMvaDataBdt_.reset( new TMVA::Reader( "!Color:Silent" ) );
+            DiphotonMvaDataBdt_->AddVariable( "leadptom", &leadptom_ );
+            DiphotonMvaDataBdt_->AddVariable( "subleadptom", &subleadptom_ );
+            DiphotonMvaDataBdt_->AddVariable( "leadmva", &leadmva_ );
+            DiphotonMvaDataBdt_->AddVariable( "subleadmva", &subleadmva_ );
+            DiphotonMvaDataBdt_->AddVariable( "leadeta", &leadeta_ );
+            DiphotonMvaDataBdt_->AddVariable( "subleadeta", &subleadeta_ );
+            DiphotonMvaDataBdt_->AddVariable( "sigmarv", &sigmarv_ );
+            DiphotonMvaDataBdt_->AddVariable( "sigmawv", &sigmawv_ );
+            DiphotonMvaDataBdt_->AddVariable( "CosPhi", &CosPhi_ );
+            DiphotonMvaDataBdt_->AddVariable( "vtxprob", &vtxprob_ );
+            DiphotonMvaDataBdt_->BookMVA( "BDT", diphotonMVAweightfileDataBdt_.fullPath() );
         }
 
         if( version_xgb.compare( Version_ ) == 0 ) {
@@ -154,7 +204,7 @@ namespace flashgg {
             DiphotonMva_->AddVariable( "vtxprob", &vtxprob_ );
             DiphotonMva_->AddVariable( "sigmarv", &sigmarv_ );
             DiphotonMva_->AddVariable( "sigmawv", &sigmawv_ );
-            DiphotonMva_->BookMVA( "BDT", diphotonMVAweightfile_.fullPath() );
+            DiphotonMva_->BookMVA( "BDT", diphotonMVAweightfile_.fullPath() );            
         }
 
         if(doDecorr_){
@@ -219,9 +269,15 @@ namespace flashgg {
  
         //    std::unique_ptr<DiPhotonMVAResultMap> assoc(new DiPhotonMVAResultMap);
         std::unique_ptr<vector<DiPhotonMVAResult> > results( new vector<DiPhotonMVAResult> ); // one per diphoton, always in same order, vector is more efficient than map
+        std::unique_ptr<vector<DiPhotonMVAResult> > resultsDefLowMass( new vector<DiPhotonMVAResult> ); // one per diphoton, always in same order, vector is more efficient than map
+        std::unique_ptr<vector<DiPhotonMVAResult> > resultsNewMcBdt( new vector<DiPhotonMVAResult> ); // one per diphoton, always in same order, vector is more efficient than map
+        std::unique_ptr<vector<DiPhotonMVAResult> > resultsDataBdt( new vector<DiPhotonMVAResult> ); // one per diphoton, always in same order, vector is more efficient than map
 
         for( unsigned int candIndex = 0; candIndex < diPhotons->size() ; candIndex++ ) {
-            flashgg::DiPhotonMVAResult mvares;
+            flashgg::DiPhotonMVAResult mvares; // ORIGINAL
+            flashgg::DiPhotonMVAResult mvaresDefLowMass;
+            flashgg::DiPhotonMVAResult mvaresNewMcBdt;
+            flashgg::DiPhotonMVAResult mvaresDataBdt; 
             edm::Ptr<reco::Vertex> vtx = diPhotons->ptrAt( candIndex )->vtx();
 
             const flashgg::Photon *g1 = diPhotons->ptrAt( candIndex )->leadingPhoton();
@@ -325,7 +381,6 @@ namespace flashgg {
             }
 
             mvares.result = DiphotonMva_->EvaluateMVA( "BDT" );
-
             mvares.leadptom = leadptom_;
             mvares.subleadptom = subleadptom_;
             mvares.leadmva = leadmva_;
@@ -337,10 +392,55 @@ namespace flashgg {
             mvares.sigmawv = sigmawv_;
             mvares.CosPhi = CosPhi_;
             mvares.vtxprob = vtxprob_;
-
             results->push_back( mvares );
+
+            // DefLowMass BDT
+            mvaresDefLowMass.result = DiphotonMvaDefLowMass_->EvaluateMVA( "BDT" );
+            mvaresDefLowMass.leadptom = leadptom_;
+            mvaresDefLowMass.subleadptom = subleadptom_;
+            mvaresDefLowMass.leadmva = leadmva_;
+            mvaresDefLowMass.subleadmva = subleadmva_;
+            mvaresDefLowMass.leadeta = leadeta_;
+            mvaresDefLowMass.subleadeta = subleadeta_;
+            mvaresDefLowMass.sigmarv = sigmarv_;
+            mvaresDefLowMass.decorrSigmarv = sigmarv_decorr_;
+            mvaresDefLowMass.sigmawv = sigmawv_;
+            mvaresDefLowMass.CosPhi = CosPhi_;
+            mvaresDefLowMass.vtxprob = vtxprob_;
+            resultsDefLowMass->push_back( mvaresDefLowMass );
+            // NewMcBdt
+            mvaresNewMcBdt.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
+            mvaresNewMcBdt.leadptom = leadptom_;
+            mvaresNewMcBdt.subleadptom = subleadptom_;
+            mvaresNewMcBdt.leadmva = leadmva_;
+            mvaresNewMcBdt.subleadmva = subleadmva_;
+            mvaresNewMcBdt.leadeta = leadeta_;
+            mvaresNewMcBdt.subleadeta = subleadeta_;
+            mvaresNewMcBdt.sigmarv = sigmarv_;
+            mvaresNewMcBdt.decorrSigmarv = sigmarv_decorr_;
+            mvaresNewMcBdt.sigmawv = sigmawv_;
+            mvaresNewMcBdt.CosPhi = CosPhi_;
+            mvaresNewMcBdt.vtxprob = vtxprob_;
+            resultsNewMcBdt->push_back( mvaresNewMcBdt );
+            // DataBdt
+            mvaresDataBdt.result = DiphotonMvaDataBdt_->EvaluateMVA( "BDT" );
+            mvaresDataBdt.leadptom = leadptom_;
+            mvaresDataBdt.subleadptom = subleadptom_;
+            mvaresDataBdt.leadmva = leadmva_;
+            mvaresDataBdt.subleadmva = subleadmva_;
+            mvaresDataBdt.leadeta = leadeta_;
+            mvaresDataBdt.subleadeta = subleadeta_;
+            mvaresDataBdt.sigmarv = sigmarv_;
+            mvaresDataBdt.decorrSigmarv = sigmarv_decorr_;
+            mvaresDataBdt.sigmawv = sigmawv_;
+            mvaresDataBdt.CosPhi = CosPhi_;
+            mvaresDataBdt.vtxprob = vtxprob_;
+            resultsDataBdt->push_back( mvaresDataBdt );
         }
         evt.put( std::move( results ) );
+        evt.put( std::move( resultsDefLowMass ) );
+        evt.put( std::move( resultsNewMcBdt ) );
+        evt.put( std::move( resultsDataBdt ) );
     }
 }
 

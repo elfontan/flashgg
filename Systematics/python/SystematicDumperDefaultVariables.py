@@ -26,7 +26,11 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
                   "weight_FracRVNvtxWeight[1,-999999.,999999.]:=weight(\"FracRVNvtxWeightCentral\")",
                   "weight_SigmaEOverESmearing[1,-999999.,999999.]:=weight(\"SigmaEOverESmearingCentral\")", 
 
+
                                     "diphoMVA                 :=diPhotonMVA().result",    
+                                    "diphoMVADefLowMass       :=diPhotonMVADefLowMass().result",    
+                                    "diphoMVANewMcBdt         :=diPhotonMVANewMcBdt().result",    
+                                    "diphoMVADataBdt          :=diPhotonMVADataBdt().result",    
                                     "maxEta                   :=max(abs(diPhoton().leadingPhoton.superCluster.eta),abs(diPhoton().leadingPhoton.superCluster.eta))",
 
                                     "vtxZ                     :=diPhoton().vtx().z",
