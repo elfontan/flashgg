@@ -81,7 +81,7 @@
 
     "flashggDiPhotonMVA" :
     {
-        "weightFile          " : "flashgg/Taggers/data/Flashgg_DiPhoton_2017LowMass_Ignore02_RunIIFall17-3_1_X.weights.xml",
+        "weightFile" : "flashgg/Taggers/data/Flashgg_DiPhoton_2017LowMass_Ignore02_RunIIFall17-3_1_X.weights.xml",
         "weightFileDefLowMass" : "flashgg/Taggers/data/Flashgg_DiPhoton_2017LowMass_Ignore02_RunIIFall17-3_1_X.weights.xml",
         "weightFileNewMcBdt"   : "flashgg/Taggers/data/TMVAClassification_MCBDT.weights.xml",
         "weightFileDataBdt"    : "flashgg/Taggers/data/TMVAClassification_DataBDT.weights.xml",

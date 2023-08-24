@@ -60,6 +60,9 @@ namespace flashgg {
         const flashgg::SinglePhotonView *subLeadingView() const { return dipho_->subLeadingView(); }
 
         const DiPhotonMVAResult diPhotonMVA() const { return mva_result_; }
+        const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_; }
+        const DiPhotonMVAResult diPhotonMVANewMcBdt() const { return mva_result_; }
+        const DiPhotonMVAResult diPhotonMVADataBdt() const { return mva_result_; }
         int diPhotonIndex() const {return diPhotonIndex_;}
         void setDiPhotonIndex( int i ) { diPhotonIndex_ = i; }
         float sumPt() const { return this->diPhoton()->sumPt() ;}
@@ -107,6 +110,9 @@ namespace flashgg {
         int otherTagDiPhotonIndex ( unsigned i ) const { return otherTagIndices_[i]; }
     protected:
         DiPhotonMVAResult mva_result_;
+        DiPhotonMVAResult mva_result_DefLowMass_;
+        DiPhotonMVAResult mva_result_NewMcBdt_;
+        DiPhotonMVAResult mva_result_DataBdt_;
         int category_number_;
         int diPhotonIndex_;
         edm::Ptr<DiPhotonCandidate> dipho_;

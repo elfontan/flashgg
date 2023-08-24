@@ -14,6 +14,9 @@ namespace flashgg {
 
         const edm::Ptr<DiPhotonCandidate> diPhoton() const { return tag_->diPhoton(); }
         const flashgg::DiPhotonMVAResult diPhotonMVA() const { return tag_->diPhotonMVA(); }
+        const flashgg::DiPhotonMVAResult diPhotonMVADefLowMass() const { return tag_->diPhotonMVADefLowMass(); }
+        const flashgg::DiPhotonMVAResult diPhotonMVANewMcBdt() const { return tag_->diPhotonMVANewMcBdt(); }
+        const flashgg::DiPhotonMVAResult diPhotonMVADataBdt() const { return tag_->diPhotonMVADataBdt(); }
         float diPhoMVAValue() const      { return tag_->diPhotonMVA().mvaValue(); }
         int categoryNumber () const      { return tag_->categoryNumber() + cat_; } 
         float vbfMVA() const             { return vbfMVA_;            }
