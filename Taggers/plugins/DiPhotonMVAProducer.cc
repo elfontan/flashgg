@@ -29,7 +29,6 @@ namespace flashgg {
 
     class DiPhotonMVAProducer : public EDProducer
     {
-
     public:
         DiPhotonMVAProducer( const ParameterSet & );
     private:
@@ -103,8 +102,6 @@ namespace flashgg {
         doDecorr_ = iConfig.getParameter<bool>( "doSigmaMdecorr" );
 
         Version_ = iConfig.getParameter<string>( "Version" );
-
-        //        std::cout << "Version" << Version_ << std::endl;
 
         sigmarv_ = 0.;
         sigmawv_ = 0.;
@@ -242,11 +239,19 @@ namespace flashgg {
         transfEBEB_ = new DecorrTransform(h_decorrEBEB_ , 125., 1, 0);
         transfNotEBEB_ = new DecorrTransform(h_decorrNotEBEB_ , 125., 1, 0);
         //        std::cout<<"transformation created"<<std::endl;
+
         produces<vector<DiPhotonMVAResult> >(); // one per diphoton, always in same order, vector is more efficient than map
     }
 
     void DiPhotonMVAProducer::produce( Event &evt, const EventSetup & )
     {
+        std::cout << "DIFFERENT DIPHOTON MVA FILES: " << std::endl;
+        std::cout << "diphotonMVAweightfile_ = " << diphotonMVAweightfile_ << std::endl;
+        std::cout << "diphotonMVAweightfileDefLowMass_ = " << diphotonMVAweightfileDefLowMass_ << std::endl;
+        std::cout << "diphotonMVAweightfileNewMcBdt_ = " << diphotonMVAweightfileNewMcBdt_ << std::endl;
+        std::cout << "diphotonMVAweightfileDataBdt_ = " << diphotonMVAweightfileDataBdt_ << std::endl;
+        std::cout << "Version: " << Version_ << std::endl;
+        
         Handle<View<flashgg::DiPhotonCandidate> > diPhotons;
         evt.getByToken( diPhotonToken_, diPhotons );
         // const PtrVector<flashgg::DiPhotonCandidate>& diPhotonPointers = diPhotons->ptrVector();
@@ -346,34 +351,45 @@ namespace flashgg {
 
             leadptom_       = g1->pt() / ( diPhotons->ptrAt( candIndex )->mass() );
             subleadptom_    = g2->pt() / ( diPhotons->ptrAt( candIndex )->mass() );
-
             leadmva_        = g1->phoIdMvaDWrtVtx( vtx );
             subleadmva_     = g2->phoIdMvaDWrtVtx( vtx );
-
             leadeta_        = g1->eta();
             subleadeta_     = g2->eta();
-
             sigmarv_        = .5 * sqrt( ( g1->sigEOverE() ) * ( g1->sigEOverE() ) + ( g2->sigEOverE() ) * ( g2->sigEOverE() ) );
             sigmawv_        = MassResolutionWrongVtx;
             CosPhi_         = TMath::Cos( deltaPhi( g1->phi(), g2->phi() ) );
-            //            std::cout<<"mass "<<diPhotons->ptrAt( candIndex )->mass()<<std::endl;
-            //            std::cout<<"sigmarv "<<sigmarv_<<std::endl;
+
+            dipho_lead_ptoM_    = g1->pt() / ( diPhotons->ptrAt( candIndex )->mass() );
+            dipho_sublead_ptoM_ = g2->pt() / ( diPhotons->ptrAt( candIndex )->mass() );
+            leadEta_            = g1->eta();
+            subleadEta_         = g2->eta();
+            dipho_cosphi_       = TMath::Cos( deltaPhi( g1->phi(), g2->phi() ) );
+            dipho_leadIDMVA_    = g1->phoIdMvaDWrtVtx( vtx );
+            dipho_subleadIDMVA_ = g2->phoIdMvaDWrtVtx( vtx );
+            sigmaMrvoM_         = .5 * sqrt( ( g1->sigEOverE() ) * ( g1->sigEOverE() ) + ( g2->sigEOverE() ) * ( g2->sigEOverE() ) );
+            sigmaMwvoM_         = MassResolutionWrongVtx;
+
+
+            //std::cout<<"mass "<<diPhotons->ptrAt( candIndex )->mass()<<std::endl;
+            //std::cout<<"sigmarv "<<sigmarv_<<std::endl;
             if(doDecorr_){
-                //                std::cout<<"sigmaMdecorrFile is set, so we evaluate the transf"<<std::endl;
+                //std::cout<<"sigmaMdecorrFile is set, so we evaluate the transf"<<std::endl;
                 mass_sigma[0]=diPhotons->ptrAt( candIndex )->mass();
                 mass_sigma[1]=sigmarv_;
                 
                 //splitting EBEB and !EBEB, using cuts as in preselection
                 if(abs(g1->superCluster()->eta())<1.4442 && abs(g2->superCluster()->eta())<1.4442){
                     sigmarv_decorr_ = (*transfEBEB_)(mass_sigma,dummy);
+                    sigmaMrvoM_decorr_ = (*transfEBEB_)(mass_sigma,dummy);
                 }
                 else{
                     sigmarv_decorr_ = (*transfNotEBEB_)(mass_sigma,dummy);
+                    sigmaMrvoM_decorr_ = (*transfNotEBEB_)(mass_sigma,dummy);
                 }
-                //                sigmarv_decorr_ = (*transf_)(mass_sigma,dummy);
-                //                std::cout<<"transf evaluated, sigmarv_decorr = "<<sigmarv_decorr_<<std::endl;
-                //                delete x;
-                //                delete p;
+                //sigmarv_decorr_ = (*transf_)(mass_sigma,dummy);
+                //std::cout<<"transf evaluated, sigmarv_decorr = "<<sigmarv_decorr_<<std::endl;
+                //delete x;
+                //delete p;
             }
 
 
@@ -381,16 +397,17 @@ namespace flashgg {
             nConv_ = diPhotons->ptrAt( candIndex )->nConv();
 
             if( nConv_ > 0 ) {
-                vtxprob_        = ( 1 + vertex_prob_params_conv.at( 0 ) - vertex_prob_params_conv.at( 1 ) + vertex_prob_params_conv.at( 2 ) - vertex_prob_params_conv.at(
-                                        3 ) ) + vertex_prob_params_conv.at( 0 ) * vtxProbMVA_ + vertex_prob_params_conv.at( 1 ) * pow( vtxProbMVA_,
-                                                2 ) + vertex_prob_params_conv.at( 2 ) * pow( vtxProbMVA_, 3 ) + vertex_prob_params_conv.at( 3 ) * pow( vtxProbMVA_, 4 );
+                vtxprob_ = ( 1 + vertex_prob_params_conv.at( 0 ) - vertex_prob_params_conv.at( 1 ) + vertex_prob_params_conv.at( 2 ) - vertex_prob_params_conv.at(
+                3 ) ) + vertex_prob_params_conv.at( 0 ) * vtxProbMVA_ + vertex_prob_params_conv.at( 1 ) * pow( vtxProbMVA_,
+                2 ) + vertex_prob_params_conv.at( 2 ) * pow( vtxProbMVA_, 3 ) + vertex_prob_params_conv.at( 3 ) * pow( vtxProbMVA_, 4 );
             }
 
             else {
-                vtxprob_        = ( 1 + vertex_prob_params_noConv.at( 0 ) - vertex_prob_params_noConv.at( 1 ) + vertex_prob_params_noConv.at(
-                                        2 ) - vertex_prob_params_noConv.at( 3 ) ) + vertex_prob_params_noConv.at( 0 ) * vtxProbMVA_ + vertex_prob_params_noConv.at( 1 ) * pow( vtxProbMVA_,
-                                                2 ) + vertex_prob_params_noConv.at( 2 ) * pow( vtxProbMVA_, 3 ) + vertex_prob_params_noConv.at( 3 ) * pow( vtxProbMVA_, 4 );
+                vtxprob_ = ( 1 + vertex_prob_params_noConv.at( 0 ) - vertex_prob_params_noConv.at( 1 ) + vertex_prob_params_noConv.at(
+                2 ) - vertex_prob_params_noConv.at( 3 ) ) + vertex_prob_params_noConv.at( 0 ) * vtxProbMVA_ + vertex_prob_params_noConv.at( 1 ) * pow( vtxProbMVA_,
+                2 ) + vertex_prob_params_noConv.at( 2 ) * pow( vtxProbMVA_, 3 ) + vertex_prob_params_noConv.at( 3 ) * pow( vtxProbMVA_, 4 );
             }
+
 
             mvares.result = DiphotonMva_->EvaluateMVA( "BDT" );
             mvares.leadptom = leadptom_;
@@ -405,8 +422,61 @@ namespace flashgg {
             mvares.CosPhi = CosPhi_;
             mvares.vtxprob = vtxprob_;
             results->push_back( mvares );
-
+            std::cout << "1 mvares.leadptom = " << leadptom_ << "  and stored as: " << mvares.leadptom << std::endl;
+            std::cout << "------------------------mvares.result = " << DiphotonMva_->EvaluateMVA( "BDT" ) << " and stored as:  " << mvares.result << std::endl;
             
+            
+            // DefLowMass BDT
+            mvares.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
+            mvares.leadptom = leadptom_;
+            mvares.subleadptom = subleadptom_;
+            mvares.leadmva = leadmva_;
+            mvares.subleadmva = subleadmva_;
+            mvares.leadeta = leadeta_;
+            mvares.subleadeta = subleadeta_;
+            mvares.sigmarv = sigmarv_;
+            mvares.decorrSigmarv = sigmarv_decorr_;
+            mvares.sigmawv = sigmawv_;
+            mvares.CosPhi = CosPhi_;
+            mvares.vtxprob = vtxprob_;
+            resultsDefLowMass->push_back( mvares );
+            std::cout << "------------------------mvaresDefLowMass.result = " << mvares.result << std::endl;
+            
+            // NewMcBdt
+            mvares.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
+            mvares.leadptom = dipho_lead_ptoM_;
+            mvares.subleadptom = dipho_sublead_ptoM_;
+            mvares.leadeta = leadEta_;
+            mvares.subleadeta = subleadEta_;
+            mvares.CosPhi = dipho_cosphi_;
+            mvares.leadmva = dipho_leadIDMVA_;
+            mvares.subleadmva = dipho_subleadIDMVA_;
+            mvares.sigmarv = sigmaMrvoM_;
+            mvares.decorrSigmarv = sigmaMrvoM_decorr_;
+            mvares.sigmawv = sigmaMwvoM_;
+            mvares.vtxprob = vtxprob_;
+            resultsNewMcBdt->push_back( mvares );
+            std::cout << "------------------------2 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
+            std::cout << "------------------------mvaresNewMcBdt.result = " << mvares.result << std::endl;
+
+            // DataBdt
+            mvares.result = DiphotonMvaDataBdt_->EvaluateMVA( "BDT" );
+            mvares.leadptom = dipho_lead_ptoM_;
+            mvares.subleadptom = dipho_sublead_ptoM_;
+            mvares.leadeta = leadEta_;
+            mvares.subleadeta = subleadEta_;
+            mvares.CosPhi = dipho_cosphi_;
+            mvares.leadmva = dipho_leadIDMVA_;
+            mvares.subleadmva = dipho_subleadIDMVA_;
+            mvares.sigmarv = sigmaMrvoM_;
+            mvares.decorrSigmarv = sigmaMrvoM_decorr_;
+            mvares.sigmawv = sigmaMwvoM_;
+            mvares.vtxprob = vtxprob_;
+            resultsDataBdt->push_back( mvares );
+            std::cout << "------------------------3 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
+            std::cout << "------------------------mvaresDataBdt.result = " << mvares.result << std::endl;
+            
+            /*
             // DefLowMass BDT
             mvaresDefLowMass.result = DiphotonMvaDefLowMass_->EvaluateMVA( "BDT" );
             mvaresDefLowMass.leadptom = leadptom_;
@@ -421,6 +491,7 @@ namespace flashgg {
             mvaresDefLowMass.CosPhi = CosPhi_;
             mvaresDefLowMass.vtxprob = vtxprob_;
             resultsDefLowMass->push_back( mvaresDefLowMass );
+            std::cout << "------------------------mvaresDefLowMass.result = " << mvares.result << std::endl;
             
             // NewMcBdt
             mvaresNewMcBdt.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
@@ -436,6 +507,8 @@ namespace flashgg {
             mvaresNewMcBdt.sigmawv = sigmaMwvoM_;
             mvaresNewMcBdt.vtxprob = vtxprob_;
             resultsNewMcBdt->push_back( mvaresNewMcBdt );
+            std::cout << "------------------------2 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
+            std::cout << "------------------------mvaresNewMcBdt.result = " << mvares.result << std::endl;
 
             // DataBdt
             mvaresDataBdt.result = DiphotonMvaDataBdt_->EvaluateMVA( "BDT" );
@@ -451,7 +524,9 @@ namespace flashgg {
             mvaresDataBdt.sigmawv = sigmaMwvoM_;
             mvaresDataBdt.vtxprob = vtxprob_;
             resultsDataBdt->push_back( mvaresDataBdt );
-            
+            std::cout << "------------------------3 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
+            std::cout << "------------------------mvaresDataBdt.result = " << mvares.result << std::endl;
+            */
         }
         evt.put( std::move( results ) );
         evt.put( std::move( resultsDefLowMass ) );

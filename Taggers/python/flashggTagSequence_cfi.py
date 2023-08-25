@@ -7,11 +7,10 @@ from flashgg.Taggers.flashggTagSorter_cfi import flashggTagSorter
 from flashgg.Taggers.flashggDifferentialPhoIdInputsCorrection_cfi import flashggDifferentialPhoIdInputsCorrection, setup_flashggDifferentialPhoIdInputsCorrection
 from flashgg.MetaData.MetaConditionsReader import *
 
-flashggUntagged.Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753)
-#flashggUntagged.Boundaries     = cms.vdouble(-1.0,0.334,0.792)
+flashggUntagged.Boundaries     = cms.vdouble(-999.0)
+#flashggUntagged.Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753)
 
 flashggTagSorter.TagPriorityRanges = cms.VPSet(
-#  cms.PSet(TagName = cms.InputTag('flashggVBFTag')),
   cms.PSet(TagName = cms.InputTag('flashggUntagged'))
 )
 flashggTagSorter.MassCutUpper=cms.double(100000.)
@@ -32,27 +31,7 @@ def flashggPrepareTagSequence(process, options):
                                       * flashggPreselectedDiPhotons
                                       * flashggDiPhotonMVA
                                       * flashggUnpackedJets
-#                                      * flashggVBFMVA
-#                                      * flashggVBFDiPhoDiJetMVA
                                       * ( flashggUntagged
-                                      #                                  *( flashggSigmaMoMpToMTag
-#                                          + flashggVBFTag
-#                                          + flashggTTHDiLeptonTag
-#                                          + flashggTTHLeptonicTag
-#					  + flashggTHQLeptonicTag
-#                                     + flashggTTHHadronicTTag                                      
-#                                     + flashggTTHHadronicLTag                                      
-#                                          + flashggTTHHadronicTag
-                                      #############old VH tags##############
-                                      #                  + flashggVHEtTag
-                                      #                  + flashggVHLooseTag
-                                      #                  + flashggVHTightTag
- #                                     ###########updated VH tags############
- #                                         + flashggVHMetTag
- #                                         + flashggWHLeptonicTag
- #                                         + flashggZHLeptonicTag
-  #                                        + flashggVHLeptonicLooseTag
- #                                         + flashggVHHadronicTag
                                       )
                                       * flashggTagSorter
                                   )

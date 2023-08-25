@@ -15,7 +15,23 @@ DiPhotonTagBase::DiPhotonTagBase( edm::Ptr<flashgg::DiPhotonCandidate> diPho, ed
 
 DiPhotonTagBase::DiPhotonTagBase( edm::Ptr<flashgg::DiPhotonCandidate> diPho, DiPhotonMVAResult mvaRes )
 {
+    std::cout << "DiPhotonTagBase here!" << endl;
     mva_result_ = mvaRes;
+    category_number_ = -1;
+    dipho_ = diPho;
+    isGold_ = -1;
+}
+DiPhotonTagBase::DiPhotonTagBase( edm::Ptr<flashgg::DiPhotonCandidate> diPho, DiPhotonMVAResult mvaRes1, DiPhotonMVAResult mvaRes2, DiPhotonMVAResult mvaRes3, DiPhotonMVAResult mvaRes4 )
+{
+    std::cout << "Modified DiPhotonTagBase here!" << endl;
+    mva_result_ = mvaRes1;
+    //std::cout << "mvaRes1" << mvaRes1 << " and mva_result_ = " << mva_result_ << endl;
+    mva_result_DefLowMass_ = mvaRes2;
+    //std::cout << "mvaRes2" << mvaRes2 << " and mva_result_DefLowMass_ = " << mva_result_DefLowMass_ << endl;
+    mva_result_NewMcBdt_ = mvaRes3;
+    //std::cout << "mvaRes3" << mvaRes3 << " and mva_result_NewMcBdt_ = " << mva_result_NewMcBdt_ << endl;
+    mva_result_DataBdt_ = mvaRes4;
+    //std::cout << "mvaRes4" << mvaRes4 << " and mva_result_DataBdt_ = " << mva_result_DataBdt_ << endl;
     category_number_ = -1;
     dipho_ = diPho;
     isGold_ = -1;

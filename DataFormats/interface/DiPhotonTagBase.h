@@ -52,6 +52,7 @@ namespace flashgg {
         virtual ~DiPhotonTagBase(); 
         DiPhotonTagBase( edm::Ptr<DiPhotonCandidate>, DiPhotonMVAResult );
         DiPhotonTagBase( edm::Ptr<DiPhotonCandidate>, edm::Ptr<DiPhotonMVAResult> );
+        DiPhotonTagBase( edm::Ptr<DiPhotonCandidate>, DiPhotonMVAResult, DiPhotonMVAResult, DiPhotonMVAResult, DiPhotonMVAResult);
         const edm::Ptr<DiPhotonCandidate> diPhoton() const { return dipho_; }
 
         const flashgg::Photon *leadingPhoton() const { return dipho_->leadingPhoton(); }
@@ -60,9 +61,12 @@ namespace flashgg {
         const flashgg::SinglePhotonView *subLeadingView() const { return dipho_->subLeadingView(); }
 
         const DiPhotonMVAResult diPhotonMVA() const { return mva_result_; }
-        const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_; }
-        const DiPhotonMVAResult diPhotonMVANewMcBdt() const { return mva_result_; }
-        const DiPhotonMVAResult diPhotonMVADataBdt() const { return mva_result_; }
+        //const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_; }
+        //const DiPhotonMVAResult diPhotonMVANewMcBdt() const { return mva_result_; }
+        //const DiPhotonMVAResult diPhotonMVADataBdt() const { return mva_result_; }
+        const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_DefLowMass_; }
+        const DiPhotonMVAResult diPhotonMVANewMcBdt() const { return mva_result_NewMcBdt_; }
+        const DiPhotonMVAResult diPhotonMVADataBdt() const { return mva_result_DataBdt_; }
         int diPhotonIndex() const {return diPhotonIndex_;}
         void setDiPhotonIndex( int i ) { diPhotonIndex_ = i; }
         float sumPt() const { return this->diPhoton()->sumPt() ;}
