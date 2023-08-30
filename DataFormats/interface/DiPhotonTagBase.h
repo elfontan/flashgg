@@ -61,7 +61,6 @@ namespace flashgg {
         const flashgg::SinglePhotonView *subLeadingView() const { return dipho_->subLeadingView(); }
 
         const DiPhotonMVAResult diPhotonMVA() const { return mva_result_; }
-        //const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_; }
         //const DiPhotonMVAResult diPhotonMVANewMcBdt() const { return mva_result_; }
         //const DiPhotonMVAResult diPhotonMVADataBdt() const { return mva_result_; }
         const DiPhotonMVAResult diPhotonMVADefLowMass() const { return mva_result_DefLowMass_; }

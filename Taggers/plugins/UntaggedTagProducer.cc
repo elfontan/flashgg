@@ -31,6 +31,9 @@ namespace flashgg {
 
         EDGetTokenT<View<DiPhotonCandidate> > diPhotonToken_;
         EDGetTokenT<View<DiPhotonMVAResult> > mvaResultToken_;
+        EDGetTokenT<View<DiPhotonMVAResult> > mvaResultDefLowMassToken_;
+        EDGetTokenT<View<DiPhotonMVAResult> > mvaResultNewMcBdtToken_;
+        EDGetTokenT<View<DiPhotonMVAResult> > mvaResultDataBdtToken_;
         string systLabel_;
         bool requireScaledPtCuts_;
 
@@ -41,6 +44,9 @@ namespace flashgg {
     UntaggedTagProducer::UntaggedTagProducer( const ParameterSet &iConfig ) :
         diPhotonToken_( consumes<View<flashgg::DiPhotonCandidate> >( iConfig.getParameter<InputTag> ( "DiPhotonTag" ) ) ),
         mvaResultToken_( consumes<View<flashgg::DiPhotonMVAResult> >( iConfig.getParameter<InputTag> ( "MVAResultTag" ) ) ),
+        mvaResultDefLowMassToken_( consumes<View<flashgg::DiPhotonMVAResult> >( iConfig.getParameter<InputTag> ( "MVAResultTag_DefLowMass" ) ) ),
+        mvaResultNewMcBdtToken_( consumes<View<flashgg::DiPhotonMVAResult> >( iConfig.getParameter<InputTag> ( "MVAResultTag_NewMcBdt" ) ) ),
+        mvaResultDataBdtToken_( consumes<View<flashgg::DiPhotonMVAResult> >( iConfig.getParameter<InputTag> ( "MVAResultTag_DataBdt" ) ) ),
         systLabel_( iConfig.getParameter<string> ( "SystLabel" ) ),
         requireScaledPtCuts_   ( iConfig.getParameter<bool> ( "RequireScaledPtCuts" ) )
     {
@@ -68,7 +74,13 @@ namespace flashgg {
         //  const PtrVector<flashgg::DiPhotonCandidate>& diPhotonPointers = diPhotons->ptrVector();
 
         Handle<View<flashgg::DiPhotonMVAResult> > mvaResults;
+        Handle<View<flashgg::DiPhotonMVAResult> > mvaResults_DefLowMass;
+        Handle<View<flashgg::DiPhotonMVAResult> > mvaResults_NewMcBdt;
+        Handle<View<flashgg::DiPhotonMVAResult> > mvaResults_DataBdt;
         evt.getByToken( mvaResultToken_, mvaResults );
+        evt.getByToken( mvaResultDefLowMassToken_, mvaResults_DefLowMass );
+        evt.getByToken( mvaResultNewMcBdtToken_, mvaResults_NewMcBdt );
+        evt.getByToken( mvaResultDataBdtToken_, mvaResults_DataBdt );
 //   const PtrVector<flashgg::DiPhotonMVAResult>& mvaResultPointers = mvaResults->ptrVector();
 
         std::unique_ptr<vector<UntaggedTag> > tags( new vector<UntaggedTag> );
@@ -77,9 +89,13 @@ namespace flashgg {
 
         for( unsigned int candIndex = 0; candIndex < diPhotons->size() ; candIndex++ ) {
             edm::Ptr<flashgg::DiPhotonMVAResult> mvares = mvaResults->ptrAt( candIndex );
+            edm::Ptr<flashgg::DiPhotonMVAResult> mvares_DefLowMass = mvaResults_DefLowMass->ptrAt( candIndex );
+            edm::Ptr<flashgg::DiPhotonMVAResult> mvares_NewMcBdt = mvaResults_NewMcBdt->ptrAt( candIndex );
+            edm::Ptr<flashgg::DiPhotonMVAResult> mvares_DataBdt = mvaResults_DataBdt->ptrAt( candIndex );
             edm::Ptr<flashgg::DiPhotonCandidate> dipho = diPhotons->ptrAt( candIndex );
 
-            UntaggedTag tag_obj( dipho, mvares );
+            //UntaggedTag tag_obj( dipho, mvares );
+            UntaggedTag tag_obj( dipho, mvares, mvares_DefLowMass, mvares_NewMcBdt, mvares_DataBdt );
             tag_obj.setDiPhotonIndex( candIndex );
 
             tag_obj.setSystLabel( systLabel_ );

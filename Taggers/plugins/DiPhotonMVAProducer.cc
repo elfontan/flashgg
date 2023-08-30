@@ -245,6 +245,7 @@ namespace flashgg {
 
     void DiPhotonMVAProducer::produce( Event &evt, const EventSetup & )
     {
+        std::cout << "------------------------------" << std::endl;
         std::cout << "DIFFERENT DIPHOTON MVA FILES: " << std::endl;
         std::cout << "diphotonMVAweightfile_ = " << diphotonMVAweightfile_ << std::endl;
         std::cout << "diphotonMVAweightfileDefLowMass_ = " << diphotonMVAweightfileDefLowMass_ << std::endl;
@@ -424,8 +425,7 @@ namespace flashgg {
             results->push_back( mvares );
             std::cout << "1 mvares.leadptom = " << leadptom_ << "  and stored as: " << mvares.leadptom << std::endl;
             std::cout << "------------------------mvares.result = " << DiphotonMva_->EvaluateMVA( "BDT" ) << " and stored as:  " << mvares.result << std::endl;
-            
-            
+            /*
             // DefLowMass BDT
             mvares.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
             mvares.leadptom = leadptom_;
@@ -475,8 +475,8 @@ namespace flashgg {
             resultsDataBdt->push_back( mvares );
             std::cout << "------------------------3 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
             std::cout << "------------------------mvaresDataBdt.result = " << mvares.result << std::endl;
+            */
             
-            /*
             // DefLowMass BDT
             mvaresDefLowMass.result = DiphotonMvaDefLowMass_->EvaluateMVA( "BDT" );
             mvaresDefLowMass.leadptom = leadptom_;
@@ -491,7 +491,8 @@ namespace flashgg {
             mvaresDefLowMass.CosPhi = CosPhi_;
             mvaresDefLowMass.vtxprob = vtxprob_;
             resultsDefLowMass->push_back( mvaresDefLowMass );
-            std::cout << "------------------------mvaresDefLowMass.result = " << mvares.result << std::endl;
+            std::cout << "------------------------mvaresDefLowMass.result = " << DiphotonMvaDefLowMass_->EvaluateMVA( "BDT" ) << std::endl;
+            std::cout << "------------------------mvaresDefLowMass.result = " << mvaresDefLowMass.result << std::endl;
             
             // NewMcBdt
             mvaresNewMcBdt.result = DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" );
@@ -508,7 +509,8 @@ namespace flashgg {
             mvaresNewMcBdt.vtxprob = vtxprob_;
             resultsNewMcBdt->push_back( mvaresNewMcBdt );
             std::cout << "------------------------2 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
-            std::cout << "------------------------mvaresNewMcBdt.result = " << mvares.result << std::endl;
+            std::cout << "------------------------mvaresNewMcBdt.result = " << DiphotonMvaNewMcBdt_->EvaluateMVA( "BDT" ) << std::endl;
+            std::cout << "------------------------mvaresNewMcBdt.result = " << mvaresNewMcBdt.result << std::endl;
 
             // DataBdt
             mvaresDataBdt.result = DiphotonMvaDataBdt_->EvaluateMVA( "BDT" );
@@ -525,8 +527,9 @@ namespace flashgg {
             mvaresDataBdt.vtxprob = vtxprob_;
             resultsDataBdt->push_back( mvaresDataBdt );
             std::cout << "------------------------3 mvares.leadptom = " << dipho_lead_ptoM_ << "  and stored as: " << mvares.leadptom << std::endl;
-            std::cout << "------------------------mvaresDataBdt.result = " << mvares.result << std::endl;
-            */
+            std::cout << "------------------------mvaresDataBdt.result = " << DiphotonMvaDataBdt_->EvaluateMVA( "BDT" ) << std::endl;
+            std::cout << "------------------------mvaresDataBdt.result = " << mvaresDataBdt.result << std::endl;
+            
         }
         evt.put( std::move( results ) );
         evt.put( std::move( resultsDefLowMass ) );
