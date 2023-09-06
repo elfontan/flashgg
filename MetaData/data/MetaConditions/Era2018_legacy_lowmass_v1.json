@@ -84,7 +84,7 @@
     "flashggDiPhotonMVA" :
     {
         "weightFile" : "flashgg/Taggers/data/Flashgg_DiPhoton_2017LowMass_Ignore02_RunIIFall17-3_1_X.weights.xml",
-        "version" : "xgb"
+        "version" : "new"
     },
 
     "flashggJetSystematics" :
