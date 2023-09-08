@@ -1,0 +1,1542 @@
+{
+    "/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/atsatsos-UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-3fc41d6a5cdc2b7d1e5534c778de39cd/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_84.root", 
+                "nevents": 9050
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_58.root", 
+                "nevents": 6006
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_72.root", 
+                "nevents": 14917
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_146.root", 
+                "nevents": 11939
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_67.root", 
+                "nevents": 11897
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_113.root", 
+                "nevents": 12013
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_105.root", 
+                "nevents": 12072
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_94.root", 
+                "nevents": 11908
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_2.root", 
+                "nevents": 2980
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_82.root", 
+                "nevents": 18022
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_100.root", 
+                "nevents": 17956
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_89.root", 
+                "nevents": 18046
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_97.root", 
+                "nevents": 26904
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_5.root", 
+                "nevents": 3030
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_30.root", 
+                "nevents": 2907
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_47.root", 
+                "nevents": 3042
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_34.root", 
+                "nevents": 3030
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_104.root", 
+                "nevents": 3054
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_93.root", 
+                "nevents": 3002
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_3.root", 
+                "nevents": 2981
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_140.root", 
+                "nevents": 3008
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_68.root", 
+                "nevents": 2946
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_103.root", 
+                "nevents": 5913
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_32.root", 
+                "nevents": 5977
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_185.root", 
+                "nevents": 5935
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_165.root", 
+                "nevents": 6148
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_6.root", 
+                "nevents": 5990
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_31.root", 
+                "nevents": 5961
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_14.root", 
+                "nevents": 14725
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_159.root", 
+                "nevents": 98971
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_87.root", 
+                "nevents": 71987
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_141.root", 
+                "nevents": 98154
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_24.root", 
+                "nevents": 65109
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_36.root", 
+                "nevents": 54247
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_166.root", 
+                "nevents": 98450
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_137.root", 
+                "nevents": 65439
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_158.root", 
+                "nevents": 98707
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_130.root", 
+                "nevents": 51077
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_180.root", 
+                "nevents": 58276
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_60.root", 
+                "nevents": 53868
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_136.root", 
+                "nevents": 51080
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_9.root", 
+                "nevents": 64808
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_169.root", 
+                "nevents": 76990
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_54.root", 
+                "nevents": 51190
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_56.root", 
+                "nevents": 71555
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_48.root", 
+                "nevents": 68499
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_74.root", 
+                "nevents": 56839
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_41.root", 
+                "nevents": 56607
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_171.root", 
+                "nevents": 94394
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_170.root", 
+                "nevents": 98859
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_21.root", 
+                "nevents": 62636
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_177.root", 
+                "nevents": 98462
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_128.root", 
+                "nevents": 50969
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_147.root", 
+                "nevents": 50630
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_83.root", 
+                "nevents": 26834
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_152.root", 
+                "nevents": 54693
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_76.root", 
+                "nevents": 50709
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_17.root", 
+                "nevents": 50633
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_73.root", 
+                "nevents": 50748
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_122.root", 
+                "nevents": 80680
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_95.root", 
+                "nevents": 59941
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_109.root", 
+                "nevents": 51120
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_116.root", 
+                "nevents": 50964
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_107.root", 
+                "nevents": 50698
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_125.root", 
+                "nevents": 54068
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_96.root", 
+                "nevents": 50852
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_118.root", 
+                "nevents": 75227
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_144.root", 
+                "nevents": 35909
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_124.root", 
+                "nevents": 50928
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_139.root", 
+                "nevents": 99049
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_112.root", 
+                "nevents": 50850
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_70.root", 
+                "nevents": 26838
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_51.root", 
+                "nevents": 29903
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_111.root", 
+                "nevents": 50546
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_117.root", 
+                "nevents": 50842
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_132.root", 
+                "nevents": 24308
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_120.root", 
+                "nevents": 53773
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_148.root", 
+                "nevents": 59513
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_13.root", 
+                "nevents": 50982
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_135.root", 
+                "nevents": 51330
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_37.root", 
+                "nevents": 50455
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_15.root", 
+                "nevents": 59454
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_131.root", 
+                "nevents": 95583
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_176.root", 
+                "nevents": 80137
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_153.root", 
+                "nevents": 56831
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_162.root", 
+                "nevents": 57184
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_33.root", 
+                "nevents": 38859
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_1.root", 
+                "nevents": 26859
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_52.root", 
+                "nevents": 53854
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_29.root", 
+                "nevents": 57188
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_75.root", 
+                "nevents": 56373
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_63.root", 
+                "nevents": 54965
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_25.root", 
+                "nevents": 35817
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_123.root", 
+                "nevents": 71096
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_35.root", 
+                "nevents": 35718
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_80.root", 
+                "nevents": 53715
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_79.root", 
+                "nevents": 51005
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_155.root", 
+                "nevents": 53220
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_16.root", 
+                "nevents": 26942
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_66.root", 
+                "nevents": 54367
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_86.root", 
+                "nevents": 51168
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_11.root", 
+                "nevents": 54169
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_77.root", 
+                "nevents": 51116
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_12.root", 
+                "nevents": 50911
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_143.root", 
+                "nevents": 77851
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_127.root", 
+                "nevents": 62227
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_40.root", 
+                "nevents": 53685
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_115.root", 
+                "nevents": 86447
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_57.root", 
+                "nevents": 57007
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_50.root", 
+                "nevents": 62876
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_55.root", 
+                "nevents": 56954
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_102.root", 
+                "nevents": 50727
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_53.root", 
+                "nevents": 59566
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_49.root", 
+                "nevents": 62905
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_101.root", 
+                "nevents": 23854
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_184.root", 
+                "nevents": 23866
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_142.root", 
+                "nevents": 50936
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_182.root", 
+                "nevents": 65175
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_90.root", 
+                "nevents": 47793
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_61.root", 
+                "nevents": 56597
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_38.root", 
+                "nevents": 53751
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_99.root", 
+                "nevents": 74442
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_4.root", 
+                "nevents": 50921
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_161.root", 
+                "nevents": 57079
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_168.root", 
+                "nevents": 56959
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_179.root", 
+                "nevents": 88543
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_154.root", 
+                "nevents": 97382
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_156.root", 
+                "nevents": 99044
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_183.root", 
+                "nevents": 99584
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_133.root", 
+                "nevents": 98847
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_10.root", 
+                "nevents": 68832
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_27.root", 
+                "nevents": 53618
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_26.root", 
+                "nevents": 54075
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_150.root", 
+                "nevents": 97324
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_157.root", 
+                "nevents": 98517
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_149.root", 
+                "nevents": 97965
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_39.root", 
+                "nevents": 65600
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_28.root", 
+                "nevents": 44822
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_163.root", 
+                "nevents": 68394
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_173.root", 
+                "nevents": 97913
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_172.root", 
+                "nevents": 77294
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_20.root", 
+                "nevents": 98399
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_23.root", 
+                "nevents": 93520
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_71.root", 
+                "nevents": 44947
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_91.root", 
+                "nevents": 60121
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_88.root", 
+                "nevents": 50646
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_106.root", 
+                "nevents": 57054
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_134.root", 
+                "nevents": 50962
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_129.root", 
+                "nevents": 59977
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_7.root", 
+                "nevents": 51120
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_98.root", 
+                "nevents": 50500
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_59.root", 
+                "nevents": 50591
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_85.root", 
+                "nevents": 50763
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_65.root", 
+                "nevents": 51105
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_8.root", 
+                "nevents": 74451
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_92.root", 
+                "nevents": 53868
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_151.root", 
+                "nevents": 96938
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_114.root", 
+                "nevents": 57039
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_121.root", 
+                "nevents": 53674
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_119.root", 
+                "nevents": 51166
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_126.root", 
+                "nevents": 50830
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_110.root", 
+                "nevents": 56732
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_108.root", 
+                "nevents": 59554
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_145.root", 
+                "nevents": 60002
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_64.root", 
+                "nevents": 50797
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_181.root", 
+                "nevents": 89247
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_164.root", 
+                "nevents": 63131
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_160.root", 
+                "nevents": 98928
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_78.root", 
+                "nevents": 53365
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_81.root", 
+                "nevents": 51232
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_69.root", 
+                "nevents": 47894
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_62.root", 
+                "nevents": 57029
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_178.root", 
+                "nevents": 72496
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_46.root", 
+                "nevents": 14913
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/GJet_Pt-20toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV_Pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/230605_173409/0000/myMicroAODOutputFile_bkgmc_v1_175.root", 
+                "nevents": 99366
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/atsatsos-UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-3fc41d6a5cdc2b7d1e5534c778de39cd/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_44.root", 
+                "nevents": 1487
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_15.root", 
+                "nevents": 2933
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_58.root", 
+                "nevents": 1445
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_24.root", 
+                "nevents": 1452
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_181.root", 
+                "nevents": 1511
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_184.root", 
+                "nevents": 819
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_209.root", 
+                "nevents": 4543
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_202.root", 
+                "nevents": 2899
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_187.root", 
+                "nevents": 1529
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_160.root", 
+                "nevents": 3004
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_203.root", 
+                "nevents": 8961
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_87.root", 
+                "nevents": 7441
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_11.root", 
+                "nevents": 16394
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_54.root", 
+                "nevents": 11927
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_186.root", 
+                "nevents": 22231
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_162.root", 
+                "nevents": 44788
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_166.root", 
+                "nevents": 50731
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_1.root", 
+                "nevents": 18029
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_177.root", 
+                "nevents": 46740
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_206.root", 
+                "nevents": 16338
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_164.root", 
+                "nevents": 44583
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_179.root", 
+                "nevents": 46311
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_175.root", 
+                "nevents": 49425
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_172.root", 
+                "nevents": 52302
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_189.root", 
+                "nevents": 34390
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_168.root", 
+                "nevents": 44503
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_171.root", 
+                "nevents": 51128
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_182.root", 
+                "nevents": 11904
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_21.root", 
+                "nevents": 4396
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_43.root", 
+                "nevents": 4361
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_201.root", 
+                "nevents": 10393
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_42.root", 
+                "nevents": 4415
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_10.root", 
+                "nevents": 7467
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_90.root", 
+                "nevents": 86099
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_48.root", 
+                "nevents": 79043
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_13.root", 
+                "nevents": 47953
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_65.root", 
+                "nevents": 72753
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_194.root", 
+                "nevents": 50295
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_80.root", 
+                "nevents": 86794
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_139.root", 
+                "nevents": 84493
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_200.root", 
+                "nevents": 47080
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_68.root", 
+                "nevents": 46615
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_154.root", 
+                "nevents": 44550
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_109.root", 
+                "nevents": 47668
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_73.root", 
+                "nevents": 44780
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_157.root", 
+                "nevents": 45789
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_19.root", 
+                "nevents": 44139
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_38.root", 
+                "nevents": 43132
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_110.root", 
+                "nevents": 44764
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_188.root", 
+                "nevents": 40012
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_155.root", 
+                "nevents": 45726
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_204.root", 
+                "nevents": 44852
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_156.root", 
+                "nevents": 44809
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_199.root", 
+                "nevents": 42012
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_205.root", 
+                "nevents": 44728
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_145.root", 
+                "nevents": 47335
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_17.root", 
+                "nevents": 56017
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_46.root", 
+                "nevents": 53134
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_94.root", 
+                "nevents": 48915
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_84.root", 
+                "nevents": 53213
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_193.root", 
+                "nevents": 44804
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_69.root", 
+                "nevents": 51770
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_20.root", 
+                "nevents": 53490
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_117.root", 
+                "nevents": 46488
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_12.root", 
+                "nevents": 46375
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_176.root", 
+                "nevents": 47603
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_75.root", 
+                "nevents": 47278
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_138.root", 
+                "nevents": 50611
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_125.root", 
+                "nevents": 56183
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_142.root", 
+                "nevents": 46394
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_14.root", 
+                "nevents": 44155
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_169.root", 
+                "nevents": 48863
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_190.root", 
+                "nevents": 44594
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_195.root", 
+                "nevents": 47464
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_103.root", 
+                "nevents": 49637
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_18.root", 
+                "nevents": 47375
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_183.root", 
+                "nevents": 44574
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_47.root", 
+                "nevents": 51813
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_141.root", 
+                "nevents": 52184
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_86.root", 
+                "nevents": 68776
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_207.root", 
+                "nevents": 43257
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_102.root", 
+                "nevents": 46036
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_49.root", 
+                "nevents": 50405
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_55.root", 
+                "nevents": 47911
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_191.root", 
+                "nevents": 43179
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_25.root", 
+                "nevents": 44595
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_34.root", 
+                "nevents": 44468
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_31.root", 
+                "nevents": 38548
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_148.root", 
+                "nevents": 46188
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_140.root", 
+                "nevents": 44972
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_115.root", 
+                "nevents": 50617
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_137.root", 
+                "nevents": 45031
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_116.root", 
+                "nevents": 46115
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_78.root", 
+                "nevents": 45728
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_39.root", 
+                "nevents": 46109
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_108.root", 
+                "nevents": 46319
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_197.root", 
+                "nevents": 38637
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_133.root", 
+                "nevents": 20530
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_113.root", 
+                "nevents": 72660
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_92.root", 
+                "nevents": 63963
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_106.root", 
+                "nevents": 71104
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_170.root", 
+                "nevents": 65307
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_135.root", 
+                "nevents": 52414
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_104.root", 
+                "nevents": 46071
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_123.root", 
+                "nevents": 56585
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_121.root", 
+                "nevents": 71214
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_79.root", 
+                "nevents": 65367
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_96.root", 
+                "nevents": 63765
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_66.root", 
+                "nevents": 47486
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_7.root", 
+                "nevents": 44698
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_52.root", 
+                "nevents": 64121
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_130.root", 
+                "nevents": 49142
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_5.root", 
+                "nevents": 44543
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_2.root", 
+                "nevents": 43249
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_4.root", 
+                "nevents": 44402
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_67.root", 
+                "nevents": 51795
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_9.root", 
+                "nevents": 23596
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_180.root", 
+                "nevents": 47314
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_151.root", 
+                "nevents": 52962
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_118.root", 
+                "nevents": 83657
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_63.root", 
+                "nevents": 65610
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_60.root", 
+                "nevents": 78062
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_173.root", 
+                "nevents": 46207
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_105.root", 
+                "nevents": 74767
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_50.root", 
+                "nevents": 74042
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_3.root", 
+                "nevents": 32509
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_61.root", 
+                "nevents": 69665
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_83.root", 
+                "nevents": 53958
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_132.root", 
+                "nevents": 56380
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_6.root", 
+                "nevents": 44590
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_146.root", 
+                "nevents": 67019
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_114.root", 
+                "nevents": 47737
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_129.root", 
+                "nevents": 51593
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_85.root", 
+                "nevents": 53704
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_56.root", 
+                "nevents": 65066
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_98.root", 
+                "nevents": 56374
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_53.root", 
+                "nevents": 66639
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_185.root", 
+                "nevents": 25075
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_93.root", 
+                "nevents": 57150
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_196.root", 
+                "nevents": 47289
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_165.root", 
+                "nevents": 51983
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_126.root", 
+                "nevents": 52255
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_71.root", 
+                "nevents": 56321
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_23.root", 
+                "nevents": 54799
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_81.root", 
+                "nevents": 45055
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_101.root", 
+                "nevents": 56123
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_27.root", 
+                "nevents": 58034
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_36.root", 
+                "nevents": 50431
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_51.root", 
+                "nevents": 46206
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_16.root", 
+                "nevents": 60028
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_29.root", 
+                "nevents": 59350
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_30.root", 
+                "nevents": 48998
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_120.root", 
+                "nevents": 50819
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_97.root", 
+                "nevents": 81316
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_119.root", 
+                "nevents": 61085
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_167.root", 
+                "nevents": 51712
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_95.root", 
+                "nevents": 86541
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_33.root", 
+                "nevents": 44981
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_131.root", 
+                "nevents": 55096
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_112.root", 
+                "nevents": 76143
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_144.root", 
+                "nevents": 59329
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_88.root", 
+                "nevents": 32900
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_40.root", 
+                "nevents": 20728
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_57.root", 
+                "nevents": 46193
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_128.root", 
+                "nevents": 60797
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_45.root", 
+                "nevents": 54467
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_134.root", 
+                "nevents": 52519
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_59.root", 
+                "nevents": 54904
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_99.root", 
+                "nevents": 52457
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_174.root", 
+                "nevents": 47238
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_77.root", 
+                "nevents": 53970
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_161.root", 
+                "nevents": 47264
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_127.root", 
+                "nevents": 44772
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_111.root", 
+                "nevents": 53721
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_149.root", 
+                "nevents": 49526
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_107.root", 
+                "nevents": 53654
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_82.root", 
+                "nevents": 57125
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_76.root", 
+                "nevents": 58035
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_64.root", 
+                "nevents": 55208
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_89.root", 
+                "nevents": 19329
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_208.root", 
+                "nevents": 41592
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_159.root", 
+                "nevents": 26882
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_158.root", 
+                "nevents": 44158
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_37.root", 
+                "nevents": 44236
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_178.root", 
+                "nevents": 25313
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_32.root", 
+                "nevents": 49251
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_152.root", 
+                "nevents": 81614
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_8.root", 
+                "nevents": 47602
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_91.root", 
+                "nevents": 69896
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_192.root", 
+                "nevents": 46195
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_70.root", 
+                "nevents": 74860
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_41.root", 
+                "nevents": 49133
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_74.root", 
+                "nevents": 60924
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_124.root", 
+                "nevents": 70014
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_28.root", 
+                "nevents": 44764
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_22.root", 
+                "nevents": 44362
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_153.root", 
+                "nevents": 43267
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_35.root", 
+                "nevents": 50386
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_26.root", 
+                "nevents": 45990
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_163.root", 
+                "nevents": 19411
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_198.root", 
+                "nevents": 44443
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_150.root", 
+                "nevents": 44563
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_147.root", 
+                "nevents": 72396
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_62.root", 
+                "nevents": 86188
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_72.root", 
+                "nevents": 67044
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_100.root", 
+                "nevents": 86250
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2/v0/QCD_Pt-30toInf_DoubleEMEnriched_MGG-40to80_TuneCP5_13TeV-pythia8/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v2-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230605_174950/0000/myMicroAODOutputFile_bkgmc_v1_136.root", 
+                "nevents": 59410
+            }
+        ], 
+        "parent_n_units": null
+    }
+}
