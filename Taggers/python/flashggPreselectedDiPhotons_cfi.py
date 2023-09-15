@@ -62,6 +62,20 @@ rediscoveryHLTcutsV1 = cms.VPSet(
              )
     )
 
+rediscoveryNocuts = cms.VPSet(
+    cms.PSet(cut=cms.string("isEB || isEE"), ## just any photon, really
+             selection = cms.VPSet(
+            cms.PSet(max=cms.string("999999.0"), 
+                     rhocorr=phoEffArea,
+                     ),
+            cms.PSet(max=cms.string("999999.0")),
+            cms.PSet(max=cms.string("999999.0")),
+            cms.PSet(min=cms.string("0.0")),
+            cms.PSet(max=cms.string("0.5"))
+            ),
+             )
+    )
+
 #cuts here mimic the miniAOD photon cuts and the non-category based trigger cuts
 #Also included: the super-loose ID MVA cuts
 flashggPreselectedDiPhotons = cms.EDFilter(
@@ -76,13 +90,13 @@ flashggPreselectedDiPhotons = cms.EDFilter(
         " && (abs(leadingPhoton.superCluster.eta) < 2.5 && abs(subLeadingPhoton.superCluster.eta) < 2.5)"
         " && (abs(leadingPhoton.superCluster.eta) < 1.4442 || abs(leadingPhoton.superCluster.eta) > 1.566)"
         " && (abs(subLeadingPhoton.superCluster.eta) < 1.4442 || abs(subLeadingPhoton.superCluster.eta) > 1.566)"
-       " && (leadingPhoton.pt >30.0 && subLeadingPhoton.pt > 18.0)"
-       " && mass > 50"
+        " && (leadingPhoton.pt > 30.0 && subLeadingPhoton.pt > 18.0)"
+        " && mass > 0"
 #
-       " && ( (abs(leadingPhoton.superCluster.eta) < 1.4442 && abs(subLeadingPhoton.superCluster.eta) < 1.4442 && (leadingPhoton.full5x5_r9 > 0.5 && subLeadingPhoton.full5x5_r9 > 0.5) )" #EB-EB : both photon R9>0.5
-      "   || ( abs(leadingPhoton.superCluster.eta) < 1.4442 && abs(subLeadingPhoton.superCluster.eta) > 1.566 && (leadingPhoton.full5x5_r9 > 0.5 && subLeadingPhoton.full5x5_r9 > 0.9) )" #EB-EE : EB R9>0.5 and EE R9>0.9
-         "   || ( abs(leadingPhoton.superCluster.eta) > 1.566 &&  abs(subLeadingPhoton.superCluster.eta) < 1.4442 && (leadingPhoton.full5x5_r9 > 0.9 && subLeadingPhoton.full5x5_r9 > 0.5) )" #EE-EB: EE R9>0.9 and EB R9>0.5
-        "   || ( abs(leadingPhoton.superCluster.eta) > 1.566 && abs(subLeadingPhoton.superCluster.eta) > 1.566 && (leadingPhoton.full5x5_r9 > 0.9 && subLeadingPhoton.full5x5_r9 > 0.9) ) )" #EE-EE: both photon R9>0.9
+        " && (  ( abs(leadingPhoton.superCluster.eta) < 1.4442 && abs(subLeadingPhoton.superCluster.eta) < 1.4442 && (leadingPhoton.full5x5_r9 > 0.5 && subLeadingPhoton.full5x5_r9 > 0.5) )" #EB-EB : both photon R9>0.5
+        " || ( abs(leadingPhoton.superCluster.eta) < 1.4442 && abs(subLeadingPhoton.superCluster.eta) > 1.566 && (leadingPhoton.full5x5_r9 > 0.5 && subLeadingPhoton.full5x5_r9 > 0.9) )" #EB-EE : EB R9>0.5 and EE R9>0.9
+        " || ( abs(leadingPhoton.superCluster.eta) > 1.566 &&  abs(subLeadingPhoton.superCluster.eta) < 1.4442 && (leadingPhoton.full5x5_r9 > 0.9 && subLeadingPhoton.full5x5_r9 > 0.5) )" #EE-EB: EE R9>0.9 and EB R9>0.5
+        " || ( abs(leadingPhoton.superCluster.eta) > 1.566 && abs(subLeadingPhoton.superCluster.eta) > 1.566 && (leadingPhoton.full5x5_r9 > 0.9 && subLeadingPhoton.full5x5_r9 > 0.9) )  )" #EE-EE: both photon R9>0.9
 #
         " && (leadingPhoton.pt > 0.47*mass && subLeadingPhoton.pt > 0.28*mass)"  #Scaled pTs
         " && (!leadingPhoton.hasPixelSeed && !subLeadingPhoton.hasPixelSeed)"  #PSV e-veto again
@@ -93,5 +107,6 @@ flashggPreselectedDiPhotons = cms.EDFilter(
 #        " && (leadingPhoton.passElectronVeto) && (subLeadingPhoton.passElectronVeto)"
         ),
     variables = rediscoveryHLTvariables,
+#    categories = rediscoveryNocuts
     categories = rediscoveryHLTcutsV1
     )

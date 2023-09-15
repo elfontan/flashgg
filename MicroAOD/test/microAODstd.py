@@ -11,18 +11,20 @@ process.load("Configuration.StandardSequences.MagneticField_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
 from Configuration.AlCa.GlobalTag import GlobalTag
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( 100000 ) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32( -1 ) )
 process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 1000 )
 process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 
 import os
 ### 2016
-process.GlobalTag = GlobalTag(process.GlobalTag, '', '')
-process.source = cms.Source("PoolSource",
+process.GlobalTag = GlobalTag(process.GlobalTag, '' , '')
+#process.source = cms.Source("PoolSource",
+
 ###############
 # Legacy 2018 #
 ###############
 # fileNames=cms.untracked.vstring("/store/mc/RunIIAutumn18MiniAOD/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/00000/1359F11B-F51C-4F47-8D70-8CFC55E77A64.root"))
+
 ##########
 # UL2018 #
 ##########
@@ -39,6 +41,30 @@ process.RandomNumberGeneratorService.flashggRandomizedPhotons = cms.PSet(
 
 # Legacy ReReco
 #process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/data/Run2016B/SingleElectron/MINIAOD/18Apr2017_ver1-v1/120000/40167FB6-6237-E711-934A-001E67E69E05.root"))
+
+#Moriond17 MC
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/RunIISummer16MiniAODv2/GluGluHToGG_M-125_13TeV_powheg_pythia8/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/60000/024E4FA3-8BBC-E611-8E3D-00266CFFBE88.root"))
+
+# 2016 #
+#80x reminiAOD data
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/data/Run2016G/DoubleEG/MINIAOD/03Feb2017-v1/100000/002F14FF-D0EA-E611-952E-008CFA197AF4.root"))
+#80x signal
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/RunIISpring16MiniAODv2/GluGluHToGG_M125_13TeV_amcatnloFXFX_pythia8/MINIAODSIM/PUSpring16RAWAODSIM_reHLT_80X_mcRun2_asymptotic_v14_ext2-v1/10000/6A31A211-063B-E611-98EC-001E67F8F727.root")) # ggH 125 miniAODv2
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/RunIISpring16MiniAODv2/ttHJetToGG_M125_13TeV_amcatnloFXFX_madspin_pythia8_v2/MINIAODSIM/PUSpring16RAWAODSIM_reHLT_80X_mcRun2_asymptotic_v14-v1/80000/267A1DB4-3D3B-E611-9AD2-003048C559C4.root")) # ttH 125 miniAODv2
+#80x data
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/data/Run2016B/DoubleEG/MINIAOD/PromptReco-v2/000/273/158/00000/1E5ABF54-E019-E611-AAED-02163E01293F.root")) # /DoubleEG/Run2016B-PromptReco-v2/MINIAOD
+
+#Background MC Test for Diphoton 80-Inf
+process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/C036CAF3-46AB-DC48-A8CF-16D680818D41.root",
+                                                                         "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/42509035-6D9D-F041-B91E-D05A5B5E0D57.root",
+                                                                         "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/B2A608C1-3594-5145-8689-27ECDC21DB94.root"))
+
+process.RandomNumberGeneratorService = cms.Service("RandomNumberGeneratorService")
+process.RandomNumberGeneratorService.flashggRandomizedPhotons = cms.PSet(
+          initialSeed = cms.untracked.uint32(16253245)
+        )
+
+process.source.duplicateCheckMode = cms.untracked.string('noDuplicateCheck')
 
 process.MessageLogger.cerr.threshold = 'ERROR' # can't get suppressWarning to work: disable all warnings for now
 # process.MessageLogger.suppressWarning.extend(['SimpleMemoryCheck','MemoryCheck']) # this would have been better...
