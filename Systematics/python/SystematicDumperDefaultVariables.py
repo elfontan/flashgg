@@ -52,6 +52,8 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "vtx_x                  := diPhoton().vtx().x",
 				    "vtx_y                  := diPhoton().vtx().y",
 				    "vtx_z                  := diPhoton().vtx().z",
+
+
 #Diphoton Variables
 				    "dipho_sumpt            := diPhoton().sumPt",
 				    "dipho_cosphi           := abs(cos(diPhoton().leadingPhoton.phi - diPhoton().subLeadingPhoton.phi))",

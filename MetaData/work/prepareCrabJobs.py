@@ -264,6 +264,7 @@ if options.createCrabConfig:
         # list of (original, replacement) to bring dataset name to 97 characters or less
         replacements = [
             ("backup_", ""),
+            ("RunIISummer20UL18MiniAODv2-minus10percentMaterial_106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18-m10Mat"),
             ("RunIISummer16MiniAODv2-PUMoriond17_qcut19_80X_mcRun2_asymptotic_2016","Moriond17"),
             ("TuneCUEP8M1_13TeV-pythia8","13TeV"),
             ("TuneCUETP8M1_13TeV-madgraphMLM-pythia8","13TeV-mg"),
@@ -283,6 +284,7 @@ if options.createCrabConfig:
             ("TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8","13TeV-amcnlo-p8"),
             ("80X_mcRun2_asymptotic_2016_miniAODv2","asym16"),
             ("pythia8","p8"),
+            ("Pythia8","p8"),
             ("mcRun2_asymptotic_2016","asym16"),
             ("asymptotic_2016","asym16"),
             ("reHLT_80X_mcRun2_asymptotic_v14-v1","reHLTasym16"),
@@ -313,9 +315,10 @@ if options.createCrabConfig:
             ("RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1", "Autumn18"),
             ("RunIISummer16MiniAODv3-PUMoriond17_94X_mcRun2_asymptotic_v3", "Summer16"),
             ("RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15", "Fall18"),
+            ("RunIISummer19UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer19UL18"),
             ("RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1", "Summer20UL18"),
-            ("RunIISummer19UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1", "Summer19UL18"),
-        ]     
+            ("RunIISummer20UL18MiniAOD-106X_upgrade2018_realistic_v11_L1v1", "Summer20UL18")
+        ]
 
         for orig, replacement in replacements:
             if len(jobname) <= 97:

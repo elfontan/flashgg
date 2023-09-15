@@ -3,6 +3,7 @@
 import FWCore.ParameterSet.Config as cms
 import FWCore.Utilities.FileUtils as FileUtils
 import FWCore.ParameterSet.VarParsing as VarParsing
+from flashgg.Taggers.flashggTagSequence_cfi import flashggPrepareTagSequence
 from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariables,minimalHistograms,minimalNonSignalVariables,systematicVariables, defaultVariables
 from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariablesHTXS,systematicVariablesHTXS
 import os
@@ -19,7 +20,7 @@ process.load("Configuration.StandardSequences.GeometryDB_cff")
 process.load("Configuration.StandardSequences.MagneticField_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_condDBv2_cff")
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1))
-process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32( 1000 )
+process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1000)
 
 
 systlabels = [""]
@@ -225,8 +226,8 @@ print 'acceptance '+str(customize.acceptance)
 print 'tthTagsOnly '+str(customize.tthTagsOnly)
 
 
-# process.load("flashgg/Taggers/flashggTagSequence_cfi")
-# process.flashggTagSequence = flashggPrepareTagSequence(customize.metaConditions)
+process.load("flashgg/Taggers/flashggTagSequence_cfi")
+process.flashggTagSequence = flashggPrepareTagSequence(process, customize.metaConditions)
 
 # needed for 0th vertex from microAOD
 if customize.tthTagsOnly:
@@ -468,7 +469,8 @@ elif customize.doStageOne:
 else:
     tagList=[
         #["NoTag",0],
-        ["UntaggedTag",4]
+#        ["UntaggedTag",1] #no categorization
+        ["UntaggedTag",4] #with categorization
         #["VBFTag",3],
         #["ZHLeptonicTag",2],
         #["WHLeptonicTag",6],
@@ -582,9 +584,11 @@ if (customize.processId.count("qcd") or customize.processId.count("gjet")) and c
     if (customize.processId.count("promptfake")):
         process.PromptFakeFilter.doPromptFake = cms.bool(True)
         process.PromptFakeFilter.doFakeFake =cms.bool(False)
+        #process.PromptFakeFilter.doBoth =cms.bool(False)
     elif (customize.processId.count("fakefake")):
         process.PromptFakeFilter.doPromptFake =cms.bool(False)
         process.PromptFakeFilter.doFakeFake =cms.bool(True)
+        #process.PromptFakeFilter.doBoth =cms.bool(False)
     else:
         raise Exception,"Mis-configuration of python for prompt-fake filter"
 
