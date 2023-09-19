@@ -53,7 +53,7 @@
    #+END_EXAMPLE
    The output will be located in a subdirectory of =MetaData/data= with the same name of the campaign, e.g.:
    #+BEGIN_EXAMPLE
-   /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/myFlashGG/CMSSW_10_6_8/src/flashgg/MetaData/data/analysisLM_UL18/datasets.json 
+   /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/myFlashGG/CMSSW_10_6_8/src/flashgg/MetaData/data/analysisLM_new_UL18/datasets.json 
    #+END_EXAMPLE   
 
    Finally, you can launch your jobs to produce the final miniTrees.
@@ -64,6 +64,6 @@
    voms-proxy-init -voms cms --valid 168:00
    cp /tmp/MYPROXY ~/
    export X509_USER_PROXY=~/MYPROXY
-   fggRunJobs.py --load analysisLM_UL18.json -d outdir_analysisLM_UL18 workspaceStd.py -n 300 -q workday --no-copy-proxy --no-use-tarball
+   fggRunJobs.py --load analysisLM_new_UL18.json -d outdir_analysisLM_new_UL18 workspaceStd.py -n 300 -q workday --no-copy-proxy --no-use-tarball
    #+END_EXAMPLE 
 
