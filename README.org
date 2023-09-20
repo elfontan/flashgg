@@ -14,13 +14,9 @@
    cd CMSSW_10_6_8/src/
    cmsenv
    git cms-init  
-   git clone -b lowmass_106X https://github.com/dsperka/flashgg
+   git clone -b lowMass_106X_2018UL https://github.com/elfontan/flashgg
    source flashgg/setup_flashgg.sh 
    cd flashgg/
-   git remote add myFlashGG git@github.com:elfontan/flashgg-1.git
-   git remote -v 
-   git fetch myFlashGG 
-   git merge myFlashGG/lowMass_106X_2018UL
    cd ../
    scram b -j 8
    #+END_EXAMPLE
@@ -52,7 +48,7 @@
    
    First you need to create a catalogue for the newly produced dataset. From the =flashgg= directory, run
    #+BEGIN_EXAMPLE
-   fggManageSamples.py -C analysisLM_UL18 import '/GluGluHToGG_M*/elfontan-analysisLM_new_UL18*/USER'
+   fggManageSamples.py -C analysisLM_UL18 import '/GluGluHToGG_M*/elfontan-analysisLM_UL18*/USER'
 
    #+END_EXAMPLE
    The output will be located in a subdirectory of =MetaData/data= with the same name of the campaign, e.g.:
