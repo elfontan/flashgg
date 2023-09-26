@@ -81,7 +81,7 @@
 
     "flashggDiPhotonMVA" :
     {
-        "weightFile" : "flashgg/Taggers/data/veryLowMassAnalysis/TMVAClassification_MCBDT.weights.xml",
+        "weightFile" : "flashgg/Taggers/data/veryLowMassAnalysis/TMVAClassification_DataBDT.weights.xml",
         "version" : "new"
     },
 
@@ -119,7 +119,7 @@
 
     "flashggUntaggedBoundaries" :
     {
-        "rawDiphoBounds" : [ -999, -999, -999 ]
+        "rawDiphoBounds" : [ -999 ]
     },
 
     "flashggVBFtagBoundaries" :

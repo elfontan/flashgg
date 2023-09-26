@@ -119,7 +119,7 @@
 
     "flashggUntaggedBoundaries" :
     {
-        "rawDiphoBounds" : [ -999, -999, -999 ]
+        "rawDiphoBounds" : [ -999 ]
     },
 
     "flashggVBFtagBoundaries" :
