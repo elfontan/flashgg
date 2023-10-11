@@ -60,9 +60,9 @@
    /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/myFlashGG/CMSSW_10_6_8/src/flashgg/MetaData/data/analysisLM_UL18/datasets.json 
    #+END_EXAMPLE   
 
-   Finally, you can launch your jobs to produce the final miniTrees.
-   *Note: copying the proxy file to the working node is not yet supported when using HTCondor as bacth system. Therefore the user must set*
-   *the =X509_USER_PROXY= environment variable and run with the =--no-copy-proxy= option*
+   Finally, you can prepare the configuration file to launch your jobs and produce the final miniTrees. It is crucial at this stage to choose properly the name of the process because some steps and filters (like for example the =PromptFakeFilter=) run only for certain =processId=. If you are ntuplizing a gJets sample, use for example =gjets_promptfake=, while if you are working with QCD, you can use for example =qcd_fakefake=.
+
+   *Note*: copying the proxy file to the working node is not yet supported when using HTCondor as bacth system. Therefore the user must set the =X509_USER_PROXY= environment variable and run with the =--no-copy-proxy= option
    #+BEGIN_EXAMPLE
    cd Systematics/test
    voms-proxy-init -voms cms --valid 168:00
