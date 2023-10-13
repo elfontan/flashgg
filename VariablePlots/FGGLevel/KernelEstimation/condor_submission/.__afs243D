@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in {1..10000}; do
+  condor_submit submit_job.submit $i
+done
