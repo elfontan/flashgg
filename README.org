@@ -25,7 +25,7 @@
    scram b -j 8
    #+END_EXAMPLE
 
-** Examples to run on Run 2 2018 UL sample:
+** Examples to run on Run 2 2018 UL sample: MicroAOD STEP
  * Manual test for microAOD production with a single file:
    #+BEGIN_EXAMPLE
    cmsRun MicroAOD/test/microAODstd.py processType=[sig] datasetName=glugluh conditionsJSON=MetaData/data/MetaConditions/Era2018_UL_lowMassDiphotonAnalysis.json
@@ -48,9 +48,9 @@
    /GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-analysisLM_UL18-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-82689a8dd9f3f8660dbba0021defef47/USER
    #+END_EXAMPLE
 
- * Flashgg step:
-   
-   First you need to create a catalogue for the newly produced dataset. From the =flashgg= directory, run
+** Examples to run on Run 2 2018 UL sample: Flashgg STEP
+
+ * First you need to create a catalogue for the newly produced dataset. From the =flashgg= directory, run
    #+BEGIN_EXAMPLE
    fggManageSamples.py -C analysisLM_UL18 import '/GluGluHToGG_M*/elfontan-analysisLM_UL18*/USER'
 
@@ -60,9 +60,17 @@
    /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/myFlashGG/CMSSW_10_6_8/src/flashgg/MetaData/data/analysisLM_UL18/datasets.json 
    #+END_EXAMPLE   
 
-   Finally, you can prepare the configuration file to launch your jobs and produce the final miniTrees. It is crucial at this stage to choose properly the name of the process because some steps and filters (like for example the =PromptFakeFilter=) run only for certain =processId=. If you are ntuplizing a gJets sample, use for example =gjets_promptfake=, while if you are working with QCD, you can use for example =qcd_fakefake=.
 
-   *Note*: copying the proxy file to the working node is not yet supported when using HTCondor as bacth system. Therefore the user must set the =X509_USER_PROXY= environment variable and run with the =--no-copy-proxy= option
+ * Then, you can prepare the configuration file to launch your jobs and produce the final miniTrees. Note that the relevant ingredients for this step are: 
+  * [1] the name of the campaign (and the PU profile coherent with the era under consideration: make sure to use the UL one!); 
+  * [2] the name of the MetaCondition file: at the moment use [[https://github.com/elfontan/flashgg/blob/lowMass_106X_2018UL/MetaData/data/MetaConditions/Era2018_UL_lowMassDiphotonAnalysis_noDiphotonBoundaries.json][Era2018_UL_lowMassDiphotonAnalysis_noDiphotonBoundaries]] to run without any categorization; 
+  * [3] the name of the =Systematics= configuration file in the Metaconditions: [[https://github.com/elfontan/flashgg/blob/lowMass_106X_2018UL/Systematics/python/flashggDiPhotonSystematics2018LM_UL_cfi.py][flashggDiPhotonSystematics2018LM_UL_cfi]]. 
+      
+ * *NOTE 1*: It is crucial at this stage to choose properly the name of the process because some steps and filters (like for example the =PromptFakeFilter=) run only for certain =processId=. If you are ntuplizing a gJets sample, use for example =gjets_promptfake=, while if you are working with QCD, you can use for example =qcd_fakefake=.
+
+ * *NOTE 2*: The latest scales and smearing files used by the mass measurement team is not centrally available. Copy them from =~jtao/public/ForElisa/Run2018_09Sep2021_RunFineEtaR9Et_stochastic_oldFormat*= to =EgammaAnalysis/ElectronTools/data/ScalesSmearings=.
+
+ * *Technical note*: copying the proxy file to the working node is not yet supported when using HTCondor as bacth system. Therefore the user must set the =X509_USER_PROXY= environment variable and run with the =--no-copy-proxy= option
    #+BEGIN_EXAMPLE
    cd Systematics/test
    voms-proxy-init -voms cms --valid 168:00
