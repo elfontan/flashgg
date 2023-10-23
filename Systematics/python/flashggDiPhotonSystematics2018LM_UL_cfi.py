@@ -413,9 +413,9 @@ emptySigma = cms.PSet(
     secondVar = cms.vint32()
 )
 
-
-scalesAndSmearingsPrefix = cms.string("EgammaAnalysis/ElectronTools/data/ScalesSmearings/Run2018_29Sep2020_RunFineEtaR9Gain_oldFormat")
-#scalesAndSmearingsPrefix = cms.string("EgammaAnalysis/ElectronTools/data/ScalesSmearings/Run2018_Step2Closure_CoarseEtaR9Gain_v2") #LM
+# UL 2018 Scales and Smearing from mass measurement team: 
+# Copied from: ~jtao/public/ForElisa/Run2018_09Sep2021_RunFineEtaR9Et_stochastic_oldFormat*
+scalesAndSmearingsPrefix = cms.string("EgammaAnalysis/ElectronTools/data/ScalesSmearings/Run2018_09Sep2021_RunFineEtaR9Et_stochastic_oldFormat")
 
 MCScaleHighR9EB = cms.PSet( PhotonMethodName = cms.string("FlashggPhotonScale"),
           MethodName = cms.string("FlashggDiPhotonFromPhoton"),

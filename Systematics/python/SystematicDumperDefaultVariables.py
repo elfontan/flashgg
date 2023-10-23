@@ -1,9 +1,9 @@
 minimalVariables = ["CMS_hgg_mass[1500,0.0,150.0]:=diPhoton().mass",
                     "sigmaMoM_decorr:=diPhotonMVA().decorrSigmarv",
                     "dZ[40,-20.,20.]:=(tagTruth().genPV().z-diPhoton().vtx().z)", # store actual value
-                                                                               #when doing systematics, variables need to have a binning
-                                                                               #specified, otherwise the rooDataHist end up empty.
-            								       #an assert in the code prevents you from doing this.
+                                                                                  #when doing systematics, variables need to have a binning
+                                                                                  #specified, otherwise the rooDataHist end up empty.
+            								          #an assert in the code prevents you from doing this.
                     "centralObjectWeight[1,-999999.,999999.] := centralWeight"
 ]
 
@@ -26,12 +26,11 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
                   "weight_FracRVNvtxWeight[1,-999999.,999999.]:=weight(\"FracRVNvtxWeightCentral\")",
                   "weight_SigmaEOverESmearing[1,-999999.,999999.]:=weight(\"SigmaEOverESmearingCentral\")", 
 
+                  "genZ                                       :=tagTruth().genPV().z",
+                  "dZ                                         :=(tagTruth().genPV().z-diPhoton().vtx().z)",
                                     "diphoMVA                 :=diPhotonMVA().result",    
                                     "maxEta                   :=max(abs(diPhoton().leadingPhoton.superCluster.eta),abs(diPhoton().leadingPhoton.superCluster.eta))",
-
                                     "vtxZ                     :=diPhoton().vtx().z",
-                                    "genZ                     :=tagTruth().genPV().z",
-                                    "dZ                       :=(tagTruth().genPV().z-diPhoton().vtx().z)",
                                     "dZ0                      :=0",
 
                                     "leadPt                   :=diPhoton().leadingPhoton.pt",
@@ -67,6 +66,10 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "sigmaMrvoM             := diPhotonMVA().sigmarv",
 				    "sigmaMwvoM             := diPhotonMVA().sigmawv",
 #Photon Variables
+				    #"leadMatchType          := diPhoton().leadingPhoton.genMatchType",
+				    #"subleadMatchType       := diPhoton().subLeadingPhoton.genMatchType",
+				    "dipho_lead_prompt      := diPhoton().leadingPhoton.genMatchType",
+				    "dipho_sublead_prompt   := diPhoton().subLeadingPhoton.genMatchType",
 				    "dipho_leadEt           := diPhoton().leadingPhoton.et",
 				    "dipho_leadEta          := diPhoton().leadingPhoton.eta",
 				    "dipho_leadPhi          := diPhoton().leadingPhoton.phi",
@@ -77,7 +80,6 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "dipho_leadR9           := diPhoton().leadingPhoton.full5x5_r9",
 				    "dipho_leadIDMVA        := diPhoton().leadingView.phoIdMvaWrtChosenVtx",
 				    "dipho_lead_elveto      := diPhoton().leadingPhoton.passElectronVeto",
-				    "dipho_lead_prompt      := diPhoton().leadingPhoton.genMatchType",
 				    "dipho_lead_chiso       := diPhoton().leadingView.pfChIso03WrtChosenVtx",
 				    "dipho_lead_chisow      := diPhoton().leadingPhoton.pfChgIsoWrtWorstVtx04",
 				    "dipho_lead_phoiso      := diPhoton().leadingPhoton.pfPhoIso03",
@@ -109,7 +111,6 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "dipho_subleadR9        := diPhoton().subLeadingPhoton.full5x5_r9",
 				    "dipho_subleadIDMVA     := diPhoton().subLeadingView.phoIdMvaWrtChosenVtx",
 				    "dipho_sublead_elveto   := diPhoton().subLeadingPhoton.passElectronVeto",
-				    "dipho_sulead_prompt    := diPhoton().subLeadingPhoton.genMatchType",
 				    "dipho_sublead_chiso    := diPhoton().leadingView.pfChIso03WrtChosenVtx",
 				    "dipho_sublead_chisow   := diPhoton().subLeadingPhoton.pfChgIsoWrtWorstVtx04",
 				    "dipho_sublead_phoiso   := diPhoton().subLeadingPhoton.pfPhoIso03",
