@@ -4,6 +4,7 @@ minimalVariables = ["CMS_hgg_mass[1500,0.0,150.0]:=diPhoton().mass",
                                                                                   #when doing systematics, variables need to have a binning
                                                                                   #specified, otherwise the rooDataHist end up empty.
             								          #an assert in the code prevents you from doing this.
+                    "genZ:=tagTruth().genPV().z",
                     "centralObjectWeight[1,-999999.,999999.] := centralWeight"
 ]
 
@@ -11,6 +12,7 @@ minimalHistograms = []
 
 minimalNonSignalVariables = ["CMS_hgg_mass[1500,0.0,150.0]:=diPhoton().mass",
                              "sigmaRV:=diPhotonMVA().sigmarv",
+                             "sigmaWV:=diPhotonMVA().sigmawv",
                              "sigmaMoM_decorr:=diPhotonMVA().decorrSigmarv"]#,"centralObjectWeight[1,-999999.,999999.] := centralWeight"]
 
 minimalVariablesHTXS = minimalVariables+["stage0bin[72,9.5,81.5] := tagTruth().HTXSstage0bin"]
@@ -25,14 +27,10 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
                   "weight_FracRVWeight[1,-999999.,999999.]:=weight(\"FracRVWeightCentral\")",
                   "weight_FracRVNvtxWeight[1,-999999.,999999.]:=weight(\"FracRVNvtxWeightCentral\")",
                   "weight_SigmaEOverESmearing[1,-999999.,999999.]:=weight(\"SigmaEOverESmearingCentral\")", 
-
-                  "genZ                                       :=tagTruth().genPV().z",
-                  "dZ                                         :=(tagTruth().genPV().z-diPhoton().vtx().z)",
                                     "diphoMVA                 :=diPhotonMVA().result",    
                                     "maxEta                   :=max(abs(diPhoton().leadingPhoton.superCluster.eta),abs(diPhoton().leadingPhoton.superCluster.eta))",
                                     "vtxZ                     :=diPhoton().vtx().z",
                                     "dZ0                      :=0",
-
                                     "leadPt                   :=diPhoton().leadingPhoton.pt",
                                     "subleadPt                :=diPhoton().subLeadingPhoton.pt",
                                     "leadEta                   :=diPhoton().leadingPhoton.superCluster.eta",
