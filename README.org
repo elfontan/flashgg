@@ -6,7 +6,7 @@
 
    If you get stuck or have questions, please first consult the FAQs page [[https://cms-analysis.github.io/flashgg/][here]].
    
-** Flashgg setup for the very low mass analysis in CMSSW_10_6_8:
+** Flashgg setup for the very low mass analysis in CMSSW_10_6_X:
    Get flashgg:
    #+BEGIN_EXAMPLE
    cmsrel CMSSW_10_6_29
