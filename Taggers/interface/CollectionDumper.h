@@ -443,7 +443,7 @@ namespace flashgg {
             }
             
             weight = lumiWeight_;
-            std::cout << "Event weight after lumi weight is " << weight << std::endl;
+            //std::cout << "Event weight after lumi weight is " << weight << std::endl; # DEBUG WEIGHT
             
             if( LHEWeightName != ""){
                 edm::Handle<LHEEventProduct> product_lhe;
@@ -466,14 +466,14 @@ namespace flashgg {
                 if( LHEWeightIndex > -1 )
                     weight *= ( product_lhe->weights()[LHEWeightIndex].wgt/product_lhe->originalXWGTUP () );
             }
-            std::cout << "Event weight after LHE weight is " << weight << std::endl;            
+            //std::cout << "Event weight after LHE weight is " << weight << std::endl; # DEBUG WEIGHT
             if( genInfo.isValid() ) {
                 const auto &weights = genInfo->weights();
                 // FIXME store alternative/all weight-sets
                 if( ! weights.empty() ) {
                     weight *= weights[0];
                 }
-                std::cout << "Event weight after weight 0 is " << weight << std::endl;
+                //std::cout << "Event weight after weight 0 is " << weight << std::endl; # DEBUG WEIGHT
 
 
                 if( globalVarsDumper_ && globalVarsDumper_->puReWeight() ) {
@@ -489,7 +489,7 @@ namespace flashgg {
                         weight *= globalVarsDumper_->cache().puweight;
                     }
                 }
-                std::cout << "Event weight after PU weight is " << weight << std::endl;
+                //std::cout << "Event weight after PU weight is " << weight << std::endl; # DEBUG WEIGHT
             }
         }        
         return weight;
@@ -656,13 +656,14 @@ namespace flashgg {
             if( which != dumpers_.end() ) {
                 int isub = ( hasSubcat_[cat.first] ? cat.second : 0 );
                 double fillWeight =weight_;
-                std::cout << "Collection Dumper Fill weight is " << weight_ << std::endl;
+
+                //std::cout << "Collection Dumper Fill weight is " << weight_ << std::endl; // Debugging weights
                 const  WeightedObject* tag = dynamic_cast<const WeightedObject* >( &cand );
                 if ( tag != NULL ){
                     fillWeight =fillWeight*(tag->centralWeight());
-                    std::cout << "Tag central weight is " << tag->centralWeight() << std::endl;
+                    //std::cout << "Tag central weight is " << tag->centralWeight() << std::endl; // Debugging weights
                     }
-                    std::cout << "Final fill weight is " << fillWeight << std::endl;
+                    //std::cout << "Final fill weight is " << fillWeight << std::endl; // Debugging weights
 
                     which->second[isub].fill( cand, fillWeight, pdfWeights_, maxCandPerEvent_ - nfilled, splitPdfByStage0Bin_ ? stage0bin_ : stage1bin_,genweight_ );
                     --nfilled;

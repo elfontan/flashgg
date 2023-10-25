@@ -7,8 +7,8 @@ from flashgg.Taggers.flashggTagSorter_cfi import flashggTagSorter
 from flashgg.Taggers.flashggDifferentialPhoIdInputsCorrection_cfi import flashggDifferentialPhoIdInputsCorrection, setup_flashggDifferentialPhoIdInputsCorrection
 from flashgg.MetaData.MetaConditionsReader import *
 
-#flashggUntagged.Boundaries     = cms.vdouble(-999.0) #no bounds
-flashggUntagged.Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753) #low mass
+flashggUntagged.Boundaries     = cms.vdouble(-999.0) #no bounds
+#flashggUntagged.Boundaries     = cms.vdouble(-999.0,-0.364,0.334,0.753) #low mass
 #flashggUntagged.Boundaries     = cms.vdouble(-1.0,0.334,0.792)
 
 flashggTagSorter.TagPriorityRanges = cms.VPSet(

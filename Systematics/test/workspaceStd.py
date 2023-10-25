@@ -377,7 +377,6 @@ if is_signal:
         systlabels += metsystlabels
     customizeSystematicsForSignal(process)
 elif customize.processId == "Data":
-    print "DATAAAAAAAAAAAAAAAAAAAAAa"
     print "Data, so turn off all shifts and systematics, with some exceptions"
     variablesToUse = minimalNonSignalVariables
     customizeSystematicsForData(process)
