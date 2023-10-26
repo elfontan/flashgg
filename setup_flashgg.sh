@@ -84,6 +84,7 @@ echo "setting up ONNXRuntime"
 scram setup /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/CMSSW_10_6_16/config/toolbox/$SCRAM_ARCH/tools/selected/onnxruntime.xml
 git cms-addpkg PhysicsTools/ONNXRuntime
 git cms-addpkg RecoBTag/FeatureTools
+git cms-addpkg RecoBTag/ONNXRuntime
 # update files with the CMSSW_10_6_16 version
 rsync -a /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/CMSSW_10_6_16/src/PhysicsTools/ONNXRuntime $CMSSW_BASE/src/PhysicsTools
 rsync -a /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/CMSSW_10_6_16/src/RecoBTag/FeatureTools/interface/deep_helpers.h $CMSSW_BASE/src/RecoBTag/FeatureTools/interface/deep_helpers.h

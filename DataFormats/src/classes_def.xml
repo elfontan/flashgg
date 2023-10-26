@@ -363,7 +363,8 @@
 <class name="edm::Ptr<flashgg::Muon>"/>
 <class name="std::vector<flashgg::Muon>"/>
 <class name="edm::Wrapper<std::vector<flashgg::Muon> >"/>
-<class name="flashgg::SecondaryVertex" ClassVersion="12">
+<class name="flashgg::SecondaryVertex" ClassVersion="13">
+ <version ClassVersion="13" checksum="809561912"/>
  <version ClassVersion="12" checksum="794927205"/>
  <version ClassVersion="11" checksum="809561912"/>
  <version ClassVersion="10" checksum="794927205"/>
