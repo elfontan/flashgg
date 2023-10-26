@@ -56,6 +56,10 @@ cd EgammaAnalysis/ElectronTools/data
 cd $CMSSW_BASE/src
 git apply flashgg/EnergyScaleCorrection.patch
 
+# Patch IOPool to avoid Run and Lumi trees being dropped when loading a parent dataset
+git cms-addpkg IOPool/Input
+git apply flashgg/LoadRunAndLumis.patch
+
 # TnP tools removed for 8_0_28, so Validation does not compile
 # To be investigated
 #echo "Setting up TnP tools for 10_1_X..."
@@ -83,10 +87,6 @@ git cms-addpkg RecoBTag/FeatureTools
 # update files with the CMSSW_10_6_16 version
 rsync -a /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/CMSSW_10_6_16/src/PhysicsTools/ONNXRuntime $CMSSW_BASE/src/PhysicsTools
 rsync -a /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/CMSSW_10_6_16/src/RecoBTag/FeatureTools/interface/deep_helpers.h $CMSSW_BASE/src/RecoBTag/FeatureTools/interface/deep_helpers.h
-
-# Patch IOPool to avoid Run and Lumi trees being dropped when loading a parent dataset
-git cms-addpkg IOPool/Input
-git apply flashgg/LoadRunAndLumis.patch
 
 # HTCondor python API
 pip install --user htcondor
