@@ -14,13 +14,13 @@
    cmsenv
    git cms-init  
    git clone -b lowmass_106X https://github.com/dsperka/flashgg
-   source flashgg/setup_flashgg.sh 
 
    cd flashgg/
    git remote add myFlashGG https://github.com/elfontan/flashgg-1
    git remote -v 
    git fetch myFlashGG 
    git merge myFlashGG/lowMass_106X_2018UL
+   source flashgg/setup_flashgg.sh 
    scram b -j 8
    #+END_EXAMPLE
 
