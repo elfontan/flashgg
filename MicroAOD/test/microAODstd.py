@@ -18,7 +18,7 @@ process.options = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 import os
 ### 2016
 process.GlobalTag = GlobalTag(process.GlobalTag, '' , '')
-#process.source = cms.Source("PoolSource",
+process.source = cms.Source("PoolSource",
 
 ###############
 # Legacy 2018 #
@@ -29,12 +29,12 @@ process.GlobalTag = GlobalTag(process.GlobalTag, '' , '')
 # UL2018 #
 ##########
 # fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/40000/ED2522A0-D644-1E41-BCCE-55DD7B12053A.root"))
-  fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2430000/5326E7F7-2C04-F84F-932F-85644569548C.root"))
+fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2430000/5326E7F7-2C04-F84F-932F-85644569548C.root"))
 
 process.RandomNumberGeneratorService = cms.Service("RandomNumberGeneratorService")
 process.RandomNumberGeneratorService.flashggRandomizedPhotons = cms.PSet(
-          initialSeed = cms.untracked.uint32(16253245)
-        )
+    initialSeed = cms.untracked.uint32(16253245)
+)
 
 #process.GlobalTag = GlobalTag(process.GlobalTag,'92X_upgrade2017_realistic_v10','')
 #process.source.fileNames=cms.untracked.vstring("/store/mc/RunIISummer17MiniAOD/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/92X_upgrade2017_realistic_v10_ext1-v2/10000/00F9D855-E293-E711-B625-02163E014200.root")
@@ -55,14 +55,10 @@ process.RandomNumberGeneratorService.flashggRandomizedPhotons = cms.PSet(
 #process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/data/Run2016B/DoubleEG/MINIAOD/PromptReco-v2/000/273/158/00000/1E5ABF54-E019-E611-AAED-02163E01293F.root")) # /DoubleEG/Run2016B-PromptReco-v2/MINIAOD
 
 #Background MC Test for Diphoton 80-Inf
-process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/C036CAF3-46AB-DC48-A8CF-16D680818D41.root",
-                                                                         "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/42509035-6D9D-F041-B91E-D05A5B5E0D57.root",
-                                                                         "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/B2A608C1-3594-5145-8689-27ECDC21DB94.root"))
-
-process.RandomNumberGeneratorService = cms.Service("RandomNumberGeneratorService")
-process.RandomNumberGeneratorService.flashggRandomizedPhotons = cms.PSet(
-          initialSeed = cms.untracked.uint32(16253245)
-        )
+#process.source = cms.Source("PoolSource",fileNames=cms.untracked.vstring(
+#    "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/C036CAF3-46AB-DC48-A8CF-16D680818D41.root",
+#    "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/42509035-6D9D-F041-B91E-D05A5B5E0D57.root",
+#    "/store/mc/RunIISummer20UL18MiniAODv2/DiPhotonJetsBox_MGG-80toInf_13TeV-sherpa/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/50000/B2A608C1-3594-5145-8689-27ECDC21DB94.root"))
 
 process.source.duplicateCheckMode = cms.untracked.string('noDuplicateCheck')
 
