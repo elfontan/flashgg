@@ -1,7 +1,7 @@
 {
     "processes" : {
         "ggh_5" : ["/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-82689a8dd9f3f8660dbba0021defef47/USER"],
-	"ggh_10" : ["/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-82689a8dd9f3f8660dbba0021defef47/USER"],
+        "ggh_10" : ["/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-82689a8dd9f3f8660dbba0021defef47/USER"],
         "ggh_15" : ["/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-82689a8dd9f3f8660dbba0021defef47/USER"],
         "ggh_20" : ["/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-82689a8dd9f3f8660dbba0021defef47/USER"],
         "ggh_25" : ["/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/elfontan-UL18_lowMassDiphotonAnalysis_xsec1_campaign-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4-82689a8dd9f3f8660dbba0021defef47/USER"],
