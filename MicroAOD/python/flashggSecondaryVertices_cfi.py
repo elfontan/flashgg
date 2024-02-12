@@ -9,8 +9,8 @@ flashggSVFlavourTagInfos = pfSVFlavourTagInfos.clone(
     pf_candidates = cms.InputTag("packedPFCandidates"),
     secondary_vertices = cms.InputTag("slimmedSecondaryVertices"),
     vertices = cms.InputTag("offlineSlimmedPrimaryVertices"),
-#    bHadrons = cms.InputTag("flashggGenBCHadrons", "bHadrons"),
-#    cHadrons = cms.InputTag("flashggGenBCHadrons", "cHadrons"),
+    bHadrons = cms.InputTag("flashggGenBCHadrons", "bHadrons"),
+    cHadrons = cms.InputTag("flashggGenBCHadrons", "cHadrons"),
     debugMode = False,
 )
 

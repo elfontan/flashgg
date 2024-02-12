@@ -29,8 +29,8 @@ process.source = cms.Source("PoolSource",
 # UL2018 #
 ##########
 # fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/40000/ED2522A0-D644-1E41-BCCE-55DD7B12053A.root"))
-# fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2430000/5326E7F7-2C04-F84F-932F-85644569548C.root"))
-  fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M90_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/minus10percentMaterial_106X_upgrade2018_realistic_v16_L1v1-v1/2430000/1457C73C-13C3-9944-8A19-C067EDB895B0.root"))
+  fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2430000/5326E7F7-2C04-F84F-932F-85644569548C.root"))
+# fileNames=cms.untracked.vstring("/store/mc/RunIISummer20UL18MiniAODv2/GluGluHToGG_M90_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/minus10percentMaterial_106X_upgrade2018_realistic_v16_L1v1-v1/2430000/1457C73C-13C3-9944-8A19-C067EDB895B0.root"))
 
 #process.GlobalTag = GlobalTag(process.GlobalTag,'92X_upgrade2017_realistic_v10','')
 #process.source.fileNames=cms.untracked.vstring("/store/mc/RunIISummer17MiniAOD/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/92X_upgrade2017_realistic_v10_ext1-v2/10000/00F9D855-E293-E711-B625-02163E014200.root")
