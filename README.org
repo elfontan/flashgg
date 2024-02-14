@@ -20,9 +20,16 @@
    git remote -v 
    git fetch myFlashGG 
    git merge myFlashGG/lowMass_106X_2018UL
+   mkdir MicroAOD/data
+   cd MicroAOD/data
+   cp /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/PhotonID_94X_*_RunIIFall17_3_1_0_MCv2_Lowmass_18pT18_M55_BDT.weights.xml .
+   cp /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/TMVAClassification_*_SL_2016.xml .
+   cd -
    source flashgg/setup_flashgg.sh 
    scram b -j 8
    #+END_EXAMPLE
+
+*NOTE 1*: If the =MicroAOD/data directory= is there as a symbolic link, remove it (=rm data=) and recreate it, copying inside the relevant files as indicated above. This is relevant in order to successfully run the crab step for MicroAOD production. 
 
 ** Examples to run on Run 2 2018 UL sample: MicroAOD STEP
  * Manual test for microAOD production with a single file:
