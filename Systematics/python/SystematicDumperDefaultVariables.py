@@ -63,6 +63,8 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 				    "cosphi                 := diPhotonMVA().CosPhi",
 				    "sigmaMrvoM             := diPhotonMVA().sigmarv",
 				    "sigmaMwvoM             := diPhotonMVA().sigmawv",
+				    "w_signal               := diPhotonMVA().vtxprob/diPhotonMVA().sigmarv+(1.0-diPhotonMVA().vtxprob)/diPhotonMVA().sigmawv",
+
 #Photon Variables
 				    #"leadMatchType          := diPhoton().leadingPhoton.genMatchType",
 				    #"subleadMatchType       := diPhoton().subLeadingPhoton.genMatchType",
