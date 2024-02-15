@@ -24,6 +24,8 @@
    cd MicroAOD/data
    cp /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/PhotonID_94X_*_RunIIFall17_3_1_0_MCv2_Lowmass_18pT18_M55_BDT.weights.xml .
    cp /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/TMVAClassification_*_SL_2016.xml .
+   cp -r  /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/ParticleNetSV/ ../data/.
+   cp  /eos/cms/store/group/phys_higgs/cmshgg/flashgg-data/MicroAOD/data/QGL_AK4chs_94X.db ../data/.
    cd -
    source flashgg/setup_flashgg.sh 
    scram b -j 8
