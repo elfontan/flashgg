@@ -373,6 +373,8 @@ if options.createCrabConfig:
             ## FIXME: lumi mask, run ranges, etc.
         if sample in sig:
             ## Extra options for signal samples
+            replacements["SPLITTING"]   = "FileBased"
+            replacements["UNITSPERJOB"] = str(1)
             replacements["PYCFG_PARAMS"].append("processType=signal")
         if sample in bkg:
             ## Extra options for background samples
