@@ -1,0 +1,42 @@
+{
+    "checkIfOnT2": false, 
+    "crabTemplate": "/afs/cern.ch/work/a/atsatsos/ULLowmassFGG/CMSSW_10_6_29/src/flashgg/MetaData/work/crabConfig_TEMPLATE.py", 
+    "verbose": false, 
+    "campaign": "UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2", 
+    "lumiMask": null, 
+    "unitsPerJob": 25000, 
+    "extraPyCfgParam": null, 
+    "checkNFiles": false, 
+    "samples_src": "campaigns/UL18_VLowMassDiphoton_Summer20UL18.json", 
+    "parameterSet": "/afs/cern.ch/work/a/atsatsos/ULLowmassFGG/CMSSW_10_6_29/src/flashgg/MicroAOD/test/microAODstd.py", 
+    "label": null, 
+    "outputPath": "/store/user/atsatsos", 
+    "mkPilot": true, 
+    "metaConditions": "/afs/cern.ch/work/a/atsatsos/ULLowmassFGG/CMSSW_10_6_29/src/flashgg/MetaData/data/MetaConditions/Era2018_UL_lowMassDiphotonAnalysis_noDiphotonBoundaries.json", 
+    "createCrabConfig": true, 
+    "samples": {
+        "data": [], 
+        "bkg": [], 
+        "sig": [
+            "/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/MINIAODSIM", 
+            "/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM", 
+            "/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/MINIAODSIM", 
+            "/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM", 
+            "/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM", 
+            "/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/MINIAODSIM", 
+            "/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM", 
+            "/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM", 
+            "/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/MINIAODSIM"
+        ]
+    }, 
+    "lumisPerJob": 10, 
+    "outputSite": "T2_US_MIT", 
+    "flashggVersion": "v1", 
+    "task_dir": "UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2", 
+    "__opts__": null
+}

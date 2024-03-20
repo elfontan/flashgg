@@ -1,0 +1,930 @@
+{
+    "/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_060021/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 2912
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_060021/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 37664
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M10_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_060021/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 58350
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060214/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 36067
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060214/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 2044
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060214/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 52271
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060214/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 2006
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M15_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060214/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 5989
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 1153
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 2877
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 3918
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 2275
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 507
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 564
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 3911
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 1663
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 585
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 8928
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 29637
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 13126
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 1739
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 604
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 3475
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 1100
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 554
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 563
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 2845
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 4557
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 1147
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 545
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 6872
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 557
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 583
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 5653
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M20_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060405/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 2239
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 3483
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 13102
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 1147
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_30.root", 
+                "nevents": 6509
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 1187
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 1804
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 586
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 567
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 1760
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 2286
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 1773
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 2317
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 1193
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 583
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 570
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_32.root", 
+                "nevents": 606
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_31.root", 
+                "nevents": 1176
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 555
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 1752
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 1177
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 5924
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 597
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 579
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 4091
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 1764
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 2361
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 560
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 577
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 2941
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 3511
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 600
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M25_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v4/240216_060556/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 34120
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060747/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 1980
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060747/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 51486
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060747/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 43138
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M30_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_060747/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 6225
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 1681
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 544
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 1743
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 1136
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 1132
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 547
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 1139
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 2239
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 540
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 1133
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 575
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 3930
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 3331
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 570
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 3407
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 4615
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 1107
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 3943
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 3396
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 3931
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 587
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 561
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 2809
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 576
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 6305
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 7383
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 1192
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 6866
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M35_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_060939/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 36530
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 1977
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 2031
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 2003
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 1945
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 40105
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M40_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061131/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 52162
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 3932
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 5614
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 5642
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 1139
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 572
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 1200
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 571
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 1136
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 1682
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 17
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 37647
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 556
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 1695
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 6178
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M45_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061324/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 35174
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_061515/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 6097
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_061515/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 1047
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_061515/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 39239
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M50_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_061515/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 54369
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 554
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 139
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 1771
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 586
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 1118
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 1142
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_30.root", 
+                "nevents": 2267
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 567
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_32.root", 
+                "nevents": 560
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 562
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 1121
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 2235
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_22.root", 
+                "nevents": 1678
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 553
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 6812
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 1715
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 541
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_33.root", 
+                "nevents": 1146
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_29.root", 
+                "nevents": 553
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_24.root", 
+                "nevents": 554
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_27.root", 
+                "nevents": 2339
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_25.root", 
+                "nevents": 1146
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_21.root", 
+                "nevents": 2259
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_28.root", 
+                "nevents": 1179
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_23.root", 
+                "nevents": 1179
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 1755
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_31.root", 
+                "nevents": 532
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 1725
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_35.root", 
+                "nevents": 1661
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 1102
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 1134
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 550
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_26.root", 
+                "nevents": 21545
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_34.root", 
+                "nevents": 34591
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M55_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/240216_061707/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 1710
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061859/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 36003
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061859/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 4064
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061859/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 2001
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061859/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 6051
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M5_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_061859/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 52107
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 1959
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 3956
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 2061
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 2001
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 2005
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 45842
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M60_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062107/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 42008
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 13055
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 9872
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 16531
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 3303
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 3298
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 3278
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 3300
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 3326
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 3306
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 3301
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 3317
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 26292
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 13126
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_20.root", 
+                "nevents": 26541
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 6597
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 13228
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 6461
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 6587
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 12054
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M65_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/240216_062333/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 55857
+            }
+        ], 
+        "parent_n_units": null
+    }, 
+    "/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/atsatsos-UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1-db42d16a5a1a21e655fdb208cb7cb56c/USER": {
+        "dset_type": "mc", 
+        "files": [
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_12.root", 
+                "nevents": 14253
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_13.root", 
+                "nevents": 31347
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_1.root", 
+                "nevents": 11297
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_2.root", 
+                "nevents": 22961
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_3.root", 
+                "nevents": 2851
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_8.root", 
+                "nevents": 11367
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_5.root", 
+                "nevents": 2881
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_18.root", 
+                "nevents": 36266
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_15.root", 
+                "nevents": 2791
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_14.root", 
+                "nevents": 5686
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_17.root", 
+                "nevents": 2833
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_7.root", 
+                "nevents": 2872
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_4.root", 
+                "nevents": 2849
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_19.root", 
+                "nevents": 2801
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_9.root", 
+                "nevents": 8464
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_10.root", 
+                "nevents": 11506
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_6.root", 
+                "nevents": 5734
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_11.root", 
+                "nevents": 5669
+            }, 
+            {
+                "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2/v1/GluGluHToGG_M70_TuneCP5_13TeV-amcatnloFXFX-pythia8/UL18_VLowMassDiphoton_SigMC_XSBR1_Feb2024_campaign_v2-v1-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v1/240216_062537/0000/myMicroAODOutputFile_16.root", 
+                "nevents": 5711
+            }
+        ], 
+        "parent_n_units": null
+    }
+}
