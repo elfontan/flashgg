@@ -49,7 +49,7 @@ def setup_flashggDifferentialPhoIdInputsCorrection( process, metaConditions ):
                                                    )
 
     process.load("flashgg.Taggers.flashggDifferentialPhoIdInputsCorrection_cfi")
-    # print(process)
+    print("Differential Photon ID Corrections: ", process)
     
     setattr(flashggDifferentialPhoIdInputsCorrection, "photonIdMVAweightfile_EB", cms.FileInPath(str(metaConditions['flashggPhotons']['photonIdMVAweightfile_EB'])))
     setattr(flashggDifferentialPhoIdInputsCorrection, "photonIdMVAweightfile_EE", cms.FileInPath(str(metaConditions['flashggPhotons']['photonIdMVAweightfile_EE'])))
@@ -73,7 +73,8 @@ def setup_flashggDifferentialPhoIdInputsCorrection( process, metaConditions ):
                     )
                 )        
             xgb_config = getattr(flashggDifferentialPhoIdInputsCorrection, var+'_corrector_config_'+subdet)
-            # print(list(metaConditions['PhoIdInputCorrections']['SS_variables']))
+            print("Shower Shape Variables: ")
+            print(list(metaConditions['PhoIdInputCorrections']['SS_variables']))
             cfgTools.addVariables(xgb_config.variables, [str(st) for st in metaConditions['PhoIdInputCorrections']['SS_variables']])
                                   # ['f0 := pt',
                                #     'f1 := superCluster.eta',

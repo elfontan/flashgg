@@ -421,6 +421,7 @@ namespace flashgg {
                     const auto &weights = genInfo->weights();
                     // FIXME store alternative/all weight-sets
                     if( ! weights.empty() ) {
+                        //genweight = weights[0]/abs(weights[0]); //gen weight should be +/- 1 with this division
                         genweight = weights[0];
                     }
                 }
@@ -443,7 +444,7 @@ namespace flashgg {
             }
             
             weight = lumiWeight_;
-            //std::cout << "Event weight after lumi weight is " << weight << std::endl; # DEBUG WEIGHT
+            //std::cout << "Event weight after lumi weight is " << weight << std::endl; // DEBUG WEIGHT
             
             if( LHEWeightName != ""){
                 edm::Handle<LHEEventProduct> product_lhe;
@@ -466,14 +467,14 @@ namespace flashgg {
                 if( LHEWeightIndex > -1 )
                     weight *= ( product_lhe->weights()[LHEWeightIndex].wgt/product_lhe->originalXWGTUP () );
             }
-            //std::cout << "Event weight after LHE weight is " << weight << std::endl; # DEBUG WEIGHT
+            //std::cout << "Event weight after LHE weight is " << weight << std::endl; // DEBUG WEIGHT
             if( genInfo.isValid() ) {
                 const auto &weights = genInfo->weights();
                 // FIXME store alternative/all weight-sets
                 if( ! weights.empty() ) {
                     weight *= weights[0];
                 }
-                //std::cout << "Event weight after weight 0 is " << weight << std::endl; # DEBUG WEIGHT
+                //std::cout << "Event weight after weight 0 is " << weight << std::endl; // DEBUG WEIGHT
 
 
                 if( globalVarsDumper_ && globalVarsDumper_->puReWeight() ) {
@@ -489,7 +490,7 @@ namespace flashgg {
                         weight *= globalVarsDumper_->cache().puweight;
                     }
                 }
-                //std::cout << "Event weight after PU weight is " << weight << std::endl; # DEBUG WEIGHT
+                //std::cout << "Event weight after PU weight is " << weight << std::endl; // DEBUG WEIGHT
             }
         }        
         return weight;

@@ -134,7 +134,7 @@ customize.options.register('acceptance',
                            'acceptance'
                            )
 customize.options.register('doSystematics',
-                           False,
+                           True,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'doSystematics'
@@ -146,7 +146,7 @@ customize.options.register('doGranularJEC',
                            'doGranularJEC'
                            )
 customize.options.register('doPdfWeights',
-                           False,
+                           True,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'doPdfWeights'
@@ -225,9 +225,9 @@ print "Printing options"
 print 'acceptance '+str(customize.acceptance)
 print 'tthTagsOnly '+str(customize.tthTagsOnly)
 
-
-process.load("flashgg/Taggers/flashggTagSequence_cfi")
-process.flashggTagSequence = flashggPrepareTagSequence(process, customize.metaConditions)
+#not sure why this is commented out hmmmmmm
+#process.load("flashgg/Taggers/flashggTagSequence_cfi")
+#process.flashggTagSequence = flashggPrepareTagSequence(process, customize.metaConditions)
 
 # needed for 0th vertex from microAOD
 if customize.tthTagsOnly:
@@ -310,7 +310,7 @@ useEGMTools(process)
 signal_processes = ["ggh_","vbf_","wzh_","wh_","zh_","bbh_","thq_","thw_","tth_","ggzh_","HHTo2B2G","GluGluHToGG","VBFHToGG","VHToGG","ttHToGG","Acceptance","hh","vbfhh","qqh","ggh","tth","vh"]
 is_signal = reduce(lambda y,z: y or z, map(lambda x: customize.processId.count(x), signal_processes))
 
-#applyL1Prefiring = customizeForL1Prefiring(process, customize.metaConditions, customize.processId)
+applyL1Prefiring = customizeForL1Prefiring(process, customize.metaConditions, customize.processId)
 
 #if customize.processId.count("h_") or customize.processId.count("vbf_") or customize.processId.count("Acceptance") or customize.processId.count("hh_"): 
 if is_signal:

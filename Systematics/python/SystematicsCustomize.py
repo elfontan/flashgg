@@ -343,9 +343,9 @@ def runRivetSequence(process, options, processId):
 def customizeForL1Prefiring(process, options, processId):
     print "Here we account for L1 pre-firing. We will only change the central diphoton weight if it is an appropriate year (2016 or 2017), an appropriate sample (only MC, not data), and the applyToCentral flag is set to true"
     isRelevant = bool(options["L1Prefiring"]["isRelevant"])
-    getattr(process, "flashggPrefireDiPhotons").isRelevant = cms.bool(isRelevant)
-
+    print isRelevant
     if isRelevant:
+        getattr(process, "flashggPrefireDiPhotons").isRelevant = cms.bool(isRelevant)
         getattr(process, "flashggPrefireDiPhotons").photonFileName = options["L1Prefiring"]["photonFileName"].encode("ascii")
         getattr(process, "flashggPrefireDiPhotons").photonHistName = cms.untracked.string(options["L1Prefiring"]["photonHistName"].encode("ascii"))
         getattr(process, "flashggPrefireDiPhotons").jetFileName = options["L1Prefiring"]["jetFileName"].encode("ascii")

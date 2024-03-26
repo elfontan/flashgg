@@ -324,11 +324,12 @@ class JobConfig(object):
                         if  isdata:
                             obj.lumiWeight = 1.
                         else:
-                            wei = xsec["xs"]/float(totEvents)*self.targetLumi
+                            wei = xsec["xs"]/float(totEvents)*self.targetLumi #totEvents becomes sum of weights if you have weights in your catalogue
                             wei *= xsec.get("br",1.)
                             wei *= xsec.get("kf",1.)
                             obj.lumiWeight = wei
 
+                            #print "This sample contains negative weights. You MUST divide the lumi weight by the sum of event weights rather than total number of events."
                             print "Cross section: ", xsec["xs"]
                             print "Number of events: ", float(totEvents)
                             print "Target lumi: ", self.targetLumi
