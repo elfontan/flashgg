@@ -3,782 +3,1556 @@
         "dset_type": "mc", 
         "files": [
             {
+                "bad": false, 
+                "events": 10999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_53.root", 
-                "nevents": 10999
+                "nevents": 10999, 
+                "totEvents": 10999, 
+                "weights": 8170.50048828125
             }, 
             {
+                "bad": false, 
+                "events": 5000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_10.root", 
-                "nevents": 5000
+                "nevents": 5000, 
+                "totEvents": 5000, 
+                "weights": 3704.10009765625
             }, 
             {
+                "bad": false, 
+                "events": 4000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_59.root", 
-                "nevents": 4000
+                "nevents": 4000, 
+                "totEvents": 4000, 
+                "weights": 2969.7998046875
             }, 
             {
+                "bad": false, 
+                "events": 1000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_50.root", 
-                "nevents": 1000
+                "nevents": 1000, 
+                "totEvents": 1000, 
+                "weights": 748.2999877929688
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_45.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18546.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_3.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18439.099609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_4.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18590.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_47.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18547.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_55.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18554.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_35.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18429.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_48.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18519.30078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_52.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18470.099609375
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_46.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18472.498046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_80.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18505.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_34.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18457.90234375
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_14.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18511.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_42.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18482.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_33.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18440.1015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_11.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18411.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_176.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18434.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_62.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18518.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_38.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18545.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_41.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18505.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_183.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18454.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_61.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18527.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_79.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18485.59765625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_20.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18561.099609375
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_181.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18556.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_137.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18490.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_67.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18429.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_148.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18460.998046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_163.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18638.6015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_182.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18401.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_83.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18559.59765625
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_189.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18555.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_185.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18529.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_115.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18521.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_6.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18518.498046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_31.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18525.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_85.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18475.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_99.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18488.498046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_186.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18478.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_70.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18523.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_127.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18494.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_25.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18409.6015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_63.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18463.40234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_153.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18534.09765625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_166.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18433.998046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_98.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18493.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_116.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18519.5
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_30.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18476.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_73.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18531.296875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_19.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18456.30078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_138.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18512.69921875
             }, 
             {
+                "bad": true, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_23.root", 
                 "nevents": 25000
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_100.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18413.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_68.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18575.099609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_118.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18454.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_120.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18413.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_112.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18457.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_15.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18444.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_158.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18571.1015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_1.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18575.802734375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_29.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18568.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_92.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18581.896484375
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_21.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18449.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_133.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18539.5
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_17.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18449.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_144.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18518.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_178.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18564.201171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_180.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18544.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_145.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18502.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_22.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18516.400390625
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_171.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18546.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_184.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18505.80078125
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_88.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18559.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_126.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18402.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_177.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18337.298828125
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_161.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18601.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_159.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18529.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_107.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18520.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_132.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18491.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_93.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18494.6015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_173.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18506.697265625
             }, 
             {
+                "bad": false, 
+                "events": 12000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_58.root", 
-                "nevents": 12000
+                "nevents": 12000, 
+                "totEvents": 12000, 
+                "weights": 8870.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_162.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18481.099609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_151.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18474.701171875
             }, 
             {
+                "bad": false, 
+                "events": 20000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_51.root", 
-                "nevents": 20000
+                "nevents": 20000, 
+                "totEvents": 20000, 
+                "weights": 14817.1005859375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_28.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18559.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_16.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18539.701171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_179.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18499.0
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_130.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18444.1015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_97.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18565.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_7.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18570.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_81.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18528.1015625
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_108.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18488.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_141.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18467.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_75.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18369.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_170.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18551.6015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_9.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18622.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_84.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18498.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_66.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18440.3984375
             }, 
             {
+                "bad": false, 
+                "events": 24998, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_96.root", 
-                "nevents": 24998
+                "nevents": 24998, 
+                "totEvents": 24998, 
+                "weights": 18535.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_94.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18483.501953125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_123.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18417.298828125
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_139.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18545.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_86.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18526.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_125.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18576.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_110.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18425.400390625
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_87.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18627.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_72.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18432.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_167.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18438.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_134.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18442.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_121.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18519.8984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_109.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18475.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_142.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18525.0
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_124.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18560.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_95.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18477.201171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_18.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18477.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_43.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18533.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_136.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18518.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_150.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18530.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_60.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18490.701171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_155.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18512.001953125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_157.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18503.701171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_143.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18512.998046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_111.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18537.701171875
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_160.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18542.80078125
             }, 
             {
+                "bad": false, 
+                "events": 22000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_32.root", 
-                "nevents": 22000
+                "nevents": 22000, 
+                "totEvents": 22000, 
+                "weights": 16255.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_74.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18490.09765625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_172.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18448.400390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_65.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18508.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_2.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18463.599609375
             }, 
             {
+                "bad": false, 
+                "events": 8000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_27.root", 
-                "nevents": 8000
+                "nevents": 8000, 
+                "totEvents": 8000, 
+                "weights": 5981.00048828125
             }, 
             {
+                "bad": false, 
+                "events": 9000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_44.root", 
-                "nevents": 9000
+                "nevents": 9000, 
+                "totEvents": 9000, 
+                "weights": 6588.0
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_13.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18441.19921875
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_82.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18524.701171875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_195.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18505.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_102.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18336.099609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_129.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18475.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_8.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18510.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_194.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18416.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_147.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18513.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_168.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18496.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_104.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18519.5
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_114.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18497.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_135.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18425.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_69.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18436.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_175.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18495.6015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_76.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18479.296875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_174.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18485.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_122.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18420.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_71.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18535.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_91.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18435.30078125
             }, 
             {
+                "bad": false, 
+                "events": 22999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_26.root", 
-                "nevents": 22999
+                "nevents": 22999, 
+                "totEvents": 22999, 
+                "weights": 17001.30078125
             }, 
             {
+                "bad": false, 
+                "events": 24997, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_103.root", 
-                "nevents": 24997
+                "nevents": 24997, 
+                "totEvents": 24997, 
+                "weights": 18513.001953125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_154.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18596.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_149.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18478.298828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_119.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18486.203125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_165.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18384.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_128.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18482.19921875
             }, 
             {
+                "bad": false, 
+                "events": 24998, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_64.root", 
-                "nevents": 24998
+                "nevents": 24998, 
+                "totEvents": 24998, 
+                "weights": 18413.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_90.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18494.796875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_78.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18479.798828125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_140.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18406.6953125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_113.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18578.703125
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_152.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18416.30078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_105.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18481.69921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_101.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18489.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_12.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18478.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_188.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18542.998046875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_164.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18471.3984375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_24.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18530.90234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_187.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18563.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_192.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18526.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_191.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18459.5
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_193.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18569.80078125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_190.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18493.40234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_77.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18464.099609375
             }, 
             {
+                "bad": false, 
+                "events": 24000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_54.root", 
-                "nevents": 24000
+                "nevents": 24000, 
+                "totEvents": 24000, 
+                "weights": 17682.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_169.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18468.599609375
             }, 
             {
+                "bad": false, 
+                "events": 24998, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_49.root", 
-                "nevents": 24998
+                "nevents": 24998, 
+                "totEvents": 24998, 
+                "weights": 18510.599609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_37.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18547.0
             }, 
             {
+                "bad": false, 
+                "events": 21000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_56.root", 
-                "nevents": 21000
+                "nevents": 21000, 
+                "totEvents": 21000, 
+                "weights": 15523.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_117.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18505.501953125
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_36.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18502.40234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_5.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18490.099609375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_156.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18490.900390625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_89.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18525.30078125
             }, 
             {
+                "bad": false, 
+                "events": 21000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_40.root", 
-                "nevents": 21000
+                "nevents": 21000, 
+                "totEvents": 21000, 
+                "weights": 15575.4990234375
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_131.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18442.30078125
             }, 
             {
+                "bad": false, 
+                "events": 24999, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_39.root", 
-                "nevents": 24999
+                "nevents": 24999, 
+                "totEvents": 24999, 
+                "weights": 18574.1015625
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_106.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18562.19921875
             }, 
             {
+                "bad": false, 
+                "events": 25000, 
                 "name": "/store/user/atsatsos/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1/v0/DiPhotonJetsBox_M40_80-sherpa/UL18_VLowMassDiphoton_BkgMC_MGG40to80_v1-v0-v0-RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/230427_051146/0000/myMicroAODOutputFile_bkgmc_v1_146.root", 
-                "nevents": 25000
+                "nevents": 25000, 
+                "totEvents": 25000, 
+                "weights": 18453.69921875
             }
         ], 
-        "parent_n_units": null
+        "parent_n_units": null, 
+        "vetted": true
     }
 }
