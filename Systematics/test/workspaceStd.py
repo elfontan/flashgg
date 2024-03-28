@@ -4,8 +4,8 @@ import FWCore.ParameterSet.Config as cms
 import FWCore.Utilities.FileUtils as FileUtils
 import FWCore.ParameterSet.VarParsing as VarParsing
 from flashgg.Taggers.flashggTagSequence_cfi import flashggPrepareTagSequence
-from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariables,minimalHistograms,minimalNonSignalVariables,systematicVariables, defaultVariables
-from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariablesHTXS,systematicVariablesHTXS
+from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariables,minimalHistograms,minimalNonSignalVariables,systematicVariables,defaultVariables
+from flashgg.Systematics.SystematicDumperDefaultVariables import minimalVariablesHTXS,systematicVariablesHTXS,phoIDCorrectionVariables
 import os
 import copy
 from flashgg.MetaData.MetaConditionsReader import *
@@ -536,6 +536,7 @@ for tag in tagList:
                            cutbased=cutstring,
                            subcats=tagCats, 
                            variables=defaultVariables,
+#                           variables=phoIDCorrectionVariables,
                            histograms=minimalHistograms,
                            binnedOnly=isBinnedOnly,
                            dumpPdfWeights=dumpPdfWeights,
@@ -740,7 +741,7 @@ if customize.verboseTagDump:
                            
 if customize.verboseSystDump:
     turnOnAllSystematicsDebug(process)
-    customize.maxEVents = 10
+    customize.maxEvents = 10
 
 ##############
 ## Dump EDM ##

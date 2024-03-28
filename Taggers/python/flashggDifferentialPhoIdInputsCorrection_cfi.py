@@ -8,10 +8,10 @@ flashggDifferentialPhoIdInputsCorrection = cms.EDProducer("FlashggDifferentialPh
                                                           rhoFixedGridCollection   = cms.InputTag('fixedGridRhoAll'),
                                                           globalVariables=globalVariables,
                                                           
-                                                          # photonIdMVAweightfile_EB = cms.FileInPath("flashgg/MicroAOD/data/HggPhoId_94X_barrel_BDT_woisocorr.weights.xml"),
-                                                          # photonIdMVAweightfile_EE = cms.FileInPath("flashgg/MicroAOD/data/HggPhoId_94X_endcap_BDT_woisocorr.weights.xml"),
+                                                          photonIdMVAweightfile_EB = cms.FileInPath("flashgg/MicroAOD/data/HggPhoId_94X_barrel_BDT_woisocorr.weights.xml"),
+                                                          photonIdMVAweightfile_EE = cms.FileInPath("flashgg/MicroAOD/data/HggPhoId_94X_endcap_BDT_woisocorr.weights.xml"),
                                                           
-                                                          # effAreasConfigFile = cms.FileInPath("RecoEgamma/PhotonIdentification/data/Spring16/effAreaPhotons_cone03_pfPhotons_90percentBased.txt"),
+                                                          effAreasConfigFile = cms.FileInPath("RecoEgamma/PhotonIdentification/data/Spring16/effAreaPhotons_cone03_pfPhotons_90percentBased.txt"),
                                                           phoIsoPtScalingCoeff = cms.vdouble(0.0053,0.0034),
                                                           phoIsoCutoff = cms.double(2.5),
 
