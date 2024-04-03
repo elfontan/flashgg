@@ -1,0 +1,23 @@
+hadd output_0.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_0*.root
+hadd output_1.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_1*.root
+hadd output_2.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_2*.root
+hadd output_3.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_3*.root
+hadd output_4.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_4*.root
+hadd output_5.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_5*.root
+hadd output_6.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_6*.root
+hadd output_7.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_7*.root
+hadd output_8.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_8*.root
+hadd output_9.root output_EGamma_phys_higgs-Era2018_legacy_v1_Summer20UL-legacyRunII-v0-Run2018D-UL2018_MiniAODv2-v2-c777dc38be1a66893d88ae1b64c38638_USER_9*.root
+mkdir MergedRoot
+mv output_0.root MergedRoot/
+mv output_1.root MergedRoot/
+mv output_2.root MergedRoot/
+mv output_3.root MergedRoot/
+mv output_4.root MergedRoot/
+mv output_5.root MergedRoot/
+mv output_6.root MergedRoot/
+mv output_7.root MergedRoot/
+mv output_8.root MergedRoot/
+mv output_9.root MergedRoot/
+cd MergedRoot
+hadd EGamma_D_Summer20UL.root output_*.root

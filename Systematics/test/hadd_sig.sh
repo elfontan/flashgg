@@ -1,0 +1,14 @@
+hadd ggh_M5.root output_GluGluHToGG_M5_*.root
+hadd ggh_M10.root output_GluGluHToGG_M10_*.root
+hadd ggh_M15.root output_GluGluHToGG_M15_*.root
+hadd ggh_M20.root output_GluGluHToGG_M20_*.root
+hadd ggh_M25.root output_GluGluHToGG_M25_*.root
+hadd ggh_M30.root output_GluGluHToGG_M30_*.root
+hadd ggh_M35.root output_GluGluHToGG_M35_*.root
+hadd ggh_M40.root output_GluGluHToGG_M40_*.root
+hadd ggh_M45.root output_GluGluHToGG_M45_*.root
+hadd ggh_M50.root output_GluGluHToGG_M50_*.root
+hadd ggh_M55.root output_GluGluHToGG_M55_*.root
+hadd ggh_M60.root output_GluGluHToGG_M60_*.root
+hadd ggh_M65.root output_GluGluHToGG_M65_*.root
+hadd ggh_M70.root output_GluGluHToGG_M70_*.root
