@@ -536,7 +536,6 @@ for tag in tagList:
                            cutbased=cutstring,
                            subcats=tagCats, 
                            variables=defaultVariables,
-#                           variables=phoIDCorrectionVariables,
                            histograms=minimalHistograms,
                            binnedOnly=isBinnedOnly,
                            dumpPdfWeights=dumpPdfWeights,
