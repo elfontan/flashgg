@@ -1,9 +1,12 @@
 universe = vanilla
-executable = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/CMSSW_12_6_5/src/kest1D_condor_submission/chunk_reweight_with_multiKest.py
+executable = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/newFlashggRepo/CMSSW_10_6_8/src/flashgg/VariablePlots/FGGLevel/DataDriven/InputPreparation/KernelEstimation/kest1D_condor_submission/chunk_reweight_with_singleKest.py
 arguments = $(Process)
-output = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/CMSSW_12_6_5/src/kest1D_condor_submission/out/job_output_$(Process).out
-error = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/CMSSW_12_6_5/src/kest1D_condor_submission/err/job_output_$(Process).err
-log = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/CMSSW_12_6_5/src/kest1D_condor_submission/log/job_output_$(Process).log
+output = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/newFlashggRepo/CMSSW_10_6_8/src/flashgg/VariablePlots/FGGLevel/DataDriven/InputPre\
+paration/KernelEstimation/kest1D_condor_submission/out/job_output_$(Process).out
+error =  /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/newFlashggRepo/CMSSW_10_6_8/src/flashgg/VariablePlots/FGGLevel/DataDriven/InputPre\
+paration/KernelEstimation/kest1D_condor_submission/err/job_output_$(Process).err
+log = /afs/cern.ch/work/e/elfontan/private/DiPhotonAnalysis/Sep2023_flashGG/newFlashggRepo/CMSSW_10_6_8/src/flashgg/VariablePlots/FGGLevel/DataDriven/InputPre\
+paration/KernelEstimation/kest1D_condor_submission/log/job_output_$(Process).log
 requirements = Machine =!= LastRemoteHost
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
