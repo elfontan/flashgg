@@ -5,9 +5,9 @@ import numpy as np
 #Plot ROC Histograms using integrals of signal and background to compute efficiencies
 mca_Asimov = TGraph()
 
-nEvents = [98926.0, 98377.0, 102177.0, 101758.0, 102829.0, 103448.0, 100223.0, 102755.0, 100752.0, 100581.0, 99832.0, 232630.0, 190139.0]
-nEvents_sign = [45505.96, 49188.5, 49044.96, 46808.68, 47301.34, 49655.04, 48107.04, 49322.4, 56421.12, 58336.98, 59899.2, 144230.6, 117886.18]
-gen = [2866.86, 2247.3, 1832.06, 1548.75, 1345.64, 1153.35, 1003.56, 881.80, 775.896, 683.22, 614.566, 560.66, 505.814] #can be assigned negatively to events
+#nEvents = [98926.0, 98377.0, 102177.0, 101758.0, 102829.0, 103448.0, 100223.0, 102755.0, 100752.0, 100581.0, 99832.0, 232630.0, 190139.0]
+#nEvents_sign = [45505.96, 49188.5, 49044.96, 46808.68, 47301.34, 49655.04, 48107.04, 49322.4, 56421.12, 58336.98, 59899.2, 144230.6, 117886.18]
+#gen = [2866.86, 2247.3, 1832.06, 1548.75, 1345.64, 1153.35, 1003.56, 881.80, 775.896, 683.22, 614.566, 560.66, 505.814] #can be assigned negatively to events
 
 for i in range(10,75,5):
   m = (i-10)/5
@@ -22,15 +22,18 @@ for i in range(10,75,5):
   mca_sigfile = TFile("output/pnr"+str(i)+".root","READ")
   mca_sighist = mca_sigfile.Get("pnrr")
   mca_sigeffden = mca_sighist.Integral()
+  print("SignalEfficiencyCheck: ", mca_sigeffden)
 
   mca_bkgfile = TFile("output/pnr"+str(i)+"data.root","READ")
   mca_bkghist = mca_bkgfile.Get("pnrr")
   mca_bkgrejden = mca_bkghist.Integral()
 
-  nbins = 1000
-  lumi_diff = nEvents[m]/nEvents_sign[m]
+  nbins = 2000
 
-  eff = mca_sigeffden * lumi_diff/(1.06 * gen[m] * 1000.0)
+#  lumi_diff = nEvents[m]/nEvents_sign[m]
+#  eff = mca_sigeffden * lumi_diff/(1.06 * gen[m] * 1000.0)
+
+  eff = mca_sigeffden/(1.06 * 1000.0)
   print " "
   print "Mass: ",i
   print "Event Efficiency: ", eff
@@ -45,7 +48,7 @@ for i in range(10,75,5):
     bkg_mca.append(mca_bkgrejnum)
     sigeff_mca.append(mca_sigeff)
     bkgrej_mca.append(mca_bkgrej)
-    mva = j*0.001
+    mva = (j-1000)*0.001
 
     mca_sigeffnumscale = mca_sigeffnum*54400.0*eff/mca_sigeffden
 
@@ -54,7 +57,7 @@ for i in range(10,75,5):
     mva_mca.append(mva)
     asimov_mca.append(asimov)
 
-    mca_Asimov.SetPoint(j, mva,asimov) #Use only if working with parametric NNs
+    if (j >= 1000): mca_Asimov.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
 
   print "Highest Asimov: ", max(asimov_mca)
   print "Highest Asimov Index: ", asimov_mca.index(max(asimov_mca))

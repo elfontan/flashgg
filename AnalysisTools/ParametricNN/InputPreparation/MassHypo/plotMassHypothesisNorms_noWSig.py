@@ -25,7 +25,7 @@ logScale = args.log
 # ----------------------
 # Obtain histogram files
 # ----------------------
-para = TFile("output_ParaDDFullWgts.root","READ")
+para = TFile("output_ParaDDFullNorms.root","READ")
 
 # Get trees and create histograms for data
 # ----------------------------------------
@@ -70,22 +70,22 @@ for variable in var_list:
 
 
     # Fill the histograms
-    dat0.Draw(variable + ">>h_" + variable + "_dat0", "weight*weight_allDD*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")     
-    mgg0.Draw(variable + ">>h_" + variable + "_mgg0", "weight*weight_allDD*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    dat0.Draw(variable + ">>h_" + variable + "_dat0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")     
+    mgg0.Draw(variable + ">>h_" + variable + "_mgg0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
 
-    sig0_10.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_15.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_20.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_25.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_30.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_35.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_40.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_45.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_50.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_55.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_60.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_65.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_70.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_10.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_15.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_20.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_25.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_30.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_35.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_40.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_45.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_50.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_55.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_60.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_65.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_70.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
 
 idx = 0
 for variable in var_list:
@@ -145,8 +145,6 @@ for variable in var_list:
     sig0.SetLineColor(kBlue-1)
     sig0.SetLineWidth(2)
     sig0.Draw("histosame")
-
-    sig0.SaveAs("ratios_dipho_masshyp_norm_noWSig.root")
         
     leg = TLegend(0.45,0.65,0.85,0.85)
     leg.AddEntry(dat0,"Reweighted Data-Driven Sideband")
@@ -209,8 +207,8 @@ for variable in var_list:
     CMS_lumi.CMS_lumi(pad1, 0, 0)
     
     c1.Update()
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgt_noWSig.png")
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgt_noWSig.pdf")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig.png")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig.pdf")
     
     idx += 1
     print("MGG: ", mgg0.Integral())

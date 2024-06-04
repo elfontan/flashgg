@@ -35,7 +35,7 @@ for i in range(10,75,5):
   mca_bkghist = mca_bkgfile.Get("pnrr")
   mca_bkgrejden = mca_bkghist.Integral()
 
-  nbins = 1000
+  nbins = 2000
 
   for j in range(0,nbins):
       mca_sigeffnum = mca_sighist.Integral(j,nbins)
@@ -47,16 +47,22 @@ for i in range(10,75,5):
       bkg_mca.append(mca_bkgrejnum)
       sigeff_mca.append(mca_sigeff)
       bkgrej_mca.append(mca_bkgrej)
-      mva = j*0.001
+      mva = j*0.001-1
       if (mca_bkgrejnum != 0.0): asimov = np.sqrt(2*((mca_sigeffnum+mca_bkgrejnum)*np.log(1+mca_sigeffnum/(mca_bkgrejnum))-mca_sigeffnum))
       else: asimov = 0.0
       mva_mca.append(mva)
       asimov_mca.append(asimov)
 
-      if (mva == 0.907):
+#      if (round(mva,3) == 0.780):
+      if (round(mva,3) == 0.880):
         commonsigeff = mca_sigeff
         commonbkgrej = mca_bkgrej
         commonmva = mva
+
+#      if (round(mva,3) == 0.880):
+#        commonsigeff -= mca_sigeff
+#        commonbkgrej += (1-mca_bkgrej)
+#        commonmva += mva
 
   mca_MVA.SetPoint((i-10)/5, i, commonmva) #Use only if working with parametric NNs
   mca_SIG.SetPoint((i-10)/5, i, commonsigeff) #Use only if working with parametric NNs
@@ -77,36 +83,37 @@ c1.cd()
 c1.SetBottomMargin(0.11)
 c1.SetLeftMargin(0.11)
 
-mca_MVA.SetLineColor(kTeal+3)
-mca_MVA.SetLineWidth(2)
-mca_MVA.Draw("AL")
+mca_SIG.SetLineColor(kTeal+3)
+mca_SIG.SetLineWidth(3)
+mca_SIG.SetMarkerStyle(7)
+mca_SIG.SetMarkerColor(kTeal+3)
+mca_SIG.Draw("ALP")
 
-mca_MVA.GetXaxis().SetTitle("Diphoton Mass [GeV]")
-mca_MVA.GetXaxis().SetTitleSize(25)
-mca_MVA.GetXaxis().SetTitleFont(43)
-mca_MVA.GetXaxis().SetTitleOffset(1.5)
-mca_MVA.GetXaxis().SetLabelFont(43)
-mca_MVA.GetXaxis().SetLabelSize(25)
-mca_MVA.GetXaxis().SetLabelOffset(0.02)
+mca_SIG.GetXaxis().SetTitle("Diphoton Mass [GeV]")
+mca_SIG.GetXaxis().SetTitleSize(25)
+mca_SIG.GetXaxis().SetTitleFont(43)
+mca_SIG.GetXaxis().SetTitleOffset(1.5)
+mca_SIG.GetXaxis().SetLabelFont(43)
+mca_SIG.GetXaxis().SetLabelSize(25)
+mca_SIG.GetXaxis().SetLabelOffset(0.02)
 
-mca_MVA.GetYaxis().SetTitleSize(25)
-mca_MVA.GetYaxis().SetTitleFont(43)
-mca_MVA.GetYaxis().SetTitleOffset(1.5)
-mca_MVA.GetYaxis().SetLabelFont(43)
-mca_MVA.GetYaxis().SetLabelSize(25)
-
-mca_SIG.SetLineColor(kViolet-6)
-mca_SIG.SetLineWidth(2)
-mca_SIG.Draw("L")
+mca_SIG.GetYaxis().SetTitleSize(25)
+mca_SIG.GetYaxis().SetTitleFont(43)
+mca_SIG.GetYaxis().SetTitleOffset(1.5)
+mca_SIG.GetYaxis().SetLabelFont(43)
+mca_SIG.GetYaxis().SetLabelSize(25)
 
 mca_BKG.SetLineColor(kPink-6)
-mca_BKG.SetLineWidth(2)
-mca_BKG.Draw("L")
+mca_BKG.SetLineWidth(3)
+mca_BKG.SetMarkerStyle(7)
+mca_BKG.SetMarkerColor(kPink-6)
+mca_BKG.Draw("LP")
 
-leg = TLegend(0.2,0.4,0.6,0.55)
-leg.SetTextSize(0.018)
+leg = TLegend(0.5,0.5,0.8,0.65)
+leg.SetTextSize(0.025)
 leg.SetBorderSize(0)
-leg.AddEntry(mca_MVA,"Class 0 MVA = 0.907")
+leg.SetHeader("Category 0 (MVA Score > 0.88)","C")
+#leg.SetHeader("Category 1 (0.78 < MVA Score < 0.88)","C")
 leg.AddEntry(mca_SIG,"Signal Efficiency")
 leg.AddEntry(mca_BKG,"Background Rejection")
 leg.Draw("same")
@@ -125,5 +132,5 @@ CMS_lumi.CMS_lumi(c1, 0, 0)
 c1.Update()
 
 c1.cd()
-c1.SaveAs("output/CommonMVA_ParaNN.png")
-c1.SaveAs("output/CommonMVA_ParaNN.pdf")
+c1.SaveAs("output/ParaNN_EffCat0.png")
+c1.SaveAs("output/ParaNN_EffCat0.pdf")

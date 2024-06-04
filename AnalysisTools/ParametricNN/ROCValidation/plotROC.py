@@ -4,58 +4,55 @@ import numpy as np
 
 #Plot ROC Histograms using integrals of signal and background to compute efficiencies
 for i in range(10,75,5):
-  pnn_ROC = TGraph()
+  lm_ROC = TGraph()
   pnr_ROC = TGraph()
 
-  pnn_Int = TGraph()
+  lm_Int = TGraph()
   pnr_Int = TGraph()
 
-  pnn_ROC.SetPoint(0,1.0,0.0)
+  lm_ROC.SetPoint(0,1.0,0.0)
   pnr_ROC.SetPoint(0,1.0,0.0)
 
-  pnn_Int.SetPoint(0,1.0,0.0)
+  lm_Int.SetPoint(0,1.0,0.0)
   pnr_Int.SetPoint(0,1.0,0.0)
 
   #Obtain MVA histogram files for signal at different mass points and background at different sliding windows
-  pnn_sigfile = TFile("output/pnn"+str(i)+".root","READ")
+  lm_sigfile = TFile("output/lm"+str(i)+".root","READ")
   pnr_sigfile = TFile("output/pnr"+str(i)+".root","READ")
 
-  pnn_sighist = pnn_sigfile.Get("pnnr")
+  lm_sighist = lm_sigfile.Get("lmr")
   pnr_sighist = pnr_sigfile.Get("pnrr")
 
-  pnn_sigeffden = pnn_sighist.Integral()
+  lm_sigeffden = lm_sighist.Integral()
   pnr_sigeffden = pnr_sighist.Integral()
 
-  pnn_bkgfile = TFile("output/pnn"+str(i)+"data.root","READ")
+  lm_bkgfile = TFile("output/lm"+str(i)+"data.root","READ")
   pnr_bkgfile = TFile("output/pnr"+str(i)+"data.root","READ")
 
-  pnn_bkghist = pnn_bkgfile.Get("pnnr")
+  lm_bkghist = lm_bkgfile.Get("lmr")
   pnr_bkghist = pnr_bkgfile.Get("pnrr")
 
-  pnn_bkgrejden = pnn_bkghist.Integral()
+  lm_bkgrejden = lm_bkghist.Integral()
   pnr_bkgrejden = pnr_bkghist.Integral()
 
-  nbins = 1000
+  nbins = 2000
 
   for j in range(0,nbins+1):
-    pnn_sigeffnum = pnn_sighist.Integral(j,nbins)
+    lm_sigeffnum = lm_sighist.Integral(j,nbins)
+    lm_bkgrejnum = lm_bkghist.Integral(j,nbins)
+    lm_sigeff = lm_sigeffnum/lm_sigeffden
+    lm_bkgrej = 1.0-(lm_bkgrejnum/lm_bkgrejden)
+    lm_ROC.SetPoint(j+1, lm_sigeff,lm_bkgrej)
+    lm_Int.SetPoint(j+1, lm_sigeff,lm_bkgrej)
+
     pnr_sigeffnum = pnr_sighist.Integral(j,nbins)
-
-    pnn_bkgrejnum = pnn_bkghist.Integral(j,nbins)
     pnr_bkgrejnum = pnr_bkghist.Integral(j,nbins)
-
-    pnn_sigeff = pnn_sigeffnum/pnn_sigeffden
     pnr_sigeff = pnr_sigeffnum/pnr_sigeffden
-
-    pnn_bkgrej = 1.0-(pnn_bkgrejnum/pnn_bkgrejden)
     pnr_bkgrej = 1.0-(pnr_bkgrejnum/pnr_bkgrejden)
-
-    pnn_ROC.SetPoint(j+1, pnn_sigeff,pnn_bkgrej)
     pnr_ROC.SetPoint(j+1, pnr_sigeff,pnr_bkgrej)
-    pnn_Int.SetPoint(j+1, pnn_sigeff,pnn_bkgrej)
     pnr_Int.SetPoint(j+1, pnr_sigeff,pnr_bkgrej)
 
-  pnn_Int.SetPoint(nbins+2,0.0,0.0)
+  lm_Int.SetPoint(nbins+2,0.0,0.0)
   pnr_Int.SetPoint(nbins+2,0.0,0.0)
 
   #Now we draw it out
@@ -67,34 +64,34 @@ for i in range(10,75,5):
   c1.SetBottomMargin(0.11)
   c1.SetLeftMargin(0.11)
 
-  pnn_ROC.SetLineColor(kViolet-2)
-  pnn_ROC.SetLineWidth(2)
-  pnn_ROC.Draw("AL")
+  lm_ROC.SetLineColor(kViolet-2)
+  lm_ROC.SetLineWidth(2)
+  lm_ROC.Draw("AL")
 
-  pnn_ROC.GetXaxis().SetTitle("Signal Eff.")
-  pnn_ROC.GetXaxis().SetTitleSize(25)
-  pnn_ROC.GetXaxis().SetTitleFont(43)
-  pnn_ROC.GetXaxis().SetTitleOffset(1.5)
-  pnn_ROC.GetXaxis().SetLabelFont(43)
-  pnn_ROC.GetXaxis().SetLabelSize(25)
-  pnn_ROC.GetXaxis().SetLabelOffset(0.02)
+  lm_ROC.GetXaxis().SetTitle("Signal Eff.")
+  lm_ROC.GetXaxis().SetTitleSize(25)
+  lm_ROC.GetXaxis().SetTitleFont(43)
+  lm_ROC.GetXaxis().SetTitleOffset(1.5)
+  lm_ROC.GetXaxis().SetLabelFont(43)
+  lm_ROC.GetXaxis().SetLabelSize(25)
+  lm_ROC.GetXaxis().SetLabelOffset(0.02)
 
-  pnn_ROC.GetYaxis().SetTitle("Background Rej.")
-  pnn_ROC.GetYaxis().SetTitleSize(25)
-  pnn_ROC.GetYaxis().SetTitleFont(43)
-  pnn_ROC.GetYaxis().SetTitleOffset(1.5)
-  pnn_ROC.GetYaxis().SetLabelFont(43)
-  pnn_ROC.GetYaxis().SetLabelSize(25)
+  lm_ROC.GetYaxis().SetTitle("Background Rej.")
+  lm_ROC.GetYaxis().SetTitleSize(25)
+  lm_ROC.GetYaxis().SetTitleFont(43)
+  lm_ROC.GetYaxis().SetTitleOffset(1.5)
+  lm_ROC.GetYaxis().SetLabelFont(43)
+  lm_ROC.GetYaxis().SetLabelSize(25)
 
   pnr_ROC.SetLineColor(kAzure-2)
   pnr_ROC.SetLineWidth(2)
   pnr_ROC.Draw("L")
 
-  leg = TLegend(0.15,0.15,0.65,0.5)
+  leg = TLegend(0.15,0.15,0.55,0.45)
   leg.SetTextSize(0.025)
   leg.SetBorderSize(0)
-  leg.AddEntry(pnn_ROC,"PNN Nearest Neighbor AUC = "+str(round(pnn_Int.Integral(),3)))
-  leg.AddEntry(pnr_ROC,"New PNN Adding 15 and 55 GeV AUC = "+str(round(pnr_Int.Integral(),3)))
+  leg.AddEntry(lm_ROC,"Lowmass BDT AUC = "+str(round(lm_Int.Integral(),3)))
+  leg.AddEntry(pnr_ROC,"New PNN AUC = "+str(round(pnr_Int.Integral(),3)))
   leg.Draw("same")
 
   c1.Update()

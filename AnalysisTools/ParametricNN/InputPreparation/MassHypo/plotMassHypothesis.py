@@ -34,11 +34,15 @@ mgg0 = para.Get("tagsDumper/trees/mgg_bkg_13TeV_UntaggedTag_0")
 sig0_10 = para.Get("tagsDumper/trees/ggh_10_13TeV_UntaggedTag_0")
 sig0_15 = para.Get("tagsDumper/trees/ggh_15_13TeV_UntaggedTag_0")
 sig0_20 = para.Get("tagsDumper/trees/ggh_20_13TeV_UntaggedTag_0")
+sig0_25 = para.Get("tagsDumper/trees/ggh_25_13TeV_UntaggedTag_0")
 sig0_30 = para.Get("tagsDumper/trees/ggh_30_13TeV_UntaggedTag_0")
+sig0_35 = para.Get("tagsDumper/trees/ggh_35_13TeV_UntaggedTag_0")
 sig0_40 = para.Get("tagsDumper/trees/ggh_40_13TeV_UntaggedTag_0")
+sig0_45 = para.Get("tagsDumper/trees/ggh_45_13TeV_UntaggedTag_0")
 sig0_50 = para.Get("tagsDumper/trees/ggh_50_13TeV_UntaggedTag_0")
 sig0_55 = para.Get("tagsDumper/trees/ggh_55_13TeV_UntaggedTag_0")
 sig0_60 = para.Get("tagsDumper/trees/ggh_60_13TeV_UntaggedTag_0")
+sig0_65 = para.Get("tagsDumper/trees/ggh_65_13TeV_UntaggedTag_0")
 sig0_70 = para.Get("tagsDumper/trees/ggh_70_13TeV_UntaggedTag_0")
 
 var_list = ["dipho_mass", "dipho_masshyp_near"]
@@ -73,11 +77,15 @@ for variable in var_list:
     sig0_10.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_15.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_20.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_25.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_30.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_35.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_40.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_45.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_50.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_55.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_60.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    sig0_65.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_70.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
 
 idx = 0
@@ -90,11 +98,6 @@ for variable in var_list:
     sig0 = histo_sig0_list[variable + "_sig0"]
     bkg0 = THStack("bkg0","bkg0")
     
-    dat0.SetMaximum(1.5*(sig0.GetMaximum()))
-    mgg0.SetMaximum(1.5*(sig0.GetMaximum()))
-    bkg0.SetMaximum(1.5*(sig0.GetMaximum()))
-    sig0.SetMaximum(1.5*(sig0.GetMaximum()))
-
     # Plotting
     gStyle.SetOptStat(0)
     gStyle.SetOptTitle(0)
@@ -132,13 +135,19 @@ for variable in var_list:
         
     bkg0.Add(mgg0)
     bkg0.Add(dat0)
+
+    dat0.SetMaximum(1.5*(bkg0.GetMaximum()))
+    mgg0.SetMaximum(1.5*(bkg0.GetMaximum()))
+    bkg0.SetMaximum(1.5*(bkg0.GetMaximum()))
+    sig0.SetMaximum(1.5*(bkg0.GetMaximum()))
+
     bkg0.Draw("histo")
     
     sig0.SetLineColor(kBlue-1)
     sig0.SetLineWidth(2)
     sig0.Draw("histosame")
         
-    leg = TLegend(0.45,0.6,0.85,0.85)
+    leg = TLegend(0.45,0.65,0.85,0.85)
     leg.AddEntry(dat0,"Reweighted Data-Driven Sideband")
     leg.AddEntry(mgg0,"Diphoton MC")
     leg.AddEntry(sig0,"Signal MC")
@@ -161,7 +170,7 @@ for variable in var_list:
     rp = TH1F(sig0.Clone("rp")) #clone the preselection region
     rp.SetLineColor(kBlack)
     rp.SetMinimum(-0.1)
-    rp.SetMaximum(10.1)
+    rp.SetMaximum(2.1)
     rp.SetStats(0)
     rp.Divide(dat0+mgg0) #divide by sideband+mgg
     rp.SetMarkerStyle(24)
@@ -192,8 +201,7 @@ for variable in var_list:
     #CMS Title and Lumi info
     CMS_lumi.writeExtraText = True
     CMS_lumi.extraText      = "Preliminary"
-    CMS_lumi.lumi_sqrtS     = "1.6 fb^{-1} (13 TeV)"
-    #CMS_lumi.lumi_sqrtS     = "2.72 fb^{-1} (13 TeV)"
+    CMS_lumi.lumi_sqrtS     = "54.4 fb^{-1} (13 TeV)"
     CMS_lumi.cmsTextSize    = 0.6
     CMS_lumi.lumiTextSize   = 0.46
     CMS_lumi.extraOverCmsTextSize = 0.75
