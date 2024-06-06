@@ -14,7 +14,12 @@ mca_SIG.SetMinimum(0.0)
 mca_BKG.SetMaximum(1.0)
 mca_BKG.SetMinimum(0.0)
 
+#nEvents = [98926.0, 98377.0, 102177.0, 101758.0, 102829.0, 103448.0, 100223.0, 102755.0, 100752.0, 100581.0, 99832.0, 232630.0, 190139.0]
+#nEvents_sign = [45505.96, 49188.5, 49044.96, 46808.68, 47301.34, 49655.04, 48107.04, 49322.4, 56421.12, 58336.98, 59899.2, 144230.6, 117886.18]
+#gen = [2866.86, 2247.3, 1832.06, 1548.75, 1345.64, 1153.35, 1003.56, 881.80, 775.896, 683.22, 614.566, 560.66, 505.814] #can be assigned negatively to events
+
 for i in range(10,75,5):
+  m = (i-10)/5
   sig_mca = []
   bkg_mca = []
   sigeff_mca = []
@@ -25,6 +30,7 @@ for i in range(10,75,5):
   commonsigeff = 0.0
   commonbkgrej = 0.0
   commonmva = 0.0
+  commonasimov = 0.0
 
   #Obtain MVA histogram files for signal at different mass points and background at different sliding windows
   mca_sigfile = TFile("output/pnr"+str(i)+".root","READ")
@@ -37,6 +43,9 @@ for i in range(10,75,5):
 
   nbins = 2000
 
+  lumi_diff = nEvents[m]/nEvents_sign[m]
+#  eff = mca_sigeffden * lumi_diff/(1.06 * gen[m] * 1000.0)
+  eff = mca_sigeffden/(1.06 * 1000.0)
   for j in range(0,nbins):
       mca_sigeffnum = mca_sighist.Integral(j,nbins)
       mca_bkgrejnum = mca_bkghist.Integral(j,nbins)
@@ -48,21 +57,20 @@ for i in range(10,75,5):
       sigeff_mca.append(mca_sigeff)
       bkgrej_mca.append(mca_bkgrej)
       mva = j*0.001-1
-      if (mca_bkgrejnum != 0.0): asimov = np.sqrt(2*((mca_sigeffnum+mca_bkgrejnum)*np.log(1+mca_sigeffnum/(mca_bkgrejnum))-mca_sigeffnum))
+
+      mca_sigeffnumscale = mca_sigeffnum*54400.0*eff/mca_sigeffden
+
+#      if (mca_bkgrejnum != 0.0): asimov = np.sqrt(2*((mca_sigeffnum+mca_bkgrejnum)*np.log(1+mca_sigeffnum/(mca_bkgrejnum))-mca_sigeffnum))
+      if (mca_bkgrejnum != 0.0): asimov = np.sqrt(2*((mca_sigeffnumscale+mca_bkgrejnum)*np.log(1+mca_sigeffnumscale/mca_bkgrejnum)-mca_sigeffnumscale))
       else: asimov = 0.0
       mva_mca.append(mva)
       asimov_mca.append(asimov)
 
-#      if (round(mva,3) == 0.780):
-      if (round(mva,3) == 0.880):
+      if (round(mva,3) == 0.800):
         commonsigeff = mca_sigeff
         commonbkgrej = mca_bkgrej
         commonmva = mva
-
-#      if (round(mva,3) == 0.880):
-#        commonsigeff -= mca_sigeff
-#        commonbkgrej += (1-mca_bkgrej)
-#        commonmva += mva
+        commonasimov = asimov
 
   mca_MVA.SetPoint((i-10)/5, i, commonmva) #Use only if working with parametric NNs
   mca_SIG.SetPoint((i-10)/5, i, commonsigeff) #Use only if working with parametric NNs
@@ -73,6 +81,7 @@ for i in range(10,75,5):
   print "MVA Response: ", commonmva
   print "Signal Eff.: ", commonsigeff
   print "Background Rej.: ", commonbkgrej
+  print "Asimov: ", commonasimov
 
 #Now we draw it out
 gStyle.SetOptStat(0)
@@ -109,11 +118,10 @@ mca_BKG.SetMarkerStyle(7)
 mca_BKG.SetMarkerColor(kPink-6)
 mca_BKG.Draw("LP")
 
-leg = TLegend(0.5,0.5,0.8,0.65)
+leg = TLegend(0.5,0.35,0.8,0.5)
 leg.SetTextSize(0.025)
 leg.SetBorderSize(0)
-leg.SetHeader("Category 0 (MVA Score > 0.88)","C")
-#leg.SetHeader("Category 1 (0.78 < MVA Score < 0.88)","C")
+leg.SetHeader("Category 0-1 (MVA Score > 0.6)","C")
 leg.AddEntry(mca_SIG,"Signal Efficiency")
 leg.AddEntry(mca_BKG,"Background Rejection")
 leg.Draw("same")
@@ -132,5 +140,5 @@ CMS_lumi.CMS_lumi(c1, 0, 0)
 c1.Update()
 
 c1.cd()
-c1.SaveAs("output/ParaNN_EffCat0.png")
-c1.SaveAs("output/ParaNN_EffCat0.pdf")
+c1.SaveAs("output/ParaNN_EffCat01.png")
+c1.SaveAs("output/ParaNN_EffCat01.pdf")
