@@ -6,6 +6,13 @@
 
    If you get stuck or have questions, please first consult the FAQs page [[https://cms-analysis.github.io/flashgg/][here]].
    
+** Setting up Singularity container for running FlashGG:
+ * FlashGG runs on EL7 architecture, which was recently terminated as it had reached end-of-life. You may need to set up your GRID proxy before entering a Singularity container. Then, run the following based on this [[https://gitlab.cern.ch/cms-cat/cmssw-lxplus/-/blob/master/README.md#usage][README]]:
+   #+BEGIN_EXAMPLE
+   mv start_el7.sh ~/ ## general shell script to start a Singularity container that supports condor submissions
+   ~/start_el7.sh
+   #+END_EXAMPLE
+
 ** Flashgg setup for the very low mass analysis in CMSSW_10_6_X:
    Get flashgg:
    #+BEGIN_EXAMPLE

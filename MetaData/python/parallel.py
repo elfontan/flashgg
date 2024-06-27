@@ -436,7 +436,8 @@ class HTCondorJob(object):
             fout.write('input         = %s/.dasmaps/das_maps_dbs_prod.js \n' % os.environ['HOME'])
             fout.write('executable    = '+self.execName+'\n')
             fout.write('arguments     = $(ProcId)\n')
-            fout.write('Requirements  = (TARGET.OpSysAndVer =?= "AlmaLinux9")\n')
+            fout.write('MY.SingularityImage = "/cvmfs/unpacked.cern.ch/gitlab-registry.cern.ch/cms-cat/cmssw-lxplus/cmssw-el7-lxplus:latest/"\n')
+            #fout.write('MY.WantOS    = "el7"\n')
             #fout.write('arguments   = $(ProcId)\n')
             if self.copy_proxy:
                 fout.write('input       = '+BatchRegistry.getProxy().split(":")[1]+'\n')
