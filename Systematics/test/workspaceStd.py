@@ -74,7 +74,7 @@ customize.options.register('ForceGenDiphotonProduction',
                            'ForceGenDiphotonProduction'
                            )
 customize.options.register('dumpGenWeight',
-                           False,
+                           True,
                            VarParsing.VarParsing.multiplicity.singleton,
                            VarParsing.VarParsing.varType.bool,
                            'dumpGenWeight'
@@ -318,7 +318,7 @@ if is_signal:
     if customize.doHTXS:
         variablesToUse = minimalVariablesHTXS
     else:
-        variablesToUse = minimalVariables
+        variablesToUse = minimalVariables + defaultVariables
 
     if customize.doSystematics:
         for direction in ["Up","Down"]:
@@ -378,11 +378,11 @@ if is_signal:
     customizeSystematicsForSignal(process)
 elif customize.processId == "Data":
     print "Data, so turn off all shifts and systematics, with some exceptions"
-    variablesToUse = minimalNonSignalVariables
+    variablesToUse = minimalNonSignalVariables + defaultVariables
     customizeSystematicsForData(process)
 else:
     print "Background MC, so store mgg and central only"
-    variablesToUse = minimalNonSignalVariables
+    variablesToUse = minimalNonSignalVariables + defaultVariables
     customizeSystematicsForBackground(process)
 
 if customize.doubleHTagsOnly:
@@ -534,8 +534,8 @@ for tag in tagList:
                            systlabel,
                            classname=tagName,
                            cutbased=cutstring,
-                           subcats=tagCats, 
-                           variables=defaultVariables,
+                           subcats=tagCats,
+                           variables=currentVariables,
                            histograms=minimalHistograms,
                            binnedOnly=isBinnedOnly,
                            dumpPdfWeights=dumpPdfWeights,
