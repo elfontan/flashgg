@@ -107,13 +107,13 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 
 #				    "dipho_lead_etawidth    := diPhoton().leadingPhoton.superCluster.etaWidth",
 #				    "dipho_lead_etawidth_corr := ? diPhoton().leadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"etaWidth\") : -1",
-				    "dipho_lead_etawidth := ? diPhoton().leadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"etaWidth\") : -1",
+				    "dipho_lead_etawidth := ? diPhoton().leadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"etaWidth\") : diPhoton().leadingPhoton.superCluster.etaWidth",
 				    "dipho_lead_etawidth_uncorr := ? diPhoton().leadingPhoton.hasUserFloat(\"uncorr_etaWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"uncorr_etaWidth\") : -1",
 				    "dipho_lead_scetawidth    := diPhoton().leadingPhoton.superCluster.etaWidth",
 
 #				    "dipho_lead_phiwidth    := diPhoton().leadingPhoton.superCluster.phiWidth",
 #				    "dipho_lead_phiwidth_corr := ? diPhoton().leadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"phiWidth\") : -1",
-				    "dipho_lead_phiwidth := ? diPhoton().leadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"phiWidth\") : -1",
+				    "dipho_lead_phiwidth := ? diPhoton().leadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"phiWidth\") : diPhoton().leadingPhoton.superCluster.phiWidth",
 				    "dipho_lead_phiwidth_uncorr := ? diPhoton().leadingPhoton.hasUserFloat(\"uncorr_phiWidth\")>0 ? diPhoton().leadingPhoton.userFloat(\"uncorr_phiWidth\") : -1",
 				    "dipho_lead_scphiwidth    := diPhoton().leadingPhoton.superCluster.phiWidth",
 
@@ -163,13 +163,13 @@ defaultVariables=["CMS_hgg_mass[10000,0.0,100000.0]:=diPhoton().mass",
 
 #				    "dipho_sublead_etawidth    := diPhoton().subLeadingPhoton.superCluster.etaWidth",
 #				    "dipho_sublead_etawidth_corr := ? diPhoton().subLeadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"etaWidth\") : -1",
-				    "dipho_sublead_etawidth := ? diPhoton().subLeadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"etaWidth\") : -1",
+				    "dipho_sublead_etawidth := ? diPhoton().subLeadingPhoton.hasUserFloat(\"etaWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"etaWidth\") : diPhoton().subLeadingPhoton.superCluster.etaWidth",
 				    "dipho_sublead_etawidth_uncorr := ? diPhoton().subLeadingPhoton.hasUserFloat(\"uncorr_etaWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"uncorr_etaWidth\") : -1",
 				    "dipho_sublead_scetawidth    := diPhoton().subLeadingPhoton.superCluster.etaWidth",
 
 #				    "dipho_sublead_phiwidth    := diPhoton().subLeadingPhoton.superCluster.phiWidth",
 #				    "dipho_sublead_phiwidth_corr := ? diPhoton().subLeadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"phiWidth\") : -1",
-				    "dipho_sublead_phiwidth := ? diPhoton().subLeadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"phiWidth\") : -1",
+				    "dipho_sublead_phiwidth := ? diPhoton().subLeadingPhoton.hasUserFloat(\"phiWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"phiWidth\") : diPhoton().subLeadingPhoton.superCluster.phiWidth",
 				    "dipho_sublead_phiwidth_uncorr := ? diPhoton().subLeadingPhoton.hasUserFloat(\"uncorr_phiWidth\")>0 ? diPhoton().subLeadingPhoton.userFloat(\"uncorr_phiWidth\") : -1",
 				    "dipho_sublead_scphiwidth    := diPhoton().subLeadingPhoton.superCluster.phiWidth",
 
