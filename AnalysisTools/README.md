@@ -11,5 +11,4 @@ The details of the content of each subdirectory are mentioned in the following:
 
 Note 1: the code for Zee validation can be found in a separate github area ([ZeeValidation](https://github.com/elfontan/ZeeValidation)).
 
-Note 2: the signal and background modelling is based on [flashggFinalFit](https://github.com/elfontan/flashggFinalFit/tree/EF_lowMassAnalysis)).
-
+Note 2: the signal and background modelling is based on [flashggFinalFit](https://github.com/elfontan/flashggFinalFit/tree/EF_lowMassAnalysis).
