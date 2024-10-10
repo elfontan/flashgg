@@ -1,0 +1,9 @@
+text2workspace.py sliding_35GeV_cat01.txt -o m35_cat01.root
+
+combineTool.py -M Impacts -d m35_cat01.root -m 35 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m35_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --doInitialFit
+
+combineTool.py -M Impacts -d m35_cat01.root -m 35 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m35_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0 -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*}  --doFits
+
+combineTool.py -M Impacts -d m35_cat01.root -m 35 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m35_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --o impacts_m35_cat01.json
+
+plotImpacts.py -i impacts_m35_cat01.json -o impacts_m35_cat01_r --POI r 

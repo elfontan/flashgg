@@ -1,0 +1,9 @@
+text2workspace.py sliding_20GeV_cat01.txt -o m20_cat01.root
+
+combineTool.py -M Impacts -d m20_cat01.root -m 20 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m20_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --doInitialFit
+
+combineTool.py -M Impacts -d m20_cat01.root -m 20 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m20_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0 -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*}  --doFits
+
+combineTool.py -M Impacts -d m20_cat01.root -m 20 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m20_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --o impacts_m20_cat01.json
+
+plotImpacts.py -i impacts_m20_cat01.json -o impacts_m20_cat01_r --POI r 

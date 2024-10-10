@@ -1,0 +1,9 @@
+text2workspace.py sliding_50GeV_cat01.txt -o m50_cat01.root
+
+combineTool.py -M Impacts -d m50_cat01.root -m 50 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m50_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --doInitialFit
+
+combineTool.py -M Impacts -d m50_cat01.root -m 50 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m50_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0 -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*}  --doFits
+
+combineTool.py -M Impacts -d m50_cat01.root -m 50 --freezeParameters MH,rgx{model_UntaggedTag.*} --X-rtd MINIMIZER_freezeDisassociatedParams  -n .impacts_m50_cat0 --robustFit 1 --cminDefaultMinimizerStrategy 0  -t -1 --setParameters r=1.0 --exclude MH,rgx{model_UntaggedTag.*} --o impacts_m50_cat01.json
+
+plotImpacts.py -i impacts_m50_cat01.json -o impacts_m50_cat01_r --POI r 
