@@ -1,11 +1,22 @@
-from ROOT import *
-import CMS_lumi
+import ROOT, array
+import CMS_lumi, random, copy
+from ROOT import gSystem, gStyle, gROOT
+from ROOT import TCanvas, TFile, TTree, TH1, TH1F, TF1, TLegend, TChain, TList
+from ROOT import kViolet, kBlue, kBlack, kAzure
+from collections import OrderedDict
+
+import argparse
+import sys
+import os
+
+gROOT.SetBatch()                     
+ROOT.gStyle.SetOptStat(0)                                                                                                                 
+ROOT.gStyle.SetOptTitle(0)                                                                                                                                 
 
 for i in range(10,75,5):
   #Signal
   lmf = TFile("/eos/user/a/atsatsos/ULFlashGG_Files/NewReleaseFiles/Feb2024_LowMassBDT_MassHypInput/ggh_M"+str(i)+".root","READ")
-#  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/out_ggH_M"+str(i)+"_newSamples.root","READ")
-  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/nearest_flat_v3/out_ggH_M"+str(i)+"_newSamplesFlat.root","READ")
+  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_Oct2024/randomAssignment_twoRanges/out_ggH_M"+str(i)+".root","READ")
 
   lmt0 = lmf.Get("tagsDumper/trees/ggh_"+str(i)+"_13TeV_UntaggedTag_0")
   pnrt0 = pnrf.Get("tagsDumper/trees/ggh_"+str(i)+"_13TeV_UntaggedTag_0")
@@ -102,5 +113,5 @@ for i in range(10,75,5):
   c1.SaveAs("output/DiphoMVA_ggh"+str(i)+".png")
   c1.SaveAs("output/DiphoMVA_ggh"+str(i)+".pdf")
 
-  print "Lowmass BDT "+str(i)+": ",lm.Integral()
-  print "Parametric NN "+str(i)+": ",pnr.Integral()
+  print ("Lowmass BDT "+str(i)+": ",lm.Integral())
+  print ("Parametric NN "+str(i)+": ",pnr.Integral())

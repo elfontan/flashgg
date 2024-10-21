@@ -8,6 +8,7 @@ rpn = rp_near.Get("rp")
 
 wgt_near=[]
 for k in range(0,32):
+  print(k)
   if(rpn.Integral(k,k) !=0): wgt_near.append(1.0/rpn.Integral(k,k))
 
 
@@ -16,13 +17,15 @@ rpn_nowsig = rp_near_nowsig.Get("rp")
 
 wgt_near_nowsig=[]
 for k in range(0,32):
+  print(k)
   if(rpn_nowsig.Integral(k,k) !=0): wgt_near_nowsig.append(1.0/rpn_nowsig.Integral(k,k))
 
 print(wgt_near)
 print(wgt_near_nowsig)
 
 #Grab data tree
-treelist = ["ggh_10","ggh_15","ggh_20","ggh_25","ggh_30","ggh_35","ggh_40","ggh_45","ggh_50","ggh_55","ggh_60","ggh_65","ggh_70","mgg_bkg","Data"]
+treelist = ["ggh_10","ggh_15","ggh_20","ggh_30","ggh_40","ggh_50","ggh_55","ggh_60","ggh_70", "mgg_bkg","Data"] #change accordingly
+#treelist = ["ggh_10","ggh_15","ggh_20","ggh_25","ggh_30","ggh_35","ggh_40","ggh_45","ggh_50","ggh_55","ggh_60","ggh_65","ggh_70","mgg_bkg","Data"]
 #treelist = ["ggh_10","ggh_15","ggh_20","ggh_30","ggh_40","ggh_50","ggh_55","ggh_60","ggh_70","mgg_bkg","Data"]
 
 oldfile = TFile("output_ParaDDFull.root", "read")
@@ -33,10 +36,13 @@ trees = tagsDumper.mkdir("trees")
 trees.cd()
 
 for idx,j in enumerate(treelist):
-  print(j)
+  print("---------------------------")
+  print("-------- ", j, " --------")
+  print("---------------------------")
   oldtree = oldfile.Get("tagsDumper/trees/"+j+"_13TeV_UntaggedTag_0")
   nentries = oldtree.GetEntries()
-
+  print(nentries)
+  
   dipho_mass = array('f',[0.])
   oldtree.SetBranchAddress("dipho_mass",dipho_mass)
   newtree = oldtree.CloneTree(0)
@@ -49,7 +55,7 @@ for idx,j in enumerate(treelist):
     newtree.Branch('dipho_hypwgt_near_nowsig', dipho_hypwgt_near_nowsig, 'dipho_hypwgt_near_nowsig/F')
     newtree.SetBranchAddress("dipho_hypwgt_near_nowsig",dipho_hypwgt_near_nowsig)
     for i in range(nentries):
-      if (i%1000==0): print(i,nentries)
+      #if (i%1000==0): print(i,nentries)
       oldtree.GetEntry(i)
       dipho_hypwgt_near[0] = wgt_near[idx]
       dipho_hypwgt_near_nowsig[0] = wgt_near_nowsig[idx]

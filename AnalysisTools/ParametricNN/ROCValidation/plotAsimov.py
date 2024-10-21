@@ -1,6 +1,20 @@
-from ROOT import *
-import CMS_lumi
+import ROOT, array
+import CMS_lumi, random, copy
+from ROOT import gSystem, gStyle, gROOT
+from ROOT import TCanvas, TFile, TTree, TH1, TH1F, TF1, TLegend, TChain, TList, TGraph
+from ROOT import kViolet, kBlue, kBlack, kAzure, kTeal
+from collections import OrderedDict
+
+import argparse
+import sys
+import os
+
 import numpy as np
+
+gROOT.SetBatch()                     
+ROOT.gStyle.SetOptStat(0)                                                                                                                 
+ROOT.gStyle.SetOptTitle(0)                                                                                                                                 
+
 
 #Plot ROC Histograms using integrals of signal and background to compute efficiencies
 mca_Asimov = TGraph()
@@ -34,9 +48,9 @@ for i in range(10,75,5):
 #  eff = mca_sigeffden * lumi_diff/(1.06 * gen[m] * 1000.0)
 
   eff = mca_sigeffden/(1.06 * 1000.0)
-  print " "
-  print "Mass: ",i
-  print "Event Efficiency: ", eff
+  print(" ")
+  print("Mass: ",i)
+  print("Event Efficiency: ", eff)
 
   for j in range(0,nbins):
     mca_sigeffnum = mca_sighist.Integral(j,nbins)
@@ -59,11 +73,11 @@ for i in range(10,75,5):
 
     if (j >= 1000): mca_Asimov.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
 
-  print "Highest Asimov: ", max(asimov_mca)
-  print "Highest Asimov Index: ", asimov_mca.index(max(asimov_mca))
-  print "MVA Response: ", mva_mca[asimov_mca.index(max(asimov_mca))]
-  print "Signal Eff.: ", sigeff_mca[asimov_mca.index(max(asimov_mca))]
-  print "Background Rej.: ", bkgrej_mca[asimov_mca.index(max(asimov_mca))]
+  print("Highest Asimov: ", max(asimov_mca))
+  print("Highest Asimov Index: ", asimov_mca.index(max(asimov_mca)))
+  print("MVA Response: ", mva_mca[asimov_mca.index(max(asimov_mca))])
+  print("Signal Eff.: ", sigeff_mca[asimov_mca.index(max(asimov_mca))])
+  print("Background Rej.: ", bkgrej_mca[asimov_mca.index(max(asimov_mca))])
 
   #Now we draw it out
   gStyle.SetOptStat(0)
@@ -96,7 +110,7 @@ for i in range(10,75,5):
   leg = TLegend(0.2,0.2,0.6,0.3)
   leg.SetTextSize(0.018)
   leg.SetBorderSize(0)
-  leg.AddEntry(mca_Asimov,"New Ntuple pNN with 15 and 55 GeV")
+  leg.AddEntry(mca_Asimov,"PNN training with flattened bkg")
   leg.Draw("same")
 
   c1.Update()

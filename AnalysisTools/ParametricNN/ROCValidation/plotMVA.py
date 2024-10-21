@@ -1,18 +1,29 @@
-from ROOT import *
-import CMS_lumi
+import ROOT, array
+import CMS_lumi, random, copy
+from ROOT import gSystem, gStyle, gROOT
+from ROOT import TCanvas, TFile, TTree, TH1, TH1F, TF1, TLegend, TChain, TList
+from ROOT import kViolet, kBlue, kBlack, kAzure
+from collections import OrderedDict
+
+import argparse
+import sys
+import os
+
+gROOT.SetBatch()                     
+ROOT.gStyle.SetOptStat(0)                                                                                                                 
+ROOT.gStyle.SetOptTitle(0)                                                                                                                                 
 
 lmdf = TFile("/eos/user/a/atsatsos/ULFlashGG_Files/NewReleaseFiles/Feb2024_LowMassBDT_MassHypInput/EGamma_Summer20UL.root","READ")
-#pnrdf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/out_all2018Data_bkg_newSamples.root","READ")
-pnrdf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/nearest_flat_v3/out_all2018Data_bkg_newSamplesFlat.root","READ")
-
+pnrdf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_Oct2024/randomAssignment_twoRanges/out_all2018Data_bkg.root","READ")
 lmdt0 = lmdf.Get("tagsDumper/trees/Data_13TeV_UntaggedTag_0")
 pnrdt0 = pnrdf.Get("tagsDumper/trees/Data_13TeV_UntaggedTag_0")
 
+print("Entering for cycle")
 for i in range(10,75,5):
+  print(i)
   #Signal
   lmf = TFile("/eos/user/a/atsatsos/ULFlashGG_Files/NewReleaseFiles/Feb2024_LowMassBDT_MassHypInput/ggh_M"+str(i)+".root","READ")
-#  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/out_ggH_M"+str(i)+"_newSamples.root","READ")
-  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/nearest_flat_v3/out_ggH_M"+str(i)+"_newSamplesFlat.root","READ")
+  pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_Oct2024/randomAssignment_twoRanges/out_ggH_M"+str(i)+".root","READ")
 
   lmt0 = lmf.Get("tagsDumper/trees/ggh_"+str(i)+"_13TeV_UntaggedTag_0")
   pnrt0 = pnrf.Get("tagsDumper/trees/ggh_"+str(i)+"_13TeV_UntaggedTag_0")
@@ -28,14 +39,12 @@ for i in range(10,75,5):
   pnrd = TH1F("pnrd","pnrd",80,-1.0,1.0)
   pnrd.Sumw2()
 
-  #Weighted: weight*(CMS_hgg_mass>0)
   lmt0.Draw("diphoMVA>>lm","weight*(CMS_hgg_mass>0) && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7","goff")
   pnrt0.Draw("NNScore>>pnr","weight*(CMS_hgg_mass>0) && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7","goff")
 
   masslow = 0.9*i
   masshigh = 1.1*i
 
-  #Weighted: weight*(CMS_hgg_mass>0)
   lmdt0.Draw("diphoMVA>>lmd","weight*(CMS_hgg_mass>"+str(masslow)+" && CMS_hgg_mass<"+str(masshigh)+") && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7","goff")
   pnrdt0.Draw("NNScore>>pnrd","weight*(CMS_hgg_mass>"+str(masslow)+" && CMS_hgg_mass<"+str(masshigh)+") && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7","goff")
 
@@ -51,10 +60,9 @@ for i in range(10,75,5):
   #30 GeV Window: kAzure-2,-6
   #70 GeV: kViolet-2,-6
   #All GeV: kPink-2,-6
-  gStyle.SetOptStat(0)
-  gStyle.SetOptTitle(0)
 
-  c1 = TCanvas("c1","c1",1200,1200)
+  c_name = "c_"+str(masslow)+"_"+str(masshigh)
+  c1 = TCanvas(c_name,c_name,1000,800)
   c1.cd()
   c1.SetBottomMargin(0.11)
   c1.SetLeftMargin(0.11)

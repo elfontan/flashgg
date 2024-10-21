@@ -1,9 +1,8 @@
-from ROOT import *
 import CMS_lumi
 import ROOT, array, random, copy
-from ROOT import TCanvas, TFile, TH1, TH1F, TF1, gSystem, TChain
+from ROOT import TCanvas, TFile, TH1, TH1F, TF1, gSystem, TChain, THStack, gStyle, TPad, TLegend
 import ROOT, array, CMS_lumi, random, copy
-from ROOT import TFile, TTree, TList
+from ROOT import TFile, TTree, TList, kYellow, kOrange, kBlue, kBlack
 from collections import OrderedDict
 import argparse
 import sys
@@ -34,15 +33,15 @@ mgg0 = para.Get("tagsDumper/trees/mgg_bkg_13TeV_UntaggedTag_0")
 sig0_10 = para.Get("tagsDumper/trees/ggh_10_13TeV_UntaggedTag_0")
 sig0_15 = para.Get("tagsDumper/trees/ggh_15_13TeV_UntaggedTag_0")
 sig0_20 = para.Get("tagsDumper/trees/ggh_20_13TeV_UntaggedTag_0")
-sig0_25 = para.Get("tagsDumper/trees/ggh_25_13TeV_UntaggedTag_0")
+#sig0_25 = para.Get("tagsDumper/trees/ggh_25_13TeV_UntaggedTag_0")
 sig0_30 = para.Get("tagsDumper/trees/ggh_30_13TeV_UntaggedTag_0")
-sig0_35 = para.Get("tagsDumper/trees/ggh_35_13TeV_UntaggedTag_0")
+#sig0_35 = para.Get("tagsDumper/trees/ggh_35_13TeV_UntaggedTag_0")
 sig0_40 = para.Get("tagsDumper/trees/ggh_40_13TeV_UntaggedTag_0")
-sig0_45 = para.Get("tagsDumper/trees/ggh_45_13TeV_UntaggedTag_0")
+#sig0_45 = para.Get("tagsDumper/trees/ggh_45_13TeV_UntaggedTag_0")
 sig0_50 = para.Get("tagsDumper/trees/ggh_50_13TeV_UntaggedTag_0")
 sig0_55 = para.Get("tagsDumper/trees/ggh_55_13TeV_UntaggedTag_0")
 sig0_60 = para.Get("tagsDumper/trees/ggh_60_13TeV_UntaggedTag_0")
-sig0_65 = para.Get("tagsDumper/trees/ggh_65_13TeV_UntaggedTag_0")
+#sig0_65 = para.Get("tagsDumper/trees/ggh_65_13TeV_UntaggedTag_0")
 sig0_70 = para.Get("tagsDumper/trees/ggh_70_13TeV_UntaggedTag_0")
 
 var_list = ["dipho_masshyp_near"]
@@ -76,15 +75,15 @@ for variable in var_list:
     sig0_10.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_15.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_20.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_25.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    #sig0_25.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_30.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_35.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    #sig0_35.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_40.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_45.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    #sig0_45.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_50.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_55.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_60.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
-    sig0_65.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    #sig0_65.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_70.Draw(variable + ">>+h_" + variable + "_sig0", "weight*w_signal*dipho_hypwgt_near*dipho_hypnorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
 
 idx = 0
@@ -207,8 +206,8 @@ for variable in var_list:
     CMS_lumi.CMS_lumi(pad1, 0, 0)
     
     c1.Update()
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm.png")
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm.pdf")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_flatteningBkg_v3.png")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_flatteningBkg_v3.pdf")
     
     idx += 1
     print("MGG: ", mgg0.Integral())

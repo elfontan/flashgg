@@ -1,12 +1,28 @@
-from ROOT import *
-import CMS_lumi
+import ROOT, array
+import CMS_lumi, random, copy
+from ROOT import gSystem, gStyle, gROOT
+from ROOT import TCanvas, TFile, TTree, TH1, TH1F, TF1, TLegend, TChain, TList, TGraph, TLine
+from ROOT import kViolet, kBlue, kBlack, kAzure, kCyan, kGreen, kRed, kOrange, kMagenta, kTeal, kYellow, kPink
+from collections import OrderedDict
+
+import argparse
+import sys
+import os
+
+gROOT.SetBatch()                     
+ROOT.gStyle.SetOptStat(0)                                                                                                                 
+ROOT.gStyle.SetOptTitle(0)                                                                                                                                 
+
 import numpy as np
 
 #Plot ROC Histograms using integrals of signal and background to compute efficiencies
+mca_Asimov15 = TGraph()
 mca_Asimov20 = TGraph()
 mca_Asimov30 = TGraph()
 mca_Asimov40 = TGraph()
+mca_Asimov45 = TGraph()
 mca_Asimov50 = TGraph()
+mca_Asimov55 = TGraph()
 mca_Asimov60 = TGraph()
 mca_Asimov70 = TGraph()
 
@@ -14,8 +30,10 @@ mca_Asimov70 = TGraph()
 #nEvents_sign = [49044.96, 47301.34, 48107.04, 56421.12, 59899.2, 117886.18]
 #gen = [1832.06, 1345.64, 1003.56, 775.896, 614.566, 505.814] #can be assigned negatively to events
 
-for i in range(20,75,10):
-  m = (i-20)/10
+mass = [15,20,30,40,45,50,55,60,70]
+
+for i in mass:
+#  m = (i-20)/10
   sig_mca = []
   bkg_mca = []
   sigeff_mca = []
@@ -37,9 +55,9 @@ for i in range(20,75,10):
 #  lumi_diff = nEvents[m]/nEvents_sign[m]
 #  eff = mca_sigeffden * lumi_diff/(1.06 * gen[m] * 1000.0)
   eff = mca_sigeffden/(1.06 * 1000.0)
-  print " "
-  print "Mass: ",i
-  print "Event Efficiency: ", eff
+  print(" ")
+  print("Mass: ",i)
+  print("Event Efficiency: ", eff)
 
   for j in range(0,nbins):
     mca_sigeffnum = mca_sighist.Integral(j,nbins)
@@ -60,10 +78,13 @@ for i in range(20,75,10):
     mva_mca.append(mva)
     asimov_mca.append(asimov)
 
+    if (j >= 1000 and i==15): mca_Asimov15.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==20): mca_Asimov20.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==30): mca_Asimov30.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==40): mca_Asimov40.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
+    if (j >= 1000 and i==45): mca_Asimov45.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==50): mca_Asimov50.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
+    if (j >= 1000 and i==55): mca_Asimov55.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==60): mca_Asimov60.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
     if (j >= 1000 and i==70): mca_Asimov70.SetPoint(j-1000, mva, asimov) #Use only if working with parametric NNs
 
@@ -71,16 +92,16 @@ for i in range(20,75,10):
 gStyle.SetOptStat(0)
 gStyle.SetOptTitle(0)
 
-c1 = TCanvas("c1","c1",1200,1200)
+c1 = TCanvas("c1","c1",1000,1000)
 c1.cd()
-c1.SetBottomMargin(0.11)
+c1.SetBottomMargin(0.14)
 c1.SetLeftMargin(0.11)
 
 mca_Asimov70.SetLineColor(kViolet-2)
 mca_Asimov70.SetLineWidth(2)
 mca_Asimov70.Draw("AL")
 
-mca_Asimov70.GetXaxis().SetTitle("NN Score")
+mca_Asimov70.GetXaxis().SetTitle("PNN Score")
 mca_Asimov70.GetXaxis().SetTitleSize(35)
 mca_Asimov70.GetXaxis().SetTitleFont(43)
 mca_Asimov70.GetXaxis().SetTitleOffset(1.5)
@@ -99,11 +120,19 @@ mca_Asimov60.SetLineColor(kAzure-2)
 mca_Asimov60.SetLineWidth(2)
 mca_Asimov60.Draw("L")
 
+mca_Asimov55.SetLineColor(kCyan+1)
+mca_Asimov55.SetLineWidth(2)
+mca_Asimov55.Draw("L")
+
 mca_Asimov50.SetLineColor(kTeal+3)
 mca_Asimov50.SetLineWidth(2)
 mca_Asimov50.Draw("L")
 
-mca_Asimov40.SetLineColor(kGreen+1)
+mca_Asimov45.SetLineColor(kGreen+1)
+mca_Asimov45.SetLineWidth(2)
+mca_Asimov45.Draw("L")
+
+mca_Asimov40.SetLineColor(kYellow+1)
 mca_Asimov40.SetLineWidth(2)
 mca_Asimov40.Draw("L")
 
@@ -114,6 +143,10 @@ mca_Asimov30.Draw("L")
 mca_Asimov20.SetLineColor(kRed)
 mca_Asimov20.SetLineWidth(2)
 mca_Asimov20.Draw("L")
+
+mca_Asimov15.SetLineColor(kPink+9)
+mca_Asimov15.SetLineWidth(2)
+mca_Asimov15.Draw("L")
 
 cat01 = TLine(0.8,0,0.8,12.0)
 cat01.SetLineColor(28)
@@ -127,11 +160,11 @@ cat12.SetLineWidth(3)
 cat12.SetLineStyle(2)
 cat12.Draw("same")
 
-cat23 = TLine(0.5,0,0.5,12.0)
-cat23.SetLineColor(28)
-cat23.SetLineWidth(3)
-cat23.SetLineStyle(2)
-cat23.Draw("same")
+#cat23 = TLine(0.5,0,0.5,12.0)
+#cat23.SetLineColor(28)
+#cat23.SetLineWidth(3)
+#cat23.SetLineStyle(2)
+#cat23.Draw("same")
 
 #cat34 = TLine(0.64,0,0.64,12.0)
 #cat34.SetLineColor(28)
@@ -139,13 +172,17 @@ cat23.Draw("same")
 #cat34.SetLineStyle(2)
 #cat34.Draw("same")
 
-leg = TLegend(0.7,0.7,0.85,0.85)
-leg.SetTextSize(0.028)
+leg = TLegend(0.14,0.65,0.26,0.89)
+#leg = TLegend(0.74,0.65,0.86,0.89)
+leg.SetTextSize(0.025)
 leg.SetBorderSize(0)
+leg.AddEntry(mca_Asimov15,"15 GeV")
 leg.AddEntry(mca_Asimov20,"20 GeV")
 leg.AddEntry(mca_Asimov30,"30 GeV")
 leg.AddEntry(mca_Asimov40,"40 GeV")
+leg.AddEntry(mca_Asimov45,"45 GeV")
 leg.AddEntry(mca_Asimov50,"50 GeV")
+leg.AddEntry(mca_Asimov55,"55 GeV")
 leg.AddEntry(mca_Asimov60,"60 GeV")
 leg.AddEntry(mca_Asimov70,"70 GeV")
 leg.AddEntry(cat01,"Cat. Bounds")

@@ -24,7 +24,7 @@ logScale = args.log
 # ----------------------
 # Obtain histogram files
 # ----------------------
-para = TFile("output_ParaDDFullNorms.root","READ")
+para = TFile("output_ParaDDFullSigBkgNorms.root","READ")
 
 # Get trees and create histograms for data
 # ----------------------------------------
@@ -69,8 +69,8 @@ for variable in var_list:
 
 
     # Fill the histograms
-    dat0.Draw(variable + ">>h_" + variable + "_dat0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")     
-    mgg0.Draw(variable + ">>h_" + variable + "_mgg0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
+    dat0.Draw(variable + ">>h_" + variable + "_dat0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*dipho_hypSigBkgNorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")     
+    mgg0.Draw(variable + ">>h_" + variable + "_mgg0", "weight*weight_allDD*dipho_hypnorm_near_nowsig*dipho_hypSigBkgNorm_near*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
 
     sig0_10.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
     sig0_15.Draw(variable + ">>+h_" + variable + "_sig0", "weight*dipho_hypwgt_near_nowsig*dipho_hypnorm_near_nowsig*(CMS_hgg_mass>0 && min(dipho_leadIDMVA,dipho_subleadIDMVA)>-0.7)", "goff")
@@ -206,8 +206,8 @@ for variable in var_list:
     CMS_lumi.CMS_lumi(pad1, 0, 0)
     
     c1.Update()
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig_flatteningBkg_v3.png")
-    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig_flatteningBkg_v3.pdf")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig_flatteningBkg_gradualDiphoIncrease.png")
+    c1.SaveAs(outputdir+"/"+variable+"_SigBkgWgtNorm_noWSig_flatteningBkg_gradualDiphoIncrease.pdf")
     
     idx += 1
     print("MGG: ", mgg0.Integral())

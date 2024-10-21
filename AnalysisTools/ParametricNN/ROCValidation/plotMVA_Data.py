@@ -1,10 +1,21 @@
-from ROOT import *
-import CMS_lumi
+import ROOT, array
+import CMS_lumi, random, copy
+from ROOT import gSystem, gStyle, gROOT
+from ROOT import TCanvas, TFile, TTree, TH1, TH1F, TF1, TLegend, TChain, TList
+from ROOT import kViolet, kBlue, kBlack, kAzure
+from collections import OrderedDict
+
+import argparse
+import sys
+import os
+
+gROOT.SetBatch()                     
+ROOT.gStyle.SetOptStat(0)                                                                                                                 
+ROOT.gStyle.SetOptTitle(0)                                                                                                                                 
 
 #Background
 lmf = TFile("/eos/user/a/atsatsos/ULFlashGG_Files/NewReleaseFiles/Feb2024_LowMassBDT_MassHypInput/EGamma_Summer20UL.root","READ")
-#pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/out_all2018Data_bkg_newSamples.root","READ")
-pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_May2024/nearest_flat_v3/out_all2018Data_bkg_newSamplesFlat.root","READ")
+pnrf = TFile("/eos/user/e/elfontan/DiPhotonAnalysis/diphotonBDT/NTUPLES_Oct2024/randomAssignment_twoRanges/out_all2018Data_bkg.root","READ")
 
 lmt0 = lmf.Get("tagsDumper/trees/Data_13TeV_UntaggedTag_0")
 pnrt0 = pnrf.Get("tagsDumper/trees/Data_13TeV_UntaggedTag_0")
@@ -101,5 +112,5 @@ c1.Update()
 c1.SaveAs("output/DiphoMVA_DataBkg.png")
 c1.SaveAs("output/DiphoMVA_DataBkg.pdf")
 
-print "Lowmass Data: ",lm.Integral()
-print "pNN Data: ",pnr.Integral()
+print("Lowmass Data: ",lm.Integral())
+print("PNN Data: ",pnr.Integral())

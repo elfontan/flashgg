@@ -1,7 +1,8 @@
 mkdir -p output
-python plotMVA.py
-python plotMVA_Data.py
-python plotMVA_DataMassWindows.py
-python plotMVA_Sig.py
-python plotROC.py
-python plotAsimov.py > output/outputAsimov.log
+python3 plotMVA.py
+python3 plotMVA_Data.py
+python3 plotMVA_DataMassWindows.py
+python3 plotMVA_Sig.py
+python3 plotROC.py
+python3 plotAsimov.py > output/outputAsimov.log
+python3 plotAsimovOverlay.py
